@@ -22,7 +22,7 @@ The solution is designed as follows:
 |Jupyter Notebook Solution|<a href="https://github.com/aryashah2k/RTML/blob/main/A1/st125462_Arya_Shah_A1_Pytorch_AlexNet_GoogleNet_Report.ipynb">click here</a>|
 |Report PDF|<a href="https://github.com/aryashah2k/RTML/blob/main/A1/st125462_Arya_Shah_Pytorch-AlexNet-GoogleNet_Final_Report.pdf">click here</a>|
 |Model checkpoints and Weights|<a href="https://1024terabox.com/s/1gRb23goPwNOBo0Ry_y_low">click here</a>|
-|Training Logs|https://github.com/aryashah2k/RTML/tree/main/A1/Logs|
+|Training Logs|<a href=https://github.com/aryashah2k/RTML/tree/main/A1/Logs>click here</a>|
 
 # Results Summary
 
