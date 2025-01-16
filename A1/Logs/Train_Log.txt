@@ -1,0 +1,782 @@
+Training AlexNet with LRN...
+Epoch 1/20:
+Train Loss: 2.3026, Train Acc: 0.1009
+Val Loss: 2.3020, Val Acc: 0.1176
+Batch Time: 0.0353s
+Epoch 2/20:
+Train Loss: 2.1474, Train Acc: 0.2016
+Val Loss: 1.9162, Val Acc: 0.2708
+Batch Time: 0.0381s
+Epoch 3/20:
+Train Loss: 1.7291, Train Acc: 0.3462
+Val Loss: 1.5222, Val Acc: 0.4324
+Batch Time: 0.0357s
+Epoch 4/20:
+Train Loss: 1.4334, Train Acc: 0.4713
+Val Loss: 1.3261, Val Acc: 0.5064
+Batch Time: 0.0357s
+Epoch 5/20:
+Train Loss: 1.2513, Train Acc: 0.5426
+Val Loss: 1.1364, Val Acc: 0.5862
+Batch Time: 0.0361s
+Epoch 6/20:
+Train Loss: 1.0832, Train Acc: 0.6118
+Val Loss: 0.9491, Val Acc: 0.6574
+Batch Time: 0.0367s
+Epoch 7/20:
+Train Loss: 0.9441, Train Acc: 0.6650
+Val Loss: 0.8691, Val Acc: 0.6924
+Batch Time: 0.0356s
+Epoch 8/20:
+Train Loss: 0.8381, Train Acc: 0.7050
+Val Loss: 0.8000, Val Acc: 0.7080
+Batch Time: 0.0358s
+Epoch 9/20:
+Train Loss: 0.7660, Train Acc: 0.7301
+Val Loss: 0.6960, Val Acc: 0.7560
+Batch Time: 0.0348s
+Epoch 10/20:
+Train Loss: 0.6950, Train Acc: 0.7567
+Val Loss: 0.6654, Val Acc: 0.7678
+Batch Time: 0.0361s
+Epoch 11/20:
+Train Loss: 0.6475, Train Acc: 0.7753
+Val Loss: 0.6335, Val Acc: 0.7772
+Batch Time: 0.0403s
+Epoch 12/20:
+Train Loss: 0.5952, Train Acc: 0.7919
+Val Loss: 0.6191, Val Acc: 0.7792
+Batch Time: 0.0385s
+Epoch 13/20:
+Train Loss: 0.5538, Train Acc: 0.8068
+Val Loss: 0.5497, Val Acc: 0.8060
+Batch Time: 0.0389s
+Epoch 14/20:
+Train Loss: 0.5155, Train Acc: 0.8229
+Val Loss: 0.5501, Val Acc: 0.8102
+Batch Time: 0.0377s
+Epoch 15/20:
+Train Loss: 0.4816, Train Acc: 0.8315
+Val Loss: 0.5513, Val Acc: 0.8054
+Batch Time: 0.0376s
+Epoch 16/20:
+Train Loss: 0.4449, Train Acc: 0.8455
+Val Loss: 0.5023, Val Acc: 0.8252
+Batch Time: 0.0407s
+Epoch 17/20:
+Train Loss: 0.4196, Train Acc: 0.8529
+Val Loss: 0.5053, Val Acc: 0.8260
+Batch Time: 0.0371s
+Epoch 18/20:
+Train Loss: 0.3952, Train Acc: 0.8619
+Val Loss: 0.5119, Val Acc: 0.8234
+Batch Time: 0.0426s
+Epoch 19/20:
+Train Loss: 0.3698, Train Acc: 0.8722
+Val Loss: 0.4756, Val Acc: 0.8362
+Batch Time: 0.0422s
+Epoch 20/20:
+Train Loss: 0.3515, Train Acc: 0.8784
+Val Loss: 0.4513, Val Acc: 0.8446
+Batch Time: 0.0367s
+Total training time for AlexNet with LRN: 17.12 minutes
+
+Training AlexNet without LRN...
+Epoch 1/20:
+Train Loss: 2.2073, Train Acc: 0.1632
+Val Loss: 1.9603, Val Acc: 0.2782
+Batch Time: 0.0383s
+Epoch 2/20:
+Train Loss: 1.6577, Train Acc: 0.3869
+Val Loss: 1.4239, Val Acc: 0.4726
+Batch Time: 0.0405s
+Epoch 3/20:
+Train Loss: 1.3588, Train Acc: 0.5036
+Val Loss: 1.2013, Val Acc: 0.5752
+Batch Time: 0.0415s
+Epoch 4/20:
+Train Loss: 1.1139, Train Acc: 0.6011
+Val Loss: 1.0265, Val Acc: 0.6304
+Batch Time: 0.0414s
+Epoch 5/20:
+Train Loss: 0.9415, Train Acc: 0.6672
+Val Loss: 0.8589, Val Acc: 0.6946
+Batch Time: 0.0432s
+Epoch 6/20:
+Train Loss: 0.8340, Train Acc: 0.7078
+Val Loss: 0.8179, Val Acc: 0.7124
+Batch Time: 0.0424s
+Epoch 7/20:
+Train Loss: 0.7398, Train Acc: 0.7423
+Val Loss: 0.7249, Val Acc: 0.7478
+Batch Time: 0.0430s
+Epoch 8/20:
+Train Loss: 0.6628, Train Acc: 0.7690
+Val Loss: 0.6563, Val Acc: 0.7736
+Batch Time: 0.0385s
+Epoch 9/20:
+Train Loss: 0.6059, Train Acc: 0.7881
+Val Loss: 0.5994, Val Acc: 0.7886
+Batch Time: 0.0405s
+Epoch 10/20:
+Train Loss: 0.5562, Train Acc: 0.8072
+Val Loss: 0.6072, Val Acc: 0.7878
+Batch Time: 0.0395s
+Epoch 11/20:
+Train Loss: 0.5121, Train Acc: 0.8240
+Val Loss: 0.5246, Val Acc: 0.8150
+Batch Time: 0.0433s
+Epoch 12/20:
+Train Loss: 0.4741, Train Acc: 0.8329
+Val Loss: 0.5355, Val Acc: 0.8130
+Batch Time: 0.0428s
+Epoch 13/20:
+Train Loss: 0.4421, Train Acc: 0.8485
+Val Loss: 0.5294, Val Acc: 0.8144
+Batch Time: 0.0426s
+Epoch 14/20:
+Train Loss: 0.4087, Train Acc: 0.8582
+Val Loss: 0.5418, Val Acc: 0.8152
+Batch Time: 0.0427s
+Epoch 15/20:
+Train Loss: 0.3846, Train Acc: 0.8661
+Val Loss: 0.4777, Val Acc: 0.8366
+Batch Time: 0.0405s
+Epoch 16/20:
+Train Loss: 0.3459, Train Acc: 0.8802
+Val Loss: 0.4799, Val Acc: 0.8408
+Batch Time: 0.0414s
+Epoch 17/20:
+Train Loss: 0.3303, Train Acc: 0.8858
+Val Loss: 0.4991, Val Acc: 0.8304
+Batch Time: 0.0362s
+Epoch 18/20:
+Train Loss: 0.3070, Train Acc: 0.8925
+Val Loss: 0.4683, Val Acc: 0.8492
+Batch Time: 0.0408s
+Epoch 19/20:
+Train Loss: 0.2867, Train Acc: 0.9004
+Val Loss: 0.4610, Val Acc: 0.8506
+Batch Time: 0.0365s
+Epoch 20/20:
+Train Loss: 0.2718, Train Acc: 0.9049
+Val Loss: 0.4816, Val Acc: 0.8374
+Batch Time: 0.0437s
+Total training time for AlexNet without LRN: 17.47 minutes
+
+Training Custom GoogLeNet...
+Epoch 1/20:
+Train Loss: 2.4877, Train Acc: 0.4582
+Val Loss: 1.3349, Val Acc: 0.5264
+Batch Time: 0.0830s
+Epoch 2/20:
+Train Loss: 1.6215, Train Acc: 0.6679
+Val Loss: 1.0407, Val Acc: 0.6516
+Batch Time: 0.0821s
+Epoch 3/20:
+Train Loss: 1.2190, Train Acc: 0.7613
+Val Loss: 0.7700, Val Acc: 0.7368
+Batch Time: 0.0824s
+Epoch 4/20:
+Train Loss: 0.9855, Train Acc: 0.8140
+Val Loss: 0.6541, Val Acc: 0.7804
+Batch Time: 0.0793s
+Epoch 5/20:
+Train Loss: 0.8510, Train Acc: 0.8427
+Val Loss: 0.5375, Val Acc: 0.8190
+Batch Time: 0.0818s
+Epoch 6/20:
+Train Loss: 0.7347, Train Acc: 0.8696
+Val Loss: 0.5920, Val Acc: 0.8028
+Batch Time: 0.0865s
+Epoch 7/20:
+Train Loss: 0.6557, Train Acc: 0.8856
+Val Loss: 0.6266, Val Acc: 0.7988
+Batch Time: 0.0869s
+Epoch 8/20:
+Train Loss: 0.5879, Train Acc: 0.8993
+Val Loss: 0.5096, Val Acc: 0.8342
+Batch Time: 0.0787s
+Epoch 9/20:
+Train Loss: 0.5376, Train Acc: 0.9102
+Val Loss: 0.4639, Val Acc: 0.8470
+Batch Time: 0.0860s
+Epoch 10/20:
+Train Loss: 0.4845, Train Acc: 0.9228
+Val Loss: 0.5086, Val Acc: 0.8318
+Batch Time: 0.0780s
+Epoch 11/20:
+Train Loss: 0.4408, Train Acc: 0.9328
+Val Loss: 0.4599, Val Acc: 0.8506
+Batch Time: 0.0812s
+Epoch 12/20:
+Train Loss: 0.4018, Train Acc: 0.9390
+Val Loss: 0.3782, Val Acc: 0.8848
+Batch Time: 0.0827s
+Epoch 13/20:
+Train Loss: 0.3698, Train Acc: 0.9469
+Val Loss: 0.3827, Val Acc: 0.8820
+Batch Time: 0.0821s
+Epoch 14/20:
+Train Loss: 0.3377, Train Acc: 0.9520
+Val Loss: 0.4799, Val Acc: 0.8590
+Batch Time: 0.0831s
+Epoch 15/20:
+Train Loss: 0.3187, Train Acc: 0.9567
+Val Loss: 0.4732, Val Acc: 0.8614
+Batch Time: 0.0856s
+Epoch 16/20:
+Train Loss: 0.3015, Train Acc: 0.9597
+Val Loss: 0.4713, Val Acc: 0.8598
+Batch Time: 0.0865s
+Epoch 17/20:
+Train Loss: 0.2806, Train Acc: 0.9637
+Val Loss: 0.5082, Val Acc: 0.8568
+Batch Time: 0.0849s
+Epoch 18/20:
+Train Loss: 0.2513, Train Acc: 0.9686
+Val Loss: 0.4500, Val Acc: 0.8720
+Batch Time: 0.0848s
+Epoch 19/20:
+Train Loss: 0.2419, Train Acc: 0.9709
+Val Loss: 0.4026, Val Acc: 0.8844
+Batch Time: 0.0870s
+Epoch 20/20:
+Train Loss: 0.2215, Train Acc: 0.9747
+Val Loss: 0.4001, Val Acc: 0.8824
+Batch Time: 0.0857s
+Total training time for Custom GoogLeNet: 33.43 minutes
+
+Training Pretrained AlexNet...
+Epoch 1/20:
+Train Loss: 0.6633, Train Acc: 0.7682
+Val Loss: 0.3852, Val Acc: 0.8668
+Batch Time: 0.0430s
+Epoch 2/20:
+Train Loss: 0.4168, Train Acc: 0.8564
+Val Loss: 0.3289, Val Acc: 0.8896
+Batch Time: 0.0413s
+Epoch 3/20:
+Train Loss: 0.3529, Train Acc: 0.8771
+Val Loss: 0.3153, Val Acc: 0.8896
+Batch Time: 0.0375s
+Epoch 4/20:
+Train Loss: 0.3183, Train Acc: 0.8880
+Val Loss: 0.2843, Val Acc: 0.8994
+Batch Time: 0.0415s
+Epoch 5/20:
+Train Loss: 0.2863, Train Acc: 0.8994
+Val Loss: 0.2816, Val Acc: 0.9088
+Batch Time: 0.0414s
+Epoch 6/20:
+Train Loss: 0.2638, Train Acc: 0.9082
+Val Loss: 0.2677, Val Acc: 0.9078
+Batch Time: 0.0405s
+Epoch 7/20:
+Train Loss: 0.2446, Train Acc: 0.9141
+Val Loss: 0.2535, Val Acc: 0.9132
+Batch Time: 0.0421s
+Epoch 8/20:
+Train Loss: 0.2226, Train Acc: 0.9228
+Val Loss: 0.2553, Val Acc: 0.9094
+Batch Time: 0.0423s
+Epoch 9/20:
+Train Loss: 0.2115, Train Acc: 0.9258
+Val Loss: 0.2417, Val Acc: 0.9158
+Batch Time: 0.0400s
+Epoch 10/20:
+Train Loss: 0.1919, Train Acc: 0.9321
+Val Loss: 0.2420, Val Acc: 0.9200
+Batch Time: 0.0403s
+Epoch 11/20:
+Train Loss: 0.1846, Train Acc: 0.9347
+Val Loss: 0.2335, Val Acc: 0.9196
+Batch Time: 0.0427s
+Epoch 12/20:
+Train Loss: 0.1731, Train Acc: 0.9380
+Val Loss: 0.2391, Val Acc: 0.9160
+Batch Time: 0.0423s
+Epoch 13/20:
+Train Loss: 0.1650, Train Acc: 0.9427
+Val Loss: 0.2345, Val Acc: 0.9252
+Batch Time: 0.0415s
+Epoch 14/20:
+Train Loss: 0.1518, Train Acc: 0.9464
+Val Loss: 0.2281, Val Acc: 0.9230
+Batch Time: 0.0356s
+Epoch 15/20:
+Train Loss: 0.1432, Train Acc: 0.9501
+Val Loss: 0.2260, Val Acc: 0.9188
+Batch Time: 0.0394s
+Epoch 16/20:
+Train Loss: 0.1374, Train Acc: 0.9510
+Val Loss: 0.2303, Val Acc: 0.9214
+Batch Time: 0.0395s
+Epoch 17/20:
+Train Loss: 0.1289, Train Acc: 0.9548
+Val Loss: 0.2258, Val Acc: 0.9222
+Batch Time: 0.0403s
+Epoch 18/20:
+Train Loss: 0.1162, Train Acc: 0.9597
+Val Loss: 0.2210, Val Acc: 0.9268
+Batch Time: 0.0410s
+Epoch 19/20:
+Train Loss: 0.1140, Train Acc: 0.9603
+Val Loss: 0.2199, Val Acc: 0.9280
+Batch Time: 0.0391s
+Epoch 20/20:
+Train Loss: 0.1078, Train Acc: 0.9626
+Val Loss: 0.2323, Val Acc: 0.9212
+Batch Time: 0.0395s
+Total training time for Pretrained AlexNet: 16.08 minutes
+
+Training Pretrained GoogLeNet...
+Epoch 1/20:
+Train Loss: 1.0494, Train Acc: 0.7206
+Val Loss: 0.4352, Val Acc: 0.8750
+Batch Time: 0.0685s
+Epoch 2/20:
+Train Loss: 0.3462, Train Acc: 0.8958
+Val Loss: 0.2665, Val Acc: 0.9180
+Batch Time: 0.0720s
+Epoch 3/20:
+Train Loss: 0.2408, Train Acc: 0.9247
+Val Loss: 0.2155, Val Acc: 0.9284
+Batch Time: 0.0696s
+Epoch 4/20:
+Train Loss: 0.1927, Train Acc: 0.9375
+Val Loss: 0.1849, Val Acc: 0.9420
+Batch Time: 0.0731s
+Epoch 5/20:
+Train Loss: 0.1600, Train Acc: 0.9480
+Val Loss: 0.1745, Val Acc: 0.9442
+Batch Time: 0.0717s
+Epoch 6/20:
+Train Loss: 0.1334, Train Acc: 0.9573
+Val Loss: 0.1637, Val Acc: 0.9468
+Batch Time: 0.0592s
+Epoch 7/20:
+Train Loss: 0.1134, Train Acc: 0.9644
+Val Loss: 0.1509, Val Acc: 0.9500
+Batch Time: 0.0702s
+Epoch 8/20:
+Train Loss: 0.0967, Train Acc: 0.9705
+Val Loss: 0.1548, Val Acc: 0.9476
+Batch Time: 0.0726s
+Epoch 9/20:
+Train Loss: 0.0834, Train Acc: 0.9748
+Val Loss: 0.1597, Val Acc: 0.9506
+Batch Time: 0.0768s
+Epoch 10/20:
+Train Loss: 0.0714, Train Acc: 0.9792
+Val Loss: 0.1453, Val Acc: 0.9528
+Batch Time: 0.0781s
+Epoch 11/20:
+Train Loss: 0.0597, Train Acc: 0.9833
+Val Loss: 0.1478, Val Acc: 0.9548
+Batch Time: 0.0784s
+Epoch 12/20:
+Train Loss: 0.0503, Train Acc: 0.9869
+Val Loss: 0.1439, Val Acc: 0.9550
+Batch Time: 0.0679s
+Epoch 13/20:
+Train Loss: 0.0459, Train Acc: 0.9880
+Val Loss: 0.1505, Val Acc: 0.9546
+Batch Time: 0.0645s
+Epoch 14/20:
+Train Loss: 0.0380, Train Acc: 0.9906
+Val Loss: 0.1434, Val Acc: 0.9566
+Batch Time: 0.0801s
+Epoch 15/20:
+Train Loss: 0.0332, Train Acc: 0.9926
+Val Loss: 0.1370, Val Acc: 0.9574
+Batch Time: 0.0669s
+Epoch 16/20:
+Train Loss: 0.0278, Train Acc: 0.9944
+Val Loss: 0.1520, Val Acc: 0.9542
+Batch Time: 0.0643s
+Epoch 17/20:
+Train Loss: 0.0239, Train Acc: 0.9953
+Val Loss: 0.1441, Val Acc: 0.9552
+Batch Time: 0.0653s
+Epoch 18/20:
+Train Loss: 0.0218, Train Acc: 0.9957
+Val Loss: 0.1594, Val Acc: 0.9508
+Batch Time: 0.0662s
+Epoch 19/20:
+Train Loss: 0.0191, Train Acc: 0.9966
+Val Loss: 0.1556, Val Acc: 0.9544
+Batch Time: 0.0669s
+Epoch 20/20:
+Train Loss: 0.0179, Train Acc: 0.9968
+Val Loss: 0.1529, Val Acc: 0.9546
+Batch Time: 0.0656s
+Total training time for Pretrained GoogLeNet: 26.94 minutes
+
+Evaluating models on test set:
+
+AlexNet with LRN:
+Test Loss: 0.4743
+Test Accuracy: 83.78%
+
+AlexNet without LRN:
+Test Loss: 0.4816
+Test Accuracy: 84.56%
+
+Custom GoogLeNet:
+Test Loss: 0.4276
+Test Accuracy: 88.32%
+
+Pretrained AlexNet:
+Test Loss: 0.2587
+Test Accuracy: 91.60%
+
+Pretrained GoogLeNet:
+Test Loss: 0.1621
+Test Accuracy: 94.87%
+
+Final Model Comparison Summary:
+               Model Parameters Train Loss Train Acc Val Loss Val Acc Test Loss Test Acc Best Val Acc Training Time Avg Batch Time
+    AlexNet with LRN 57,044,810     0.3515    87.84%   0.4513  84.46%    0.4743 8378.00%       84.46%      17.1 min        37.6 ms
+ AlexNet without LRN 57,044,810     0.2718    90.49%   0.4816  83.74%    0.4816 8456.00%       85.06%      17.5 min        41.0 ms
+    Custom GoogLeNet 10,635,134     0.2215    97.47%   0.4001  88.24%    0.4276 8832.00%       88.48%      33.4 min        83.4 ms
+  Pretrained AlexNet 57,044,810     0.1078    96.26%   0.2323  92.12%    0.2587 9160.00%       92.80%      16.1 min        40.5 ms
+Pretrained GoogLeNet  5,610,154     0.0179    99.68%   0.1529  95.46%    0.1621 9487.00%       95.74%      26.9 min        69.9 ms
+
+Results saved to 'model_comparison.csv' and 'model_comparison.png'
+jupyter-st125462@puffer:~/RTML/A1$ python alexnet_multigpu.py
+Using GPUs:
+GPU 0: NVIDIA GeForce RTX 2080 Ti
+GPU 1: NVIDIA GeForce RTX 2080 Ti
+Files already downloaded and verified
+Files already downloaded and verified
+Starting training...
+Traceback (most recent call last):
+  File "/home/jupyter-st125462/RTML/A1/alexnet_multigpu.py", line 296, in <module>
+    main()
+  File "/home/jupyter-st125462/RTML/A1/alexnet_multigpu.py", line 250, in main
+    train_loss, train_acc, epoch_time = train_epoch(
+                                        ^^^^^^^^^^^^
+  File "/home/jupyter-st125462/RTML/A1/alexnet_multigpu.py", line 145, in train_epoch
+    outputs = model(inputs)
+              ^^^^^^^^^^^^^
+  File "/home/jupyter-st125462/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jupyter-st125462/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jupyter-st125462/RTML/A1/alexnet_multigpu.py", line 114, in forward
+    output1 = self.gpu1_net(x1)
+              ^^^^^^^^^^^^^^^^^
+  File "/home/jupyter-st125462/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jupyter-st125462/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jupyter-st125462/RTML/A1/alexnet_multigpu.py", line 47, in forward
+    x = self.features(x)
+        ^^^^^^^^^^^^^^^^
+  File "/home/jupyter-st125462/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jupyter-st125462/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jupyter-st125462/.local/lib/python3.12/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/home/jupyter-st125462/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jupyter-st125462/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jupyter-st125462/.local/lib/python3.12/site-packages/torch/nn/modules/conv.py", line 554, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jupyter-st125462/.local/lib/python3.12/site-packages/torch/nn/modules/conv.py", line 549, in _conv_forward
+    return F.conv2d(
+           ^^^^^^^^^
+RuntimeError: Given groups=1, weight of size [48, 3, 11, 11], expected input[128, 1, 224, 224] to have 3 channels, but got 1 channels instead
+jupyter-st125462@puffer:~/RTML/A1$ python alexnet_multigpu.py
+Using GPUs:
+GPU 0: NVIDIA GeForce RTX 2080 Ti
+GPU 1: NVIDIA GeForce RTX 2080 Ti
+Files already downloaded and verified
+Files already downloaded and verified
+Starting training...
+Epoch: 0 | Batch: 0 | Loss: 2.303 | Acc: 10.16% (13/128)
+Epoch: 0 | Batch: 100 | Loss: 2.302 | Acc: 10.18% (1316/12928)
+Epoch: 0 | Batch: 200 | Loss: 2.306 | Acc: 10.35% (2663/25728)
+Epoch: 0 | Batch: 300 | Loss: 2.240 | Acc: 10.92% (4208/38528)
+
+Epoch 0: Average loss: 2.280, Accuracy: 12.04%, Time: 28.54s
+Epoch: 1 | Batch: 0 | Loss: 2.131 | Acc: 19.53% (25/128)
+Epoch: 1 | Batch: 100 | Loss: 2.135 | Acc: 20.90% (2702/12928)
+Epoch: 1 | Batch: 200 | Loss: 2.040 | Acc: 21.51% (5533/25728)
+Epoch: 1 | Batch: 300 | Loss: 2.004 | Acc: 22.13% (8527/38528)
+
+Epoch 1: Average loss: 2.060, Accuracy: 22.61%, Time: 27.48s
+Epoch: 2 | Batch: 0 | Loss: 2.016 | Acc: 21.09% (27/128)
+Epoch: 2 | Batch: 100 | Loss: 1.831 | Acc: 28.10% (3633/12928)
+Epoch: 2 | Batch: 200 | Loss: 1.821 | Acc: 28.63% (7365/25728)
+Epoch: 2 | Batch: 300 | Loss: 1.664 | Acc: 29.54% (11383/38528)
+
+Epoch 2: Average loss: 1.855, Accuracy: 30.13%, Time: 27.75s
+Epoch: 3 | Batch: 0 | Loss: 1.822 | Acc: 34.38% (44/128)
+Epoch: 3 | Batch: 100 | Loss: 1.812 | Acc: 34.31% (4435/12928)
+Epoch: 3 | Batch: 200 | Loss: 1.630 | Acc: 34.87% (8972/25728)
+Epoch: 3 | Batch: 300 | Loss: 1.593 | Acc: 35.22% (13569/38528)
+
+Epoch 3: Average loss: 1.735, Accuracy: 35.26%, Time: 28.02s
+Epoch: 4 | Batch: 0 | Loss: 1.703 | Acc: 37.50% (48/128)
+Epoch: 4 | Batch: 100 | Loss: 1.657 | Acc: 37.60% (4861/12928)
+Epoch: 4 | Batch: 200 | Loss: 1.738 | Acc: 38.06% (9791/25728)
+Epoch: 4 | Batch: 300 | Loss: 1.687 | Acc: 38.53% (14846/38528)
+
+Epoch 4: Average loss: 1.651, Accuracy: 38.70%, Time: 28.17s
+Epoch: 5 | Batch: 0 | Loss: 1.605 | Acc: 41.41% (53/128)
+Epoch: 5 | Batch: 100 | Loss: 1.715 | Acc: 40.36% (5218/12928)
+Epoch: 5 | Batch: 200 | Loss: 1.487 | Acc: 40.86% (10512/25728)
+Epoch: 5 | Batch: 300 | Loss: 1.495 | Acc: 41.80% (16105/38528)
+
+Epoch 5: Average loss: 1.571, Accuracy: 42.20%, Time: 28.01s
+Epoch: 6 | Batch: 0 | Loss: 1.540 | Acc: 50.00% (64/128)
+Epoch: 6 | Batch: 100 | Loss: 1.624 | Acc: 44.51% (5754/12928)
+Epoch: 6 | Batch: 200 | Loss: 1.418 | Acc: 45.13% (11610/25728)
+^CTraceback (most recent call last):
+  File "/home/jupyter-st125462/RTML/A1/alexnet_multigpu.py", line 297, in <module>
+    main()
+  File "/home/jupyter-st125462/RTML/A1/alexnet_multigpu.py", line 251, in main
+    train_loss, train_acc, epoch_time = train_epoch(
+                                        ^^^^^^^^^^^^
+  File "/home/jupyter-st125462/RTML/A1/alexnet_multigpu.py", line 146, in train_epoch
+    outputs = model(inputs)
+              ^^^^^^^^^^^^^
+  File "/home/jupyter-st125462/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jupyter-st125462/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jupyter-st125462/RTML/A1/alexnet_multigpu.py", line 120, in forward
+    torch.cuda.synchronize()
+  File "/home/jupyter-st125462/.local/lib/python3.12/site-packages/torch/cuda/__init__.py", line 954, in synchronize
+    return torch._C._cuda_synchronize()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+jupyter-st125462@puffer:~/RTML/A1$ python alexnet_multigpu.py
+Using GPUs:
+GPU 0: NVIDIA GeForce RTX 2080 Ti
+GPU 1: NVIDIA GeForce RTX 2080 Ti
+
+Loading datasets...
+Files already downloaded and verified
+Files already downloaded and verified
+
+Initializing Multi-GPU AlexNet...
+Total parameters: 56,466,826
+
+Starting training...
+Epoch: 0 | Batch: 0 | Loss: 2.304 | Acc: 8.59% (11/128)
+Epoch: 0 | Batch: 100 | Loss: 2.303 | Acc: 9.84% (1272/12928)
+Epoch: 0 | Batch: 200 | Loss: 2.300 | Acc: 9.86% (2536/25728)
+Epoch: 0 | Batch: 300 | Loss: 2.303 | Acc: 9.98% (3844/38528)
+
+Epoch 0:
+Train Loss: 2.303, Train Acc: 10.06%
+Val Loss: 2.302, Val Acc: 12.56%
+Time: 28.83s
+Epoch: 1 | Batch: 0 | Loss: 2.301 | Acc: 10.94% (14/128)
+Epoch: 1 | Batch: 100 | Loss: 2.282 | Acc: 11.32% (1463/12928)
+Epoch: 1 | Batch: 200 | Loss: 2.152 | Acc: 14.39% (3702/25728)
+Epoch: 1 | Batch: 300 | Loss: 1.956 | Acc: 16.94% (6528/38528)
+
+Epoch 1:
+Train Loss: 2.167, Train Acc: 17.84%
+Val Loss: 1.977, Val Acc: 24.44%
+Time: 27.58s
+Epoch: 2 | Batch: 0 | Loss: 2.017 | Acc: 23.44% (30/128)
+Epoch: 2 | Batch: 100 | Loss: 2.031 | Acc: 24.70% (3193/12928)
+Epoch: 2 | Batch: 200 | Loss: 1.900 | Acc: 26.44% (6802/25728)
+Epoch: 2 | Batch: 300 | Loss: 1.919 | Acc: 27.38% (10550/38528)
+
+Epoch 2:
+Train Loss: 1.905, Train Acc: 27.76%
+Val Loss: 1.773, Val Acc: 33.04%
+Time: 27.93s
+Epoch: 3 | Batch: 0 | Loss: 1.652 | Acc: 44.53% (57/128)
+Epoch: 3 | Batch: 100 | Loss: 1.717 | Acc: 33.42% (4320/12928)
+Epoch: 3 | Batch: 200 | Loss: 1.648 | Acc: 33.59% (8643/25728)
+Epoch: 3 | Batch: 300 | Loss: 1.757 | Acc: 34.03% (13110/38528)
+
+Epoch 3:
+Train Loss: 1.761, Train Acc: 34.33%
+Val Loss: 1.692, Val Acc: 37.30%
+Time: 28.66s
+Epoch: 4 | Batch: 0 | Loss: 1.495 | Acc: 50.00% (64/128)
+Epoch: 4 | Batch: 100 | Loss: 1.715 | Acc: 37.33% (4826/12928)
+Epoch: 4 | Batch: 200 | Loss: 1.641 | Acc: 37.83% (9732/25728)
+Epoch: 4 | Batch: 300 | Loss: 1.716 | Acc: 37.80% (14563/38528)
+
+Epoch 4:
+Train Loss: 1.664, Train Acc: 38.04%
+Val Loss: 1.598, Val Acc: 40.72%
+Time: 28.48s
+Epoch: 5 | Batch: 0 | Loss: 1.486 | Acc: 46.09% (59/128)
+Epoch: 5 | Batch: 100 | Loss: 1.655 | Acc: 39.96% (5166/12928)
+Epoch: 5 | Batch: 200 | Loss: 1.564 | Acc: 40.64% (10456/25728)
+Epoch: 5 | Batch: 300 | Loss: 1.574 | Acc: 41.29% (15908/38528)
+
+Epoch 5:
+Train Loss: 1.582, Train Acc: 41.43%
+Val Loss: 1.552, Val Acc: 42.24%
+Time: 28.46s
+Epoch: 6 | Batch: 0 | Loss: 1.298 | Acc: 50.78% (65/128)
+Epoch: 6 | Batch: 100 | Loss: 1.631 | Acc: 43.10% (5572/12928)
+Epoch: 6 | Batch: 200 | Loss: 1.499 | Acc: 44.10% (11346/25728)
+Epoch: 6 | Batch: 300 | Loss: 1.387 | Acc: 44.32% (17075/38528)
+
+Epoch 6:
+Train Loss: 1.508, Train Acc: 44.78%
+Val Loss: 2.017, Val Acc: 34.90%
+Time: 28.45s
+Epoch: 7 | Batch: 0 | Loss: 1.445 | Acc: 42.97% (55/128)
+Epoch: 7 | Batch: 100 | Loss: 1.495 | Acc: 46.59% (6023/12928)
+Epoch: 7 | Batch: 200 | Loss: 1.291 | Acc: 47.39% (12192/25728)
+Epoch: 7 | Batch: 300 | Loss: 1.326 | Acc: 47.63% (18349/38528)
+
+Epoch 7:
+Train Loss: 1.436, Train Acc: 47.79%
+Val Loss: 1.375, Val Acc: 50.26%
+Time: 28.24s
+Epoch: 8 | Batch: 0 | Loss: 1.428 | Acc: 49.22% (63/128)
+Epoch: 8 | Batch: 100 | Loss: 1.339 | Acc: 49.76% (6433/12928)
+Epoch: 8 | Batch: 200 | Loss: 1.341 | Acc: 50.44% (12976/25728)
+Epoch: 8 | Batch: 300 | Loss: 1.485 | Acc: 50.52% (19466/38528)
+
+Epoch 8:
+Train Loss: 1.371, Train Acc: 50.68%
+Val Loss: 1.310, Val Acc: 53.66%
+Time: 28.19s
+Epoch: 9 | Batch: 0 | Loss: 1.397 | Acc: 46.09% (59/128)
+Epoch: 9 | Batch: 100 | Loss: 1.341 | Acc: 52.18% (6746/12928)
+Epoch: 9 | Batch: 200 | Loss: 1.297 | Acc: 52.01% (13380/25728)
+Epoch: 9 | Batch: 300 | Loss: 1.322 | Acc: 52.28% (20143/38528)
+
+Epoch 9:
+Train Loss: 1.314, Train Acc: 52.48%
+Val Loss: 1.210, Val Acc: 56.36%
+Time: 28.74s
+Epoch: 10 | Batch: 0 | Loss: 1.337 | Acc: 55.47% (71/128)
+Epoch: 10 | Batch: 100 | Loss: 1.370 | Acc: 53.92% (6971/12928)
+Epoch: 10 | Batch: 200 | Loss: 1.099 | Acc: 54.38% (13992/25728)
+Epoch: 10 | Batch: 300 | Loss: 1.298 | Acc: 54.41% (20965/38528)
+
+Epoch 10:
+Train Loss: 1.264, Train Acc: 54.66%
+Val Loss: 1.263, Val Acc: 55.00%
+Time: 28.16s
+Epoch: 11 | Batch: 0 | Loss: 1.201 | Acc: 57.81% (74/128)
+Epoch: 11 | Batch: 100 | Loss: 1.190 | Acc: 56.52% (7307/12928)
+Epoch: 11 | Batch: 200 | Loss: 1.286 | Acc: 56.56% (14551/25728)
+Epoch: 11 | Batch: 300 | Loss: 1.260 | Acc: 56.60% (21807/38528)
+
+Epoch 11:
+Train Loss: 1.210, Train Acc: 56.80%
+Val Loss: 1.146, Val Acc: 59.32%
+Time: 28.46s
+Epoch: 12 | Batch: 0 | Loss: 1.024 | Acc: 60.16% (77/128)
+Epoch: 12 | Batch: 100 | Loss: 1.141 | Acc: 57.56% (7441/12928)
+Epoch: 12 | Batch: 200 | Loss: 0.912 | Acc: 57.63% (14827/25728)
+Epoch: 12 | Batch: 300 | Loss: 1.303 | Acc: 57.69% (22228/38528)
+
+Epoch 12:
+Train Loss: 1.183, Train Acc: 57.74%
+Val Loss: 1.323, Val Acc: 52.78%
+Time: 28.20s
+Epoch: 13 | Batch: 0 | Loss: 1.086 | Acc: 63.28% (81/128)
+Epoch: 13 | Batch: 100 | Loss: 1.174 | Acc: 59.55% (7699/12928)
+Epoch: 13 | Batch: 200 | Loss: 1.258 | Acc: 59.53% (15317/25728)
+Epoch: 13 | Batch: 300 | Loss: 1.072 | Acc: 59.47% (22912/38528)
+
+Epoch 13:
+Train Loss: 1.136, Train Acc: 59.66%
+Val Loss: 1.136, Val Acc: 59.96%
+Time: 27.96s
+Epoch: 14 | Batch: 0 | Loss: 0.979 | Acc: 64.06% (82/128)
+Epoch: 14 | Batch: 100 | Loss: 1.251 | Acc: 60.06% (7765/12928)
+Epoch: 14 | Batch: 200 | Loss: 1.076 | Acc: 59.93% (15419/25728)
+Epoch: 14 | Batch: 300 | Loss: 1.017 | Acc: 60.48% (23300/38528)
+
+Epoch 14:
+Train Loss: 1.114, Train Acc: 60.46%
+Val Loss: 1.078, Val Acc: 61.30%
+Time: 28.56s
+Epoch: 15 | Batch: 0 | Loss: 0.977 | Acc: 65.62% (84/128)
+Epoch: 15 | Batch: 100 | Loss: 0.908 | Acc: 62.11% (8029/12928)
+Epoch: 15 | Batch: 200 | Loss: 0.929 | Acc: 61.70% (15874/25728)
+Epoch: 15 | Batch: 300 | Loss: 1.024 | Acc: 61.83% (23820/38528)
+
+Epoch 15:
+Train Loss: 1.081, Train Acc: 61.67%
+Val Loss: 1.092, Val Acc: 61.86%
+Time: 28.80s
+Epoch: 16 | Batch: 0 | Loss: 1.098 | Acc: 61.72% (79/128)
+Epoch: 16 | Batch: 100 | Loss: 1.108 | Acc: 62.14% (8034/12928)
+Epoch: 16 | Batch: 200 | Loss: 0.944 | Acc: 62.47% (16072/25728)
+Epoch: 16 | Batch: 300 | Loss: 1.292 | Acc: 62.51% (24085/38528)
+
+Epoch 16:
+Train Loss: 1.056, Train Acc: 62.56%
+Val Loss: 1.678, Val Acc: 51.44%
+Time: 28.67s
+Epoch: 17 | Batch: 0 | Loss: 1.222 | Acc: 55.47% (71/128)
+Epoch: 17 | Batch: 100 | Loss: 1.207 | Acc: 63.23% (8175/12928)
+Epoch: 17 | Batch: 200 | Loss: 0.854 | Acc: 63.66% (16379/25728)
+Epoch: 17 | Batch: 300 | Loss: 0.871 | Acc: 63.73% (24553/38528)
+
+Epoch 17:
+Train Loss: 1.023, Train Acc: 63.93%
+Val Loss: 1.060, Val Acc: 62.18%
+Time: 28.00s
+Epoch: 18 | Batch: 0 | Loss: 0.946 | Acc: 66.41% (85/128)
+Epoch: 18 | Batch: 100 | Loss: 0.985 | Acc: 64.18% (8297/12928)
+Epoch: 18 | Batch: 200 | Loss: 0.836 | Acc: 64.11% (16495/25728)
+Epoch: 18 | Batch: 300 | Loss: 0.995 | Acc: 64.31% (24777/38528)
+
+Epoch 18:
+Train Loss: 1.008, Train Acc: 64.43%
+Val Loss: 1.021, Val Acc: 63.46%
+Time: 28.75s
+Epoch: 19 | Batch: 0 | Loss: 0.994 | Acc: 64.06% (82/128)
+Epoch: 19 | Batch: 100 | Loss: 1.036 | Acc: 64.73% (8368/12928)
+Epoch: 19 | Batch: 200 | Loss: 0.986 | Acc: 64.55% (16607/25728)
+Epoch: 19 | Batch: 300 | Loss: 0.957 | Acc: 64.71% (24930/38528)
+
+Epoch 19:
+Train Loss: 0.989, Train Acc: 64.87%
+Val Loss: 1.017, Val Acc: 65.12%
+Time: 28.12s
+
+Evaluating on test set...
+Test Loss: 0.668
+Test Accuracy: 77.37%
+
+Generating plots...
+
+Saving final results...
+
+Training Summary:
+Best Validation Accuracy: 65.12% (Epoch 19)
+Final Test Accuracy: 77.37%
+Average Epoch Time: 28.36s
+
+Saved files:
+- alexnet_multigpu_final.pth (Final model and full history)
+- alexnet_multigpu_best.pth (Best model based on validation accuracy)
+- multigpu_training_curves.png (Loss and accuracy curves)
+- multigpu_batch_times.png (Training time per epoch)

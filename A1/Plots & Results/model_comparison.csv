@@ -1,0 +1,6 @@
+Model,Parameters,Train Loss,Train Acc,Val Loss,Val Acc,Test Loss,Test Acc,Best Val Acc,Training Time,Avg Batch Time
+AlexNet with LRN,"57,044,810",0.3515,87.84%,0.4513,84.46%,0.4743,8378.00%,84.46%,17.1 min,37.6 ms
+AlexNet without LRN,"57,044,810",0.2718,90.49%,0.4816,83.74%,0.4816,8456.00%,85.06%,17.5 min,41.0 ms
+Custom GoogLeNet,"10,635,134",0.2215,97.47%,0.4001,88.24%,0.4276,8832.00%,88.48%,33.4 min,83.4 ms
+Pretrained AlexNet,"57,044,810",0.1078,96.26%,0.2323,92.12%,0.2587,9160.00%,92.80%,16.1 min,40.5 ms
+Pretrained GoogLeNet,"5,610,154",0.0179,99.68%,0.1529,95.46%,0.1621,9487.00%,95.74%,26.9 min,69.9 ms
