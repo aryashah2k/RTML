@@ -118,10 +118,10 @@ YOLOv4_Project/
 
 |Script used for inference|Output|
 |-------------------------|------|
-|mini_coco.py|!(1)[https://github.com/aryashah2k/RTML/blob/main/A2/output/detections/detected_000000001993.jpg]|
-|mini_coco.py|!(2)[https://github.com/aryashah2k/RTML/blob/main/A2/output/detections/detected_000000032861.jpg]|
-|mini_coco.py|!(3)[https://github.com/aryashah2k/RTML/blob/main/A2/output/detections/detected_000000151857.jpg]|
-|main.py|!(4)[https://github.com/aryashah2k/RTML/blob/main/A2/results/000000001146_detection.jpg]|
+|mini_coco.py|![1](https://github.com/aryashah2k/RTML/blob/main/A2/output/detections/detected_000000001993.jpg)|
+|mini_coco.py|![2](https://github.com/aryashah2k/RTML/blob/main/A2/output/detections/detected_000000032861.jpg)|
+|mini_coco.py|![3](https://github.com/aryashah2k/RTML/blob/main/A2/output/detections/detected_000000151857.jpg)|
+|main.py|![4](https://github.com/aryashah2k/RTML/blob/main/A2/results/000000001146_detection.jpg)|
 
 
 ## Usage
