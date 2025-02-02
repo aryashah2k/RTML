@@ -1,0 +1,6 @@
+train: data/coco/train2017
+train_annotations: data/coco/annotations/instances_train2017.json
+val: data/coco/val2017
+val_annotations: data/coco/annotations/instances_val2017.json
+nc: 80  # number of classes
+names: data/coco.names  # class names file

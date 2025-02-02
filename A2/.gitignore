@@ -1,0 +1,49 @@
+# Weights and data files
+weights/*.weights
+weights/*.pth
+data/coco/*
+data/mini_coco/*
+results/*
+
+# COCO dataset
+*.zip
+train2017/
+val2017/
+annotations/
+mini_train2017/
+mini_val2017/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+
+# Logs and checkpoints
+*.log
+checkpoints/
+runs/
+logs/
+
+# Keep these files
+!weights/README.md
+!data/README.md
+!results/README.md
