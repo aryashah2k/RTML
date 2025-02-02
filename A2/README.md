@@ -117,10 +117,11 @@ YOLOv4_Project/
 ### 5. Inference Results
 
 |Script used for inference|Output|
-|mini_coco.py|!()[]|
-|mini_coco.py|!()[]|
-|mini_coco.py|!()[]|
-|main.py|!()[]|
+|-------------------------|------|
+|mini_coco.py|!(1)[]|
+|mini_coco.py|!(2)[]|
+|mini_coco.py|!(3)[]|
+|main.py|!(4)[]|
 
 
 ## Usage

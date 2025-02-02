@@ -3,7 +3,7 @@ weights/*.weights
 weights/*.pth
 data/coco/*
 data/mini_coco/*
-results/*
+
 
 # COCO dataset
 *.zip
