@@ -1,0 +1,10 @@
+torch>=1.8.0
+torchvision>=0.9.0
+timm
+numpy
+pandas
+matplotlib
+opencv-python
+jupyter
+scikit-learn
+tqdm

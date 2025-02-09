@@ -1,0 +1,108 @@
+Test Set Evaluation Report
+==================================================
+Overall Accuracy: 58.80%
+
+Per-Class Performance:
+--------------------------------------------------
+Class                          Accuracy   Samples   
+--------------------------------------------------
+air hockey                        80.00%          5
+ampute football                   40.00%          5
+archery                           20.00%          5
+arm wrestling                     60.00%          5
+axe throwing                      60.00%          5
+balance beam                     100.00%          5
+barell racing                     60.00%          5
+baseball                          60.00%          5
+basketball                        60.00%          5
+baton twirling                    20.00%          5
+bike polo                         60.00%          5
+billiards                         80.00%          5
+bmx                               20.00%          5
+bobsled                           60.00%          5
+bowling                           60.00%          5
+boxing                           100.00%          5
+bull riding                       80.00%          5
+bungee jumping                    60.00%          5
+canoe slamon                      80.00%          5
+cheerleading                      40.00%          5
+chuckwagon racing                 60.00%          5
+cricket                           60.00%          5
+croquet                           60.00%          5
+curling                          100.00%          5
+disc golf                         40.00%          5
+fencing                           20.00%          5
+field hockey                      80.00%          5
+figure skating men                20.00%          5
+figure skating pairs              60.00%          5
+figure skating women              80.00%          5
+fly fishing                       60.00%          5
+football                          40.00%          5
+formula 1 racing                  80.00%          5
+frisbee                            0.00%          5
+gaga                               0.00%          5
+giant slalom                     100.00%          5
+golf                              40.00%          5
+hammer throw                      60.00%          5
+hang gliding                     100.00%          5
+harness racing                    60.00%          5
+high jump                        100.00%          5
+hockey                            80.00%          5
+horse jumping                     60.00%          5
+horse racing                      60.00%          5
+horseshoe pitching                20.00%          5
+hurdles                           80.00%          5
+hydroplane racing                 20.00%          5
+ice climbing                     100.00%          5
+ice yachting                     100.00%          5
+jai alai                         100.00%          5
+javelin                           20.00%          5
+jousting                          40.00%          5
+judo                              80.00%          5
+lacrosse                          20.00%          5
+log rolling                       80.00%          5
+luge                              60.00%          5
+motorcycle racing                 80.00%          5
+mushing                           80.00%          5
+nascar racing                     40.00%          5
+olympic wrestling                 80.00%          5
+parallel bar                       0.00%          5
+pole climbing                     80.00%          5
+pole dancing                      80.00%          5
+pole vault                        60.00%          5
+polo                             100.00%          5
+pommel horse                     100.00%          5
+rings                             20.00%          5
+rock climbing                     60.00%          5
+roller derby                      40.00%          5
+rollerblade racing                40.00%          5
+rowing                            60.00%          5
+rugby                             80.00%          5
+sailboat racing                  100.00%          5
+shot put                          20.00%          5
+shuffleboard                      40.00%          5
+sidecar racing                    40.00%          5
+ski jumping                       20.00%          5
+sky surfing                       60.00%          5
+skydiving                         80.00%          5
+snow boarding                     20.00%          5
+snowmobile racing                 60.00%          5
+speed skating                     80.00%          5
+steer wrestling                   40.00%          5
+sumo wrestling                    60.00%          5
+surfing                           60.00%          5
+swimming                         100.00%          5
+table tennis                      60.00%          5
+tennis                            40.00%          5
+track bicycle                    100.00%          5
+trapeze                            0.00%          5
+tug of war                        40.00%          5
+ultimate                           0.00%          5
+uneven bars                       60.00%          5
+volleyball                        80.00%          5
+water cycling                     80.00%          5
+water polo                       100.00%          5
+weightlifting                     80.00%          5
+wheelchair basketball             20.00%          5
+wheelchair racing                 40.00%          5
+wingsuit flying                   60.00%          5

@@ -1,0 +1,433 @@
+jupyter-st125462@puffer:~/RTML/A3$ python finetune_vit_complete.py
+Using device: cuda
+Loaded train split with 13492 images across 100 classes
+Loaded valid split with 500 images across 100 classes
+Loaded test split with 500 images across 100 classes
+
+Model Configuration:
+Number of classes: 100
+Input shape: (3, 224, 224)
+Patch size: 16
+Hidden dimension: 768
+Number of heads: 12
+Number of layers: 12
+MLP dimension: 3072
+Loading checkpoint from Ep.7.pth
+/home/jupyter-st125462/RTML/A3/finetune_vit_complete.py:240: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(checkpoint_path, map_location=device)
+Checkpoint structure: <class 'collections.OrderedDict'>
+Available keys in checkpoint: odict_keys(['class_token', 'conv_proj.weight', 'conv_proj.bias', 'encoder.pos_embedding', 'encoder.layers.encoder_layer_0.ln_1.weight', 'encoder.layers.encoder_layer_0.ln_1.bias', 'encoder.layers.encoder_layer_0.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_0.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_0.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_0.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_0.ln_2.weight', 'encoder.layers.encoder_layer_0.ln_2.bias', 'encoder.layers.encoder_layer_0.mlp.0.weight', 'encoder.layers.encoder_layer_0.mlp.0.bias', 'encoder.layers.encoder_layer_0.mlp.3.weight', 'encoder.layers.encoder_layer_0.mlp.3.bias', 'encoder.layers.encoder_layer_1.ln_1.weight', 'encoder.layers.encoder_layer_1.ln_1.bias', 'encoder.layers.encoder_layer_1.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_1.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_1.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_1.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_1.ln_2.weight', 'encoder.layers.encoder_layer_1.ln_2.bias', 'encoder.layers.encoder_layer_1.mlp.0.weight', 'encoder.layers.encoder_layer_1.mlp.0.bias', 'encoder.layers.encoder_layer_1.mlp.3.weight', 'encoder.layers.encoder_layer_1.mlp.3.bias', 'encoder.layers.encoder_layer_2.ln_1.weight', 'encoder.layers.encoder_layer_2.ln_1.bias', 'encoder.layers.encoder_layer_2.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_2.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_2.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_2.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_2.ln_2.weight', 'encoder.layers.encoder_layer_2.ln_2.bias', 'encoder.layers.encoder_layer_2.mlp.0.weight', 'encoder.layers.encoder_layer_2.mlp.0.bias', 'encoder.layers.encoder_layer_2.mlp.3.weight', 'encoder.layers.encoder_layer_2.mlp.3.bias', 'encoder.layers.encoder_layer_3.ln_1.weight', 'encoder.layers.encoder_layer_3.ln_1.bias', 'encoder.layers.encoder_layer_3.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_3.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_3.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_3.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_3.ln_2.weight', 'encoder.layers.encoder_layer_3.ln_2.bias', 'encoder.layers.encoder_layer_3.mlp.0.weight', 'encoder.layers.encoder_layer_3.mlp.0.bias', 'encoder.layers.encoder_layer_3.mlp.3.weight', 'encoder.layers.encoder_layer_3.mlp.3.bias', 'encoder.layers.encoder_layer_4.ln_1.weight', 'encoder.layers.encoder_layer_4.ln_1.bias', 'encoder.layers.encoder_layer_4.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_4.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_4.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_4.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_4.ln_2.weight', 'encoder.layers.encoder_layer_4.ln_2.bias', 'encoder.layers.encoder_layer_4.mlp.0.weight', 'encoder.layers.encoder_layer_4.mlp.0.bias', 'encoder.layers.encoder_layer_4.mlp.3.weight', 'encoder.layers.encoder_layer_4.mlp.3.bias', 'encoder.layers.encoder_layer_5.ln_1.weight', 'encoder.layers.encoder_layer_5.ln_1.bias', 'encoder.layers.encoder_layer_5.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_5.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_5.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_5.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_5.ln_2.weight', 'encoder.layers.encoder_layer_5.ln_2.bias', 'encoder.layers.encoder_layer_5.mlp.0.weight', 'encoder.layers.encoder_layer_5.mlp.0.bias', 'encoder.layers.encoder_layer_5.mlp.3.weight', 'encoder.layers.encoder_layer_5.mlp.3.bias', 'encoder.layers.encoder_layer_6.ln_1.weight', 'encoder.layers.encoder_layer_6.ln_1.bias', 'encoder.layers.encoder_layer_6.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_6.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_6.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_6.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_6.ln_2.weight', 'encoder.layers.encoder_layer_6.ln_2.bias', 'encoder.layers.encoder_layer_6.mlp.0.weight', 'encoder.layers.encoder_layer_6.mlp.0.bias', 'encoder.layers.encoder_layer_6.mlp.3.weight', 'encoder.layers.encoder_layer_6.mlp.3.bias', 'encoder.layers.encoder_layer_7.ln_1.weight', 'encoder.layers.encoder_layer_7.ln_1.bias', 'encoder.layers.encoder_layer_7.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_7.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_7.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_7.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_7.ln_2.weight', 'encoder.layers.encoder_layer_7.ln_2.bias', 'encoder.layers.encoder_layer_7.mlp.0.weight', 'encoder.layers.encoder_layer_7.mlp.0.bias', 'encoder.layers.encoder_layer_7.mlp.3.weight', 'encoder.layers.encoder_layer_7.mlp.3.bias', 'encoder.layers.encoder_layer_8.ln_1.weight', 'encoder.layers.encoder_layer_8.ln_1.bias', 'encoder.layers.encoder_layer_8.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_8.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_8.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_8.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_8.ln_2.weight', 'encoder.layers.encoder_layer_8.ln_2.bias', 'encoder.layers.encoder_layer_8.mlp.0.weight', 'encoder.layers.encoder_layer_8.mlp.0.bias', 'encoder.layers.encoder_layer_8.mlp.3.weight', 'encoder.layers.encoder_layer_8.mlp.3.bias', 'encoder.layers.encoder_layer_9.ln_1.weight', 'encoder.layers.encoder_layer_9.ln_1.bias', 'encoder.layers.encoder_layer_9.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_9.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_9.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_9.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_9.ln_2.weight', 'encoder.layers.encoder_layer_9.ln_2.bias', 'encoder.layers.encoder_layer_9.mlp.0.weight', 'encoder.layers.encoder_layer_9.mlp.0.bias', 'encoder.layers.encoder_layer_9.mlp.3.weight', 'encoder.layers.encoder_layer_9.mlp.3.bias', 'encoder.layers.encoder_layer_10.ln_1.weight', 'encoder.layers.encoder_layer_10.ln_1.bias', 'encoder.layers.encoder_layer_10.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_10.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_10.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_10.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_10.ln_2.weight', 'encoder.layers.encoder_layer_10.ln_2.bias', 'encoder.layers.encoder_layer_10.mlp.0.weight', 'encoder.layers.encoder_layer_10.mlp.0.bias', 'encoder.layers.encoder_layer_10.mlp.3.weight', 'encoder.layers.encoder_layer_10.mlp.3.bias', 'encoder.layers.encoder_layer_11.ln_1.weight', 'encoder.layers.encoder_layer_11.ln_1.bias', 'encoder.layers.encoder_layer_11.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_11.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_11.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_11.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_11.ln_2.weight', 'encoder.layers.encoder_layer_11.ln_2.bias', 'encoder.layers.encoder_layer_11.mlp.0.weight', 'encoder.layers.encoder_layer_11.mlp.0.bias', 'encoder.layers.encoder_layer_11.mlp.3.weight', 'encoder.layers.encoder_layer_11.mlp.3.bias', 'encoder.ln.weight', 'encoder.ln.bias', 'heads.0.weight', 'heads.0.bias'])
+
+Model's state dict keys: odict_keys(['cls_token', 'pos_embed', 'patch_embed.weight', 'patch_embed.bias', 'blocks.0.ln_1.weight', 'blocks.0.ln_1.bias', 'blocks.0.self_attention.in_proj_weight', 'blocks.0.self_attention.in_proj_bias', 'blocks.0.self_attention.out_proj.weight', 'blocks.0.self_attention.out_proj.bias', 'blocks.0.ln_2.weight', 'blocks.0.ln_2.bias', 'blocks.0.mlp.0.weight', 'blocks.0.mlp.0.bias', 'blocks.0.mlp.3.weight', 'blocks.0.mlp.3.bias', 'blocks.1.ln_1.weight', 'blocks.1.ln_1.bias', 'blocks.1.self_attention.in_proj_weight', 'blocks.1.self_attention.in_proj_bias', 'blocks.1.self_attention.out_proj.weight', 'blocks.1.self_attention.out_proj.bias', 'blocks.1.ln_2.weight', 'blocks.1.ln_2.bias', 'blocks.1.mlp.0.weight', 'blocks.1.mlp.0.bias', 'blocks.1.mlp.3.weight', 'blocks.1.mlp.3.bias', 'blocks.2.ln_1.weight', 'blocks.2.ln_1.bias', 'blocks.2.self_attention.in_proj_weight', 'blocks.2.self_attention.in_proj_bias', 'blocks.2.self_attention.out_proj.weight', 'blocks.2.self_attention.out_proj.bias', 'blocks.2.ln_2.weight', 'blocks.2.ln_2.bias', 'blocks.2.mlp.0.weight', 'blocks.2.mlp.0.bias', 'blocks.2.mlp.3.weight', 'blocks.2.mlp.3.bias', 'blocks.3.ln_1.weight', 'blocks.3.ln_1.bias', 'blocks.3.self_attention.in_proj_weight', 'blocks.3.self_attention.in_proj_bias', 'blocks.3.self_attention.out_proj.weight', 'blocks.3.self_attention.out_proj.bias', 'blocks.3.ln_2.weight', 'blocks.3.ln_2.bias', 'blocks.3.mlp.0.weight', 'blocks.3.mlp.0.bias', 'blocks.3.mlp.3.weight', 'blocks.3.mlp.3.bias', 'blocks.4.ln_1.weight', 'blocks.4.ln_1.bias', 'blocks.4.self_attention.in_proj_weight', 'blocks.4.self_attention.in_proj_bias', 'blocks.4.self_attention.out_proj.weight', 'blocks.4.self_attention.out_proj.bias', 'blocks.4.ln_2.weight', 'blocks.4.ln_2.bias', 'blocks.4.mlp.0.weight', 'blocks.4.mlp.0.bias', 'blocks.4.mlp.3.weight', 'blocks.4.mlp.3.bias', 'blocks.5.ln_1.weight', 'blocks.5.ln_1.bias', 'blocks.5.self_attention.in_proj_weight', 'blocks.5.self_attention.in_proj_bias', 'blocks.5.self_attention.out_proj.weight', 'blocks.5.self_attention.out_proj.bias', 'blocks.5.ln_2.weight', 'blocks.5.ln_2.bias', 'blocks.5.mlp.0.weight', 'blocks.5.mlp.0.bias', 'blocks.5.mlp.3.weight', 'blocks.5.mlp.3.bias', 'blocks.6.ln_1.weight', 'blocks.6.ln_1.bias', 'blocks.6.self_attention.in_proj_weight', 'blocks.6.self_attention.in_proj_bias', 'blocks.6.self_attention.out_proj.weight', 'blocks.6.self_attention.out_proj.bias', 'blocks.6.ln_2.weight', 'blocks.6.ln_2.bias', 'blocks.6.mlp.0.weight', 'blocks.6.mlp.0.bias', 'blocks.6.mlp.3.weight', 'blocks.6.mlp.3.bias', 'blocks.7.ln_1.weight', 'blocks.7.ln_1.bias', 'blocks.7.self_attention.in_proj_weight', 'blocks.7.self_attention.in_proj_bias', 'blocks.7.self_attention.out_proj.weight', 'blocks.7.self_attention.out_proj.bias', 'blocks.7.ln_2.weight', 'blocks.7.ln_2.bias', 'blocks.7.mlp.0.weight', 'blocks.7.mlp.0.bias', 'blocks.7.mlp.3.weight', 'blocks.7.mlp.3.bias', 'blocks.8.ln_1.weight', 'blocks.8.ln_1.bias', 'blocks.8.self_attention.in_proj_weight', 'blocks.8.self_attention.in_proj_bias', 'blocks.8.self_attention.out_proj.weight', 'blocks.8.self_attention.out_proj.bias', 'blocks.8.ln_2.weight', 'blocks.8.ln_2.bias', 'blocks.8.mlp.0.weight', 'blocks.8.mlp.0.bias', 'blocks.8.mlp.3.weight', 'blocks.8.mlp.3.bias', 'blocks.9.ln_1.weight', 'blocks.9.ln_1.bias', 'blocks.9.self_attention.in_proj_weight', 'blocks.9.self_attention.in_proj_bias', 'blocks.9.self_attention.out_proj.weight', 'blocks.9.self_attention.out_proj.bias', 'blocks.9.ln_2.weight', 'blocks.9.ln_2.bias', 'blocks.9.mlp.0.weight', 'blocks.9.mlp.0.bias', 'blocks.9.mlp.3.weight', 'blocks.9.mlp.3.bias', 'blocks.10.ln_1.weight', 'blocks.10.ln_1.bias', 'blocks.10.self_attention.in_proj_weight', 'blocks.10.self_attention.in_proj_bias', 'blocks.10.self_attention.out_proj.weight', 'blocks.10.self_attention.out_proj.bias', 'blocks.10.ln_2.weight', 'blocks.10.ln_2.bias', 'blocks.10.mlp.0.weight', 'blocks.10.mlp.0.bias', 'blocks.10.mlp.3.weight', 'blocks.10.mlp.3.bias', 'blocks.11.ln_1.weight', 'blocks.11.ln_1.bias', 'blocks.11.self_attention.in_proj_weight', 'blocks.11.self_attention.in_proj_bias', 'blocks.11.self_attention.out_proj.weight', 'blocks.11.self_attention.out_proj.bias', 'blocks.11.ln_2.weight', 'blocks.11.ln_2.bias', 'blocks.11.mlp.0.weight', 'blocks.11.mlp.0.bias', 'blocks.11.mlp.3.weight', 'blocks.11.mlp.3.bias', 'norm.weight', 'norm.bias', 'head.weight', 'head.bias'])
+
+Checkpoint's state dict keys: odict_keys(['class_token', 'conv_proj.weight', 'conv_proj.bias', 'encoder.pos_embedding', 'encoder.layers.encoder_layer_0.ln_1.weight', 'encoder.layers.encoder_layer_0.ln_1.bias', 'encoder.layers.encoder_layer_0.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_0.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_0.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_0.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_0.ln_2.weight', 'encoder.layers.encoder_layer_0.ln_2.bias', 'encoder.layers.encoder_layer_0.mlp.0.weight', 'encoder.layers.encoder_layer_0.mlp.0.bias', 'encoder.layers.encoder_layer_0.mlp.3.weight', 'encoder.layers.encoder_layer_0.mlp.3.bias', 'encoder.layers.encoder_layer_1.ln_1.weight', 'encoder.layers.encoder_layer_1.ln_1.bias', 'encoder.layers.encoder_layer_1.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_1.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_1.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_1.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_1.ln_2.weight', 'encoder.layers.encoder_layer_1.ln_2.bias', 'encoder.layers.encoder_layer_1.mlp.0.weight', 'encoder.layers.encoder_layer_1.mlp.0.bias', 'encoder.layers.encoder_layer_1.mlp.3.weight', 'encoder.layers.encoder_layer_1.mlp.3.bias', 'encoder.layers.encoder_layer_2.ln_1.weight', 'encoder.layers.encoder_layer_2.ln_1.bias', 'encoder.layers.encoder_layer_2.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_2.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_2.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_2.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_2.ln_2.weight', 'encoder.layers.encoder_layer_2.ln_2.bias', 'encoder.layers.encoder_layer_2.mlp.0.weight', 'encoder.layers.encoder_layer_2.mlp.0.bias', 'encoder.layers.encoder_layer_2.mlp.3.weight', 'encoder.layers.encoder_layer_2.mlp.3.bias', 'encoder.layers.encoder_layer_3.ln_1.weight', 'encoder.layers.encoder_layer_3.ln_1.bias', 'encoder.layers.encoder_layer_3.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_3.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_3.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_3.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_3.ln_2.weight', 'encoder.layers.encoder_layer_3.ln_2.bias', 'encoder.layers.encoder_layer_3.mlp.0.weight', 'encoder.layers.encoder_layer_3.mlp.0.bias', 'encoder.layers.encoder_layer_3.mlp.3.weight', 'encoder.layers.encoder_layer_3.mlp.3.bias', 'encoder.layers.encoder_layer_4.ln_1.weight', 'encoder.layers.encoder_layer_4.ln_1.bias', 'encoder.layers.encoder_layer_4.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_4.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_4.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_4.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_4.ln_2.weight', 'encoder.layers.encoder_layer_4.ln_2.bias', 'encoder.layers.encoder_layer_4.mlp.0.weight', 'encoder.layers.encoder_layer_4.mlp.0.bias', 'encoder.layers.encoder_layer_4.mlp.3.weight', 'encoder.layers.encoder_layer_4.mlp.3.bias', 'encoder.layers.encoder_layer_5.ln_1.weight', 'encoder.layers.encoder_layer_5.ln_1.bias', 'encoder.layers.encoder_layer_5.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_5.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_5.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_5.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_5.ln_2.weight', 'encoder.layers.encoder_layer_5.ln_2.bias', 'encoder.layers.encoder_layer_5.mlp.0.weight', 'encoder.layers.encoder_layer_5.mlp.0.bias', 'encoder.layers.encoder_layer_5.mlp.3.weight', 'encoder.layers.encoder_layer_5.mlp.3.bias', 'encoder.layers.encoder_layer_6.ln_1.weight', 'encoder.layers.encoder_layer_6.ln_1.bias', 'encoder.layers.encoder_layer_6.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_6.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_6.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_6.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_6.ln_2.weight', 'encoder.layers.encoder_layer_6.ln_2.bias', 'encoder.layers.encoder_layer_6.mlp.0.weight', 'encoder.layers.encoder_layer_6.mlp.0.bias', 'encoder.layers.encoder_layer_6.mlp.3.weight', 'encoder.layers.encoder_layer_6.mlp.3.bias', 'encoder.layers.encoder_layer_7.ln_1.weight', 'encoder.layers.encoder_layer_7.ln_1.bias', 'encoder.layers.encoder_layer_7.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_7.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_7.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_7.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_7.ln_2.weight', 'encoder.layers.encoder_layer_7.ln_2.bias', 'encoder.layers.encoder_layer_7.mlp.0.weight', 'encoder.layers.encoder_layer_7.mlp.0.bias', 'encoder.layers.encoder_layer_7.mlp.3.weight', 'encoder.layers.encoder_layer_7.mlp.3.bias', 'encoder.layers.encoder_layer_8.ln_1.weight', 'encoder.layers.encoder_layer_8.ln_1.bias', 'encoder.layers.encoder_layer_8.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_8.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_8.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_8.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_8.ln_2.weight', 'encoder.layers.encoder_layer_8.ln_2.bias', 'encoder.layers.encoder_layer_8.mlp.0.weight', 'encoder.layers.encoder_layer_8.mlp.0.bias', 'encoder.layers.encoder_layer_8.mlp.3.weight', 'encoder.layers.encoder_layer_8.mlp.3.bias', 'encoder.layers.encoder_layer_9.ln_1.weight', 'encoder.layers.encoder_layer_9.ln_1.bias', 'encoder.layers.encoder_layer_9.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_9.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_9.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_9.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_9.ln_2.weight', 'encoder.layers.encoder_layer_9.ln_2.bias', 'encoder.layers.encoder_layer_9.mlp.0.weight', 'encoder.layers.encoder_layer_9.mlp.0.bias', 'encoder.layers.encoder_layer_9.mlp.3.weight', 'encoder.layers.encoder_layer_9.mlp.3.bias', 'encoder.layers.encoder_layer_10.ln_1.weight', 'encoder.layers.encoder_layer_10.ln_1.bias', 'encoder.layers.encoder_layer_10.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_10.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_10.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_10.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_10.ln_2.weight', 'encoder.layers.encoder_layer_10.ln_2.bias', 'encoder.layers.encoder_layer_10.mlp.0.weight', 'encoder.layers.encoder_layer_10.mlp.0.bias', 'encoder.layers.encoder_layer_10.mlp.3.weight', 'encoder.layers.encoder_layer_10.mlp.3.bias', 'encoder.layers.encoder_layer_11.ln_1.weight', 'encoder.layers.encoder_layer_11.ln_1.bias', 'encoder.layers.encoder_layer_11.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_11.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_11.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_11.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_11.ln_2.weight', 'encoder.layers.encoder_layer_11.ln_2.bias', 'encoder.layers.encoder_layer_11.mlp.0.weight', 'encoder.layers.encoder_layer_11.mlp.0.bias', 'encoder.layers.encoder_layer_11.mlp.3.weight', 'encoder.layers.encoder_layer_11.mlp.3.bias', 'encoder.ln.weight', 'encoder.ln.bias', 'heads.0.weight', 'heads.0.bias'])
+
+Direct loading had issues:
+Missing keys: ['cls_token', 'pos_embed', 'patch_embed.weight', 'patch_embed.bias', 'blocks.0.ln_1.weight', 'blocks.0.ln_1.bias', 'blocks.0.self_attention.in_proj_weight', 'blocks.0.self_attention.in_proj_bias', 'blocks.0.self_attention.out_proj.weight', 'blocks.0.self_attention.out_proj.bias', 'blocks.0.ln_2.weight', 'blocks.0.ln_2.bias', 'blocks.0.mlp.0.weight', 'blocks.0.mlp.0.bias', 'blocks.0.mlp.3.weight', 'blocks.0.mlp.3.bias', 'blocks.1.ln_1.weight', 'blocks.1.ln_1.bias', 'blocks.1.self_attention.in_proj_weight', 'blocks.1.self_attention.in_proj_bias', 'blocks.1.self_attention.out_proj.weight', 'blocks.1.self_attention.out_proj.bias', 'blocks.1.ln_2.weight', 'blocks.1.ln_2.bias', 'blocks.1.mlp.0.weight', 'blocks.1.mlp.0.bias', 'blocks.1.mlp.3.weight', 'blocks.1.mlp.3.bias', 'blocks.2.ln_1.weight', 'blocks.2.ln_1.bias', 'blocks.2.self_attention.in_proj_weight', 'blocks.2.self_attention.in_proj_bias', 'blocks.2.self_attention.out_proj.weight', 'blocks.2.self_attention.out_proj.bias', 'blocks.2.ln_2.weight', 'blocks.2.ln_2.bias', 'blocks.2.mlp.0.weight', 'blocks.2.mlp.0.bias', 'blocks.2.mlp.3.weight', 'blocks.2.mlp.3.bias', 'blocks.3.ln_1.weight', 'blocks.3.ln_1.bias', 'blocks.3.self_attention.in_proj_weight', 'blocks.3.self_attention.in_proj_bias', 'blocks.3.self_attention.out_proj.weight', 'blocks.3.self_attention.out_proj.bias', 'blocks.3.ln_2.weight', 'blocks.3.ln_2.bias', 'blocks.3.mlp.0.weight', 'blocks.3.mlp.0.bias', 'blocks.3.mlp.3.weight', 'blocks.3.mlp.3.bias', 'blocks.4.ln_1.weight', 'blocks.4.ln_1.bias', 'blocks.4.self_attention.in_proj_weight', 'blocks.4.self_attention.in_proj_bias', 'blocks.4.self_attention.out_proj.weight', 'blocks.4.self_attention.out_proj.bias', 'blocks.4.ln_2.weight', 'blocks.4.ln_2.bias', 'blocks.4.mlp.0.weight', 'blocks.4.mlp.0.bias', 'blocks.4.mlp.3.weight', 'blocks.4.mlp.3.bias', 'blocks.5.ln_1.weight', 'blocks.5.ln_1.bias', 'blocks.5.self_attention.in_proj_weight', 'blocks.5.self_attention.in_proj_bias', 'blocks.5.self_attention.out_proj.weight', 'blocks.5.self_attention.out_proj.bias', 'blocks.5.ln_2.weight', 'blocks.5.ln_2.bias', 'blocks.5.mlp.0.weight', 'blocks.5.mlp.0.bias', 'blocks.5.mlp.3.weight', 'blocks.5.mlp.3.bias', 'blocks.6.ln_1.weight', 'blocks.6.ln_1.bias', 'blocks.6.self_attention.in_proj_weight', 'blocks.6.self_attention.in_proj_bias', 'blocks.6.self_attention.out_proj.weight', 'blocks.6.self_attention.out_proj.bias', 'blocks.6.ln_2.weight', 'blocks.6.ln_2.bias', 'blocks.6.mlp.0.weight', 'blocks.6.mlp.0.bias', 'blocks.6.mlp.3.weight', 'blocks.6.mlp.3.bias', 'blocks.7.ln_1.weight', 'blocks.7.ln_1.bias', 'blocks.7.self_attention.in_proj_weight', 'blocks.7.self_attention.in_proj_bias', 'blocks.7.self_attention.out_proj.weight', 'blocks.7.self_attention.out_proj.bias', 'blocks.7.ln_2.weight', 'blocks.7.ln_2.bias', 'blocks.7.mlp.0.weight', 'blocks.7.mlp.0.bias', 'blocks.7.mlp.3.weight', 'blocks.7.mlp.3.bias', 'blocks.8.ln_1.weight', 'blocks.8.ln_1.bias', 'blocks.8.self_attention.in_proj_weight', 'blocks.8.self_attention.in_proj_bias', 'blocks.8.self_attention.out_proj.weight', 'blocks.8.self_attention.out_proj.bias', 'blocks.8.ln_2.weight', 'blocks.8.ln_2.bias', 'blocks.8.mlp.0.weight', 'blocks.8.mlp.0.bias', 'blocks.8.mlp.3.weight', 'blocks.8.mlp.3.bias', 'blocks.9.ln_1.weight', 'blocks.9.ln_1.bias', 'blocks.9.self_attention.in_proj_weight', 'blocks.9.self_attention.in_proj_bias', 'blocks.9.self_attention.out_proj.weight', 'blocks.9.self_attention.out_proj.bias', 'blocks.9.ln_2.weight', 'blocks.9.ln_2.bias', 'blocks.9.mlp.0.weight', 'blocks.9.mlp.0.bias', 'blocks.9.mlp.3.weight', 'blocks.9.mlp.3.bias', 'blocks.10.ln_1.weight', 'blocks.10.ln_1.bias', 'blocks.10.self_attention.in_proj_weight', 'blocks.10.self_attention.in_proj_bias', 'blocks.10.self_attention.out_proj.weight', 'blocks.10.self_attention.out_proj.bias', 'blocks.10.ln_2.weight', 'blocks.10.ln_2.bias', 'blocks.10.mlp.0.weight', 'blocks.10.mlp.0.bias', 'blocks.10.mlp.3.weight', 'blocks.10.mlp.3.bias', 'blocks.11.ln_1.weight', 'blocks.11.ln_1.bias', 'blocks.11.self_attention.in_proj_weight', 'blocks.11.self_attention.in_proj_bias', 'blocks.11.self_attention.out_proj.weight', 'blocks.11.self_attention.out_proj.bias', 'blocks.11.ln_2.weight', 'blocks.11.ln_2.bias', 'blocks.11.mlp.0.weight', 'blocks.11.mlp.0.bias', 'blocks.11.mlp.3.weight', 'blocks.11.mlp.3.bias', 'norm.weight', 'norm.bias', 'head.weight', 'head.bias']
+Unexpected keys: ['class_token', 'conv_proj.weight', 'conv_proj.bias', 'encoder.pos_embedding', 'encoder.layers.encoder_layer_0.ln_1.weight', 'encoder.layers.encoder_layer_0.ln_1.bias', 'encoder.layers.encoder_layer_0.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_0.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_0.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_0.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_0.ln_2.weight', 'encoder.layers.encoder_layer_0.ln_2.bias', 'encoder.layers.encoder_layer_0.mlp.0.weight', 'encoder.layers.encoder_layer_0.mlp.0.bias', 'encoder.layers.encoder_layer_0.mlp.3.weight', 'encoder.layers.encoder_layer_0.mlp.3.bias', 'encoder.layers.encoder_layer_1.ln_1.weight', 'encoder.layers.encoder_layer_1.ln_1.bias', 'encoder.layers.encoder_layer_1.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_1.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_1.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_1.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_1.ln_2.weight', 'encoder.layers.encoder_layer_1.ln_2.bias', 'encoder.layers.encoder_layer_1.mlp.0.weight', 'encoder.layers.encoder_layer_1.mlp.0.bias', 'encoder.layers.encoder_layer_1.mlp.3.weight', 'encoder.layers.encoder_layer_1.mlp.3.bias', 'encoder.layers.encoder_layer_2.ln_1.weight', 'encoder.layers.encoder_layer_2.ln_1.bias', 'encoder.layers.encoder_layer_2.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_2.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_2.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_2.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_2.ln_2.weight', 'encoder.layers.encoder_layer_2.ln_2.bias', 'encoder.layers.encoder_layer_2.mlp.0.weight', 'encoder.layers.encoder_layer_2.mlp.0.bias', 'encoder.layers.encoder_layer_2.mlp.3.weight', 'encoder.layers.encoder_layer_2.mlp.3.bias', 'encoder.layers.encoder_layer_3.ln_1.weight', 'encoder.layers.encoder_layer_3.ln_1.bias', 'encoder.layers.encoder_layer_3.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_3.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_3.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_3.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_3.ln_2.weight', 'encoder.layers.encoder_layer_3.ln_2.bias', 'encoder.layers.encoder_layer_3.mlp.0.weight', 'encoder.layers.encoder_layer_3.mlp.0.bias', 'encoder.layers.encoder_layer_3.mlp.3.weight', 'encoder.layers.encoder_layer_3.mlp.3.bias', 'encoder.layers.encoder_layer_4.ln_1.weight', 'encoder.layers.encoder_layer_4.ln_1.bias', 'encoder.layers.encoder_layer_4.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_4.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_4.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_4.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_4.ln_2.weight', 'encoder.layers.encoder_layer_4.ln_2.bias', 'encoder.layers.encoder_layer_4.mlp.0.weight', 'encoder.layers.encoder_layer_4.mlp.0.bias', 'encoder.layers.encoder_layer_4.mlp.3.weight', 'encoder.layers.encoder_layer_4.mlp.3.bias', 'encoder.layers.encoder_layer_5.ln_1.weight', 'encoder.layers.encoder_layer_5.ln_1.bias', 'encoder.layers.encoder_layer_5.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_5.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_5.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_5.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_5.ln_2.weight', 'encoder.layers.encoder_layer_5.ln_2.bias', 'encoder.layers.encoder_layer_5.mlp.0.weight', 'encoder.layers.encoder_layer_5.mlp.0.bias', 'encoder.layers.encoder_layer_5.mlp.3.weight', 'encoder.layers.encoder_layer_5.mlp.3.bias', 'encoder.layers.encoder_layer_6.ln_1.weight', 'encoder.layers.encoder_layer_6.ln_1.bias', 'encoder.layers.encoder_layer_6.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_6.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_6.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_6.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_6.ln_2.weight', 'encoder.layers.encoder_layer_6.ln_2.bias', 'encoder.layers.encoder_layer_6.mlp.0.weight', 'encoder.layers.encoder_layer_6.mlp.0.bias', 'encoder.layers.encoder_layer_6.mlp.3.weight', 'encoder.layers.encoder_layer_6.mlp.3.bias', 'encoder.layers.encoder_layer_7.ln_1.weight', 'encoder.layers.encoder_layer_7.ln_1.bias', 'encoder.layers.encoder_layer_7.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_7.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_7.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_7.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_7.ln_2.weight', 'encoder.layers.encoder_layer_7.ln_2.bias', 'encoder.layers.encoder_layer_7.mlp.0.weight', 'encoder.layers.encoder_layer_7.mlp.0.bias', 'encoder.layers.encoder_layer_7.mlp.3.weight', 'encoder.layers.encoder_layer_7.mlp.3.bias', 'encoder.layers.encoder_layer_8.ln_1.weight', 'encoder.layers.encoder_layer_8.ln_1.bias', 'encoder.layers.encoder_layer_8.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_8.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_8.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_8.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_8.ln_2.weight', 'encoder.layers.encoder_layer_8.ln_2.bias', 'encoder.layers.encoder_layer_8.mlp.0.weight', 'encoder.layers.encoder_layer_8.mlp.0.bias', 'encoder.layers.encoder_layer_8.mlp.3.weight', 'encoder.layers.encoder_layer_8.mlp.3.bias', 'encoder.layers.encoder_layer_9.ln_1.weight', 'encoder.layers.encoder_layer_9.ln_1.bias', 'encoder.layers.encoder_layer_9.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_9.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_9.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_9.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_9.ln_2.weight', 'encoder.layers.encoder_layer_9.ln_2.bias', 'encoder.layers.encoder_layer_9.mlp.0.weight', 'encoder.layers.encoder_layer_9.mlp.0.bias', 'encoder.layers.encoder_layer_9.mlp.3.weight', 'encoder.layers.encoder_layer_9.mlp.3.bias', 'encoder.layers.encoder_layer_10.ln_1.weight', 'encoder.layers.encoder_layer_10.ln_1.bias', 'encoder.layers.encoder_layer_10.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_10.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_10.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_10.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_10.ln_2.weight', 'encoder.layers.encoder_layer_10.ln_2.bias', 'encoder.layers.encoder_layer_10.mlp.0.weight', 'encoder.layers.encoder_layer_10.mlp.0.bias', 'encoder.layers.encoder_layer_10.mlp.3.weight', 'encoder.layers.encoder_layer_10.mlp.3.bias', 'encoder.layers.encoder_layer_11.ln_1.weight', 'encoder.layers.encoder_layer_11.ln_1.bias', 'encoder.layers.encoder_layer_11.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_11.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_11.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_11.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_11.ln_2.weight', 'encoder.layers.encoder_layer_11.ln_2.bias', 'encoder.layers.encoder_layer_11.mlp.0.weight', 'encoder.layers.encoder_layer_11.mlp.0.bias', 'encoder.layers.encoder_layer_11.mlp.3.weight', 'encoder.layers.encoder_layer_11.mlp.3.bias', 'encoder.ln.weight', 'encoder.ln.bias', 'heads.0.weight', 'heads.0.bias']
+
+Attempting to remap keys...
+
+After remapping:
+Missing keys: ['cls_token', 'pos_embed', 'patch_embed.weight', 'patch_embed.bias', 'blocks.0.ln_1.weight', 'blocks.0.ln_1.bias', 'blocks.0.self_attention.in_proj_weight', 'blocks.0.self_attention.in_proj_bias', 'blocks.0.self_attention.out_proj.weight', 'blocks.0.self_attention.out_proj.bias', 'blocks.0.ln_2.weight', 'blocks.0.ln_2.bias', 'blocks.0.mlp.0.weight', 'blocks.0.mlp.0.bias', 'blocks.0.mlp.3.weight', 'blocks.0.mlp.3.bias', 'blocks.1.ln_1.weight', 'blocks.1.ln_1.bias', 'blocks.1.self_attention.in_proj_weight', 'blocks.1.self_attention.in_proj_bias', 'blocks.1.self_attention.out_proj.weight', 'blocks.1.self_attention.out_proj.bias', 'blocks.1.ln_2.weight', 'blocks.1.ln_2.bias', 'blocks.1.mlp.0.weight', 'blocks.1.mlp.0.bias', 'blocks.1.mlp.3.weight', 'blocks.1.mlp.3.bias', 'blocks.2.ln_1.weight', 'blocks.2.ln_1.bias', 'blocks.2.self_attention.in_proj_weight', 'blocks.2.self_attention.in_proj_bias', 'blocks.2.self_attention.out_proj.weight', 'blocks.2.self_attention.out_proj.bias', 'blocks.2.ln_2.weight', 'blocks.2.ln_2.bias', 'blocks.2.mlp.0.weight', 'blocks.2.mlp.0.bias', 'blocks.2.mlp.3.weight', 'blocks.2.mlp.3.bias', 'blocks.3.ln_1.weight', 'blocks.3.ln_1.bias', 'blocks.3.self_attention.in_proj_weight', 'blocks.3.self_attention.in_proj_bias', 'blocks.3.self_attention.out_proj.weight', 'blocks.3.self_attention.out_proj.bias', 'blocks.3.ln_2.weight', 'blocks.3.ln_2.bias', 'blocks.3.mlp.0.weight', 'blocks.3.mlp.0.bias', 'blocks.3.mlp.3.weight', 'blocks.3.mlp.3.bias', 'blocks.4.ln_1.weight', 'blocks.4.ln_1.bias', 'blocks.4.self_attention.in_proj_weight', 'blocks.4.self_attention.in_proj_bias', 'blocks.4.self_attention.out_proj.weight', 'blocks.4.self_attention.out_proj.bias', 'blocks.4.ln_2.weight', 'blocks.4.ln_2.bias', 'blocks.4.mlp.0.weight', 'blocks.4.mlp.0.bias', 'blocks.4.mlp.3.weight', 'blocks.4.mlp.3.bias', 'blocks.5.ln_1.weight', 'blocks.5.ln_1.bias', 'blocks.5.self_attention.in_proj_weight', 'blocks.5.self_attention.in_proj_bias', 'blocks.5.self_attention.out_proj.weight', 'blocks.5.self_attention.out_proj.bias', 'blocks.5.ln_2.weight', 'blocks.5.ln_2.bias', 'blocks.5.mlp.0.weight', 'blocks.5.mlp.0.bias', 'blocks.5.mlp.3.weight', 'blocks.5.mlp.3.bias', 'blocks.6.ln_1.weight', 'blocks.6.ln_1.bias', 'blocks.6.self_attention.in_proj_weight', 'blocks.6.self_attention.in_proj_bias', 'blocks.6.self_attention.out_proj.weight', 'blocks.6.self_attention.out_proj.bias', 'blocks.6.ln_2.weight', 'blocks.6.ln_2.bias', 'blocks.6.mlp.0.weight', 'blocks.6.mlp.0.bias', 'blocks.6.mlp.3.weight', 'blocks.6.mlp.3.bias', 'blocks.7.ln_1.weight', 'blocks.7.ln_1.bias', 'blocks.7.self_attention.in_proj_weight', 'blocks.7.self_attention.in_proj_bias', 'blocks.7.self_attention.out_proj.weight', 'blocks.7.self_attention.out_proj.bias', 'blocks.7.ln_2.weight', 'blocks.7.ln_2.bias', 'blocks.7.mlp.0.weight', 'blocks.7.mlp.0.bias', 'blocks.7.mlp.3.weight', 'blocks.7.mlp.3.bias', 'blocks.8.ln_1.weight', 'blocks.8.ln_1.bias', 'blocks.8.self_attention.in_proj_weight', 'blocks.8.self_attention.in_proj_bias', 'blocks.8.self_attention.out_proj.weight', 'blocks.8.self_attention.out_proj.bias', 'blocks.8.ln_2.weight', 'blocks.8.ln_2.bias', 'blocks.8.mlp.0.weight', 'blocks.8.mlp.0.bias', 'blocks.8.mlp.3.weight', 'blocks.8.mlp.3.bias', 'blocks.9.ln_1.weight', 'blocks.9.ln_1.bias', 'blocks.9.self_attention.in_proj_weight', 'blocks.9.self_attention.in_proj_bias', 'blocks.9.self_attention.out_proj.weight', 'blocks.9.self_attention.out_proj.bias', 'blocks.9.ln_2.weight', 'blocks.9.ln_2.bias', 'blocks.9.mlp.0.weight', 'blocks.9.mlp.0.bias', 'blocks.9.mlp.3.weight', 'blocks.9.mlp.3.bias', 'blocks.10.ln_1.weight', 'blocks.10.ln_1.bias', 'blocks.10.self_attention.in_proj_weight', 'blocks.10.self_attention.in_proj_bias', 'blocks.10.self_attention.out_proj.weight', 'blocks.10.self_attention.out_proj.bias', 'blocks.10.ln_2.weight', 'blocks.10.ln_2.bias', 'blocks.10.mlp.0.weight', 'blocks.10.mlp.0.bias', 'blocks.10.mlp.3.weight', 'blocks.10.mlp.3.bias', 'blocks.11.ln_1.weight', 'blocks.11.ln_1.bias', 'blocks.11.self_attention.in_proj_weight', 'blocks.11.self_attention.in_proj_bias', 'blocks.11.self_attention.out_proj.weight', 'blocks.11.self_attention.out_proj.bias', 'blocks.11.ln_2.weight', 'blocks.11.ln_2.bias', 'blocks.11.mlp.0.weight', 'blocks.11.mlp.0.bias', 'blocks.11.mlp.3.weight', 'blocks.11.mlp.3.bias', 'norm.weight', 'norm.bias', 'head.weight', 'head.bias']
+Unexpected keys: ['class_token', 'conv_proj.weight', 'conv_proj.bias', 'encoder.pos_embedding', 'encoder.layers.encoder_layer_0.ln_1.weight', 'encoder.layers.encoder_layer_0.ln_1.bias', 'encoder.layers.encoder_layer_0.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_0.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_0.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_0.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_0.ln_2.weight', 'encoder.layers.encoder_layer_0.ln_2.bias', 'encoder.layers.encoder_layer_0.mlp.0.weight', 'encoder.layers.encoder_layer_0.mlp.0.bias', 'encoder.layers.encoder_layer_0.mlp.3.weight', 'encoder.layers.encoder_layer_0.mlp.3.bias', 'encoder.layers.encoder_layer_1.ln_1.weight', 'encoder.layers.encoder_layer_1.ln_1.bias', 'encoder.layers.encoder_layer_1.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_1.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_1.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_1.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_1.ln_2.weight', 'encoder.layers.encoder_layer_1.ln_2.bias', 'encoder.layers.encoder_layer_1.mlp.0.weight', 'encoder.layers.encoder_layer_1.mlp.0.bias', 'encoder.layers.encoder_layer_1.mlp.3.weight', 'encoder.layers.encoder_layer_1.mlp.3.bias', 'encoder.layers.encoder_layer_2.ln_1.weight', 'encoder.layers.encoder_layer_2.ln_1.bias', 'encoder.layers.encoder_layer_2.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_2.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_2.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_2.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_2.ln_2.weight', 'encoder.layers.encoder_layer_2.ln_2.bias', 'encoder.layers.encoder_layer_2.mlp.0.weight', 'encoder.layers.encoder_layer_2.mlp.0.bias', 'encoder.layers.encoder_layer_2.mlp.3.weight', 'encoder.layers.encoder_layer_2.mlp.3.bias', 'encoder.layers.encoder_layer_3.ln_1.weight', 'encoder.layers.encoder_layer_3.ln_1.bias', 'encoder.layers.encoder_layer_3.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_3.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_3.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_3.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_3.ln_2.weight', 'encoder.layers.encoder_layer_3.ln_2.bias', 'encoder.layers.encoder_layer_3.mlp.0.weight', 'encoder.layers.encoder_layer_3.mlp.0.bias', 'encoder.layers.encoder_layer_3.mlp.3.weight', 'encoder.layers.encoder_layer_3.mlp.3.bias', 'encoder.layers.encoder_layer_4.ln_1.weight', 'encoder.layers.encoder_layer_4.ln_1.bias', 'encoder.layers.encoder_layer_4.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_4.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_4.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_4.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_4.ln_2.weight', 'encoder.layers.encoder_layer_4.ln_2.bias', 'encoder.layers.encoder_layer_4.mlp.0.weight', 'encoder.layers.encoder_layer_4.mlp.0.bias', 'encoder.layers.encoder_layer_4.mlp.3.weight', 'encoder.layers.encoder_layer_4.mlp.3.bias', 'encoder.layers.encoder_layer_5.ln_1.weight', 'encoder.layers.encoder_layer_5.ln_1.bias', 'encoder.layers.encoder_layer_5.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_5.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_5.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_5.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_5.ln_2.weight', 'encoder.layers.encoder_layer_5.ln_2.bias', 'encoder.layers.encoder_layer_5.mlp.0.weight', 'encoder.layers.encoder_layer_5.mlp.0.bias', 'encoder.layers.encoder_layer_5.mlp.3.weight', 'encoder.layers.encoder_layer_5.mlp.3.bias', 'encoder.layers.encoder_layer_6.ln_1.weight', 'encoder.layers.encoder_layer_6.ln_1.bias', 'encoder.layers.encoder_layer_6.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_6.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_6.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_6.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_6.ln_2.weight', 'encoder.layers.encoder_layer_6.ln_2.bias', 'encoder.layers.encoder_layer_6.mlp.0.weight', 'encoder.layers.encoder_layer_6.mlp.0.bias', 'encoder.layers.encoder_layer_6.mlp.3.weight', 'encoder.layers.encoder_layer_6.mlp.3.bias', 'encoder.layers.encoder_layer_7.ln_1.weight', 'encoder.layers.encoder_layer_7.ln_1.bias', 'encoder.layers.encoder_layer_7.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_7.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_7.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_7.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_7.ln_2.weight', 'encoder.layers.encoder_layer_7.ln_2.bias', 'encoder.layers.encoder_layer_7.mlp.0.weight', 'encoder.layers.encoder_layer_7.mlp.0.bias', 'encoder.layers.encoder_layer_7.mlp.3.weight', 'encoder.layers.encoder_layer_7.mlp.3.bias', 'encoder.layers.encoder_layer_8.ln_1.weight', 'encoder.layers.encoder_layer_8.ln_1.bias', 'encoder.layers.encoder_layer_8.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_8.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_8.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_8.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_8.ln_2.weight', 'encoder.layers.encoder_layer_8.ln_2.bias', 'encoder.layers.encoder_layer_8.mlp.0.weight', 'encoder.layers.encoder_layer_8.mlp.0.bias', 'encoder.layers.encoder_layer_8.mlp.3.weight', 'encoder.layers.encoder_layer_8.mlp.3.bias', 'encoder.layers.encoder_layer_9.ln_1.weight', 'encoder.layers.encoder_layer_9.ln_1.bias', 'encoder.layers.encoder_layer_9.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_9.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_9.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_9.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_9.ln_2.weight', 'encoder.layers.encoder_layer_9.ln_2.bias', 'encoder.layers.encoder_layer_9.mlp.0.weight', 'encoder.layers.encoder_layer_9.mlp.0.bias', 'encoder.layers.encoder_layer_9.mlp.3.weight', 'encoder.layers.encoder_layer_9.mlp.3.bias', 'encoder.layers.encoder_layer_10.ln_1.weight', 'encoder.layers.encoder_layer_10.ln_1.bias', 'encoder.layers.encoder_layer_10.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_10.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_10.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_10.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_10.ln_2.weight', 'encoder.layers.encoder_layer_10.ln_2.bias', 'encoder.layers.encoder_layer_10.mlp.0.weight', 'encoder.layers.encoder_layer_10.mlp.0.bias', 'encoder.layers.encoder_layer_10.mlp.3.weight', 'encoder.layers.encoder_layer_10.mlp.3.bias', 'encoder.layers.encoder_layer_11.ln_1.weight', 'encoder.layers.encoder_layer_11.ln_1.bias', 'encoder.layers.encoder_layer_11.self_attention.in_proj_weight', 'encoder.layers.encoder_layer_11.self_attention.in_proj_bias', 'encoder.layers.encoder_layer_11.self_attention.out_proj.weight', 'encoder.layers.encoder_layer_11.self_attention.out_proj.bias', 'encoder.layers.encoder_layer_11.ln_2.weight', 'encoder.layers.encoder_layer_11.ln_2.bias', 'encoder.layers.encoder_layer_11.mlp.0.weight', 'encoder.layers.encoder_layer_11.mlp.0.bias', 'encoder.layers.encoder_layer_11.mlp.3.weight', 'encoder.layers.encoder_layer_11.mlp.3.bias', 'encoder.ln.weight', 'encoder.ln.bias', 'heads.0.weight', 'heads.0.bias']
+Warning: Some keys are still missing after remapping
+
+Training Configuration:
+Number of epochs: 50
+Learning rate: 0.0001
+Weight decay: 0.0001
+Batch size: 8
+Epoch 1/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:19<00:00,  8.46it/s, loss=4.1, acc=6.51, lr=0.0001]
+
+Epoch 1/50:
+Train Loss: 4.0996 | Train Acc: 6.51%
+Val Loss: 3.7609 | Val Acc: 8.40%
+Saved new best model with validation accuracy: 8.40%
+Epoch 2/50: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:25<00:00,  8.23it/s, loss=3.69, acc=12.1, lr=9.99e-5]
+
+Epoch 2/50:
+Train Loss: 3.6868 | Train Acc: 12.08%
+Val Loss: 3.5482 | Val Acc: 14.00%
+Saved new best model with validation accuracy: 14.00%
+Epoch 3/50: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:25<00:00,  8.20it/s, loss=3.43, acc=16.9, lr=9.96e-5]
+
+Epoch 3/50:
+Train Loss: 3.4251 | Train Acc: 16.94%
+Val Loss: 3.2888 | Val Acc: 15.80%
+Saved new best model with validation accuracy: 15.80%
+Epoch 4/50: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:24<00:00,  8.24it/s, loss=3.22, acc=21.2, lr=9.91e-5]
+
+Epoch 4/50:
+Train Loss: 3.2242 | Train Acc: 21.18%
+Val Loss: 3.0294 | Val Acc: 22.00%
+Saved new best model with validation accuracy: 22.00%
+Epoch 5/50: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:24<00:00,  8.26it/s, loss=3.02, acc=24.3, lr=9.84e-5]
+
+Epoch 5/50:
+Train Loss: 3.0212 | Train Acc: 24.32%
+Val Loss: 2.9767 | Val Acc: 25.40%
+Saved new best model with validation accuracy: 25.40%
+Epoch 6/50: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:24<00:00,  8.23it/s, loss=2.87, acc=27.7, lr=9.76e-5]
+
+Epoch 6/50:
+Train Loss: 2.8685 | Train Acc: 27.66%
+Val Loss: 2.7558 | Val Acc: 30.00%
+Saved new best model with validation accuracy: 30.00%
+Epoch 7/50: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:24<00:00,  8.23it/s, loss=2.74, acc=30.1, lr=9.65e-5]
+
+Epoch 7/50:
+Train Loss: 2.7368 | Train Acc: 30.09%
+Val Loss: 2.6053 | Val Acc: 33.60%
+Saved new best model with validation accuracy: 33.60%
+Epoch 8/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:24<00:00,  8.24it/s, loss=2.63, acc=33, lr=9.52e-5]
+
+Epoch 8/50:
+Train Loss: 2.6258 | Train Acc: 32.96%
+Val Loss: 2.5301 | Val Acc: 35.00%
+Saved new best model with validation accuracy: 35.00%
+Epoch 9/50: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:24<00:00,  8.25it/s, loss=2.53, acc=34.9, lr=9.38e-5]
+
+Epoch 9/50:
+Train Loss: 2.5317 | Train Acc: 34.89%
+Val Loss: 2.5029 | Val Acc: 34.00%
+Epoch 10/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:26<00:00,  8.18it/s, loss=2.46, acc=35.9, lr=9.22e-5]
+
+Epoch 10/50:
+Train Loss: 2.4605 | Train Acc: 35.90%
+Val Loss: 2.4539 | Val Acc: 35.40%
+Saved new best model with validation accuracy: 35.40%
+Epoch 11/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:22<00:00,  8.32it/s, loss=2.38, acc=37.8, lr=9.05e-5]
+
+Epoch 11/50:
+Train Loss: 2.3844 | Train Acc: 37.83%
+Val Loss: 2.4489 | Val Acc: 37.20%
+Saved new best model with validation accuracy: 37.20%
+Epoch 12/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:23<00:00,  8.28it/s, loss=2.31, acc=39.8, lr=8.85e-5]
+
+Epoch 12/50:
+Train Loss: 2.3094 | Train Acc: 39.79%
+Val Loss: 2.3065 | Val Acc: 40.20%
+Saved new best model with validation accuracy: 40.20%
+Epoch 13/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:23<00:00,  8.27it/s, loss=2.25, acc=41.3, lr=8.64e-5]
+
+Epoch 13/50:
+Train Loss: 2.2475 | Train Acc: 41.25%
+Val Loss: 2.3066 | Val Acc: 37.60%
+Epoch 14/50: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:24<00:00,  8.26it/s, loss=2.2, acc=41.6, lr=8.42e-5]
+
+Epoch 14/50:
+Train Loss: 2.2011 | Train Acc: 41.57%
+Val Loss: 2.2027 | Val Acc: 42.00%
+Saved new best model with validation accuracy: 42.00%
+Epoch 15/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:23<00:00,  8.29it/s, loss=2.15, acc=43.6, lr=8.19e-5]
+
+Epoch 15/50:
+Train Loss: 2.1495 | Train Acc: 43.59%
+Val Loss: 2.1556 | Val Acc: 41.00%
+Epoch 16/50: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:25<00:00,  8.21it/s, loss=2.1, acc=44.4, lr=7.94e-5]
+
+Epoch 16/50:
+Train Loss: 2.0993 | Train Acc: 44.44%
+Val Loss: 2.1769 | Val Acc: 45.00%
+Saved new best model with validation accuracy: 45.00%
+Epoch 17/50: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:24<00:00,  8.24it/s, loss=2.05, acc=45, lr=7.68e-5]
+
+Epoch 17/50:
+Train Loss: 2.0542 | Train Acc: 44.98%
+Val Loss: 2.1167 | Val Acc: 46.20%
+Saved new best model with validation accuracy: 46.20%
+Epoch 18/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:23<00:00,  8.28it/s, loss=2.02, acc=46.3, lr=7.41e-5]
+
+Epoch 18/50:
+Train Loss: 2.0175 | Train Acc: 46.27%
+Val Loss: 2.1213 | Val Acc: 40.60%
+Epoch 19/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:24<00:00,  8.25it/s, loss=1.96, acc=47.6, lr=7.13e-5]
+
+Epoch 19/50:
+Train Loss: 1.9614 | Train Acc: 47.61%
+Val Loss: 2.0762 | Val Acc: 43.00%
+Epoch 20/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:25<00:00,  8.22it/s, loss=1.94, acc=48.2, lr=6.84e-5]
+
+Epoch 20/50:
+Train Loss: 1.9439 | Train Acc: 48.24%
+Val Loss: 2.0379 | Val Acc: 47.20%
+Saved new best model with validation accuracy: 47.20%
+Epoch 21/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:23<00:00,  8.30it/s, loss=1.88, acc=49.8, lr=6.55e-5]
+
+Epoch 21/50:
+Train Loss: 1.8831 | Train Acc: 49.76%
+Val Loss: 2.0828 | Val Acc: 46.60%
+Epoch 22/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:25<00:00,  8.21it/s, loss=1.85, acc=49.9, lr=6.24e-5]
+
+Epoch 22/50:
+Train Loss: 1.8520 | Train Acc: 49.91%
+Val Loss: 1.9856 | Val Acc: 46.20%
+Epoch 23/50: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:24<00:00,  8.25it/s, loss=1.82, acc=51, lr=5.94e-5]
+
+Epoch 23/50:
+Train Loss: 1.8198 | Train Acc: 51.02%
+Val Loss: 2.0075 | Val Acc: 46.60%
+Epoch 24/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:23<00:00,  8.29it/s, loss=1.78, acc=52.2, lr=5.63e-5]
+
+Epoch 24/50:
+Train Loss: 1.7793 | Train Acc: 52.19%
+Val Loss: 1.8900 | Val Acc: 49.20%
+Saved new best model with validation accuracy: 49.20%
+Epoch 25/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:23<00:00,  8.31it/s, loss=1.74, acc=52.4, lr=5.31e-5]
+
+Epoch 25/50:
+Train Loss: 1.7419 | Train Acc: 52.38%
+Val Loss: 1.9641 | Val Acc: 48.00%
+Epoch 26/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:25<00:00,  8.23it/s, loss=1.71, acc=53.7, lr=5e-5]
+
+Epoch 26/50:
+Train Loss: 1.7090 | Train Acc: 53.69%
+Val Loss: 1.9206 | Val Acc: 48.80%
+Epoch 27/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:25<00:00,  8.23it/s, loss=1.67, acc=54.8, lr=4.69e-5]
+
+Epoch 27/50:
+Train Loss: 1.6749 | Train Acc: 54.79%
+Val Loss: 1.8476 | Val Acc: 50.00%
+Saved new best model with validation accuracy: 50.00%
+Epoch 28/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:22<00:00,  8.35it/s, loss=1.64, acc=55.4, lr=4.37e-5]
+
+Epoch 28/50:
+Train Loss: 1.6423 | Train Acc: 55.42%
+Val Loss: 1.8952 | Val Acc: 50.00%
+Epoch 29/50: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:24<00:00,  8.24it/s, loss=1.61, acc=56, lr=4.06e-5]
+
+Epoch 29/50:
+Train Loss: 1.6065 | Train Acc: 56.03%
+Val Loss: 1.9329 | Val Acc: 49.20%
+Epoch 30/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:25<00:00,  8.19it/s, loss=1.57, acc=56.9, lr=3.76e-5]
+
+Epoch 30/50:
+Train Loss: 1.5735 | Train Acc: 56.91%
+Val Loss: 1.9332 | Val Acc: 48.60%
+Epoch 31/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:24<00:00,  8.23it/s, loss=1.54, acc=57.8, lr=3.45e-5]
+
+Epoch 31/50:
+Train Loss: 1.5358 | Train Acc: 57.80%
+Val Loss: 1.8567 | Val Acc: 50.20%
+Saved new best model with validation accuracy: 50.20%
+Epoch 32/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:24<00:00,  8.25it/s, loss=1.51, acc=58.7, lr=3.16e-5]
+
+Epoch 32/50:
+Train Loss: 1.5115 | Train Acc: 58.74%
+Val Loss: 1.8055 | Val Acc: 52.40%
+Saved new best model with validation accuracy: 52.40%
+Epoch 33/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:23<00:00,  8.28it/s, loss=1.49, acc=59.1, lr=2.87e-5]
+
+Epoch 33/50:
+Train Loss: 1.4872 | Train Acc: 59.09%
+Val Loss: 1.8071 | Val Acc: 51.20%
+Epoch 34/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:25<00:00,  8.21it/s, loss=1.46, acc=59.7, lr=2.59e-5]
+
+Epoch 34/50:
+Train Loss: 1.4636 | Train Acc: 59.70%
+Val Loss: 1.8314 | Val Acc: 51.80%
+Epoch 35/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:24<00:00,  8.26it/s, loss=1.42, acc=61.6, lr=2.32e-5]
+
+Epoch 35/50:
+Train Loss: 1.4184 | Train Acc: 61.59%
+Val Loss: 1.7843 | Val Acc: 54.20%
+Saved new best model with validation accuracy: 54.20%
+Epoch 36/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:24<00:00,  8.25it/s, loss=1.4, acc=62, lr=2.06e-5]
+
+Epoch 36/50:
+Train Loss: 1.3958 | Train Acc: 61.98%
+Val Loss: 1.7772 | Val Acc: 52.60%
+Epoch 37/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:22<00:00,  8.33it/s, loss=1.38, acc=62.5, lr=1.81e-5]
+
+Epoch 37/50:
+Train Loss: 1.3776 | Train Acc: 62.53%
+Val Loss: 1.7649 | Val Acc: 54.20%
+Epoch 38/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:20<00:00,  8.43it/s, loss=1.36, acc=63.2, lr=1.58e-5]
+
+Epoch 38/50:
+Train Loss: 1.3560 | Train Acc: 63.22%
+Val Loss: 1.7859 | Val Acc: 53.00%
+Epoch 39/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:18<00:00,  8.48it/s, loss=1.33, acc=64.1, lr=1.36e-5]
+
+Epoch 39/50:
+Train Loss: 1.3295 | Train Acc: 64.14%
+Val Loss: 1.7576 | Val Acc: 53.20%
+Epoch 40/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:18<00:00,  8.52it/s, loss=1.31, acc=64.3, lr=1.15e-5]
+
+Epoch 40/50:
+Train Loss: 1.3065 | Train Acc: 64.25%
+Val Loss: 1.7307 | Val Acc: 52.80%
+Epoch 41/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:16<00:00,  8.58it/s, loss=1.28, acc=65.2, lr=9.55e-6]
+
+Epoch 41/50:
+Train Loss: 1.2831 | Train Acc: 65.18%
+Val Loss: 1.7187 | Val Acc: 53.40%
+Epoch 42/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:17<00:00,  8.54it/s, loss=1.27, acc=65.4, lr=7.78e-6]
+
+Epoch 42/50:
+Train Loss: 1.2653 | Train Acc: 65.45%
+Val Loss: 1.7183 | Val Acc: 55.00%
+Saved new best model with validation accuracy: 55.00%
+Epoch 43/50: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:14<00:00,  8.67it/s, loss=1.25, acc=66, lr=6.18e-6]
+
+Epoch 43/50:
+Train Loss: 1.2491 | Train Acc: 65.97%
+Val Loss: 1.7367 | Val Acc: 54.20%
+Epoch 44/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:16<00:00,  8.59it/s, loss=1.24, acc=66.3, lr=4.76e-6]
+
+Epoch 44/50:
+Train Loss: 1.2363 | Train Acc: 66.31%
+Val Loss: 1.6950 | Val Acc: 54.80%
+Epoch 45/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:16<00:00,  8.59it/s, loss=1.22, acc=66.8, lr=3.51e-6]
+
+Epoch 45/50:
+Train Loss: 1.2214 | Train Acc: 66.77%
+Val Loss: 1.7086 | Val Acc: 54.40%
+Epoch 46/50: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:16<00:00,  8.59it/s, loss=1.22, acc=67, lr=2.45e-6]
+
+Epoch 46/50:
+Train Loss: 1.2179 | Train Acc: 67.00%
+Val Loss: 1.6942 | Val Acc: 54.40%
+Epoch 47/50: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:16<00:00,  8.60it/s, loss=1.2, acc=67.5, lr=1.57e-6]
+
+Epoch 47/50:
+Train Loss: 1.1971 | Train Acc: 67.48%
+Val Loss: 1.6987 | Val Acc: 54.40%
+Epoch 48/50: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:16<00:00,  8.59it/s, loss=1.2, acc=67.5, lr=8.86e-7]
+
+Epoch 48/50:
+Train Loss: 1.2004 | Train Acc: 67.47%
+Val Loss: 1.6987 | Val Acc: 55.00%
+Epoch 49/50: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:15<00:00,  8.64it/s, loss=1.2, acc=67.7, lr=3.94e-7]
+
+Epoch 49/50:
+Train Loss: 1.1982 | Train Acc: 67.74%
+Val Loss: 1.6964 | Val Acc: 54.20%
+Epoch 50/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1687/1687 [03:16<00:00,  8.60it/s, loss=1.19, acc=67.5, lr=9.87e-8]
+
+Epoch 50/50:
+Train Loss: 1.1942 | Train Acc: 67.47%
+Val Loss: 1.6966 | Val Acc: 54.20%
+/home/jupyter-st125462/RTML/A3/finetune_vit_complete.py:651: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(best_model_path, map_location=device)
+
+Loaded best model from epoch 41 with validation accuracy: 55.00%
+Evaluating on test set: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 63/63 [00:02<00:00, 27.67it/s]
+
+Test Set Evaluation:
+Test Set Evaluation Report
+==================================================
+Overall Accuracy: 58.80%
+
+Per-Class Performance:
+--------------------------------------------------
+Class                          Accuracy   Samples   
+--------------------------------------------------
+air hockey                        80.00%          5
+ampute football                   40.00%          5
+archery                           20.00%          5
+arm wrestling                     60.00%          5
+axe throwing                      60.00%          5
+balance beam                     100.00%          5
+barell racing                     60.00%          5
+baseball                          60.00%          5
+basketball                        60.00%          5
+baton twirling                    20.00%          5
+bike polo                         60.00%          5
+billiards                         80.00%          5
+bmx                               20.00%          5
+bobsled                           60.00%          5
+bowling                           60.00%          5
+boxing                           100.00%          5
+bull riding                       80.00%          5
+bungee jumping                    60.00%          5
+canoe slamon                      80.00%          5
+cheerleading                      40.00%          5
+chuckwagon racing                 60.00%          5
+cricket                           60.00%          5
+croquet                           60.00%          5
+curling                          100.00%          5
+disc golf                         40.00%          5
+fencing                           20.00%          5
+field hockey                      80.00%          5
+figure skating men                20.00%          5
+figure skating pairs              60.00%          5
+figure skating women              80.00%          5
+fly fishing                       60.00%          5
+football                          40.00%          5
+formula 1 racing                  80.00%          5
+frisbee                            0.00%          5
+gaga                               0.00%          5
+giant slalom                     100.00%          5
+golf                              40.00%          5
+hammer throw                      60.00%          5
+hang gliding                     100.00%          5
+harness racing                    60.00%          5
+high jump                        100.00%          5
+hockey                            80.00%          5
+horse jumping                     60.00%          5
+horse racing                      60.00%          5
+horseshoe pitching                20.00%          5
+hurdles                           80.00%          5
+hydroplane racing                 20.00%          5
+ice climbing                     100.00%          5
+ice yachting                     100.00%          5
+jai alai                         100.00%          5
+javelin                           20.00%          5
+jousting                          40.00%          5
+judo                              80.00%          5
+lacrosse                          20.00%          5
+log rolling                       80.00%          5
+luge                              60.00%          5
+motorcycle racing                 80.00%          5
+mushing                           80.00%          5
+nascar racing                     40.00%          5
+olympic wrestling                 80.00%          5
+parallel bar                       0.00%          5
+pole climbing                     80.00%          5
+pole dancing                      80.00%          5
+pole vault                        60.00%          5
+polo                             100.00%          5
+pommel horse                     100.00%          5
+rings                             20.00%          5
+rock climbing                     60.00%          5
+roller derby                      40.00%          5
+rollerblade racing                40.00%          5
+rowing                            60.00%          5
+rugby                             80.00%          5
+sailboat racing                  100.00%          5
+shot put                          20.00%          5
+shuffleboard                      40.00%          5
+sidecar racing                    40.00%          5
+ski jumping                       20.00%          5
+sky surfing                       60.00%          5
+skydiving                         80.00%          5
+snow boarding                     20.00%          5
+snowmobile racing                 60.00%          5
+speed skating                     80.00%          5
+steer wrestling                   40.00%          5
+sumo wrestling                    60.00%          5
+surfing                           60.00%          5
+swimming                         100.00%          5
+table tennis                      60.00%          5
+tennis                            40.00%          5
+track bicycle                    100.00%          5
+trapeze                            0.00%          5
+tug of war                        40.00%          5
+ultimate                           0.00%          5
+uneven bars                       60.00%          5
+volleyball                        80.00%          5
+water cycling                     80.00%          5
+water polo                       100.00%          5
+weightlifting                     80.00%          5
+wheelchair basketball             20.00%          5
+wheelchair racing                 40.00%          5
+wingsuit flying                   60.00%          5
+
+
+Training completed! Results saved in 'results_20250208_114438' directory.
+Check the following files:
+1. results_20250208_114438/training_history.png - Training progress plots
+2. results_20250208_114438/test_report.txt - Detailed test set evaluation
+3. results_20250208_114438/test_predictions.png - Sample predictions visualization
