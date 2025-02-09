@@ -100,9 +100,9 @@ Interestingly, the model completely failed to classify certain sports:
 
 |Epoch 1-50|Epoch 51-100|
 |----------|------------|
-|![1]()|![2]()|
-|![3]()|![4]()|
-|<a href="add">Test Report</a>|<a href="add">Test Report</a>|
+|![1](https://github.com/aryashah2k/RTML/blob/main/A3/results_20250208_114438/training_history.png)|![2](https://github.com/aryashah2k/RTML/blob/main/A3/results_20250208_144934/training_history.png)|
+|![3](https://github.com/aryashah2k/RTML/blob/main/A3/results_20250208_114438/test_predictions.png)|![4](https://github.com/aryashah2k/RTML/blob/main/A3/results_20250208_144934/test_predictions.png)|
+|<a href="https://github.com/aryashah2k/RTML/blob/main/A3/results_20250208_114438/test_report.txt">Test Report</a>|<a href="https://github.com/aryashah2k/RTML/blob/main/A3/results_20250208_144934/test_report.txt">Test Report</a>|
 
 Model Checkpoints can be found <a href="https://1024terabox.com/s/1FY-YmkfRRXlc74u7GQtTNg">here (Terabox Link)</a>
 

@@ -8,6 +8,7 @@ This advanced repository explores cutting-edge deep learning architectures and t
 |---|-------------------|
 |1. |<a href="https://github.com/aryashah2k/RTML/tree/main/A1">A1 Pytorch_AlexNet_GoogleNet</a>|
 |2. |<a href="https://github.com/aryashah2k/RTML/tree/main/A2">A2 Segmentation_Detection (YOLOv4)</a>|
+|3. |<a href="https://github.com/aryashah2k/RTML/tree/main/A3">A3 Transformers_ViT</a>|
 
 |No.|Reading Assignments|
 |---|-------------------|
