@@ -226,7 +226,7 @@ Loss Curve:
 5. Classifier Patch 8
 
 - Confusion matrix
-![confusion_matrix.png](https://github.com/aryashah2k/RTML/blob/main/A4/plots/cifar10_classifier_patch8/confusion_matrix.pngg)  
+![confusion_matrix.png](https://github.com/aryashah2k/RTML/blob/main/A4/plots/cifar10_classifier_patch8/confusion_matrix.png)  
 
 - Training Curve
 ![training_curves.png](https://github.com/aryashah2k/RTML/blob/main/A4/plots/cifar10_classifier_patch8/training_curves.png)
