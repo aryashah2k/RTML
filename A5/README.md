@@ -164,9 +164,16 @@ Compared to the vanilla GAN training on MNIST:
 
 2. Develop your own GAN to model data generated as follows: ✅
 
-    $$\begin{eqnarray} \theta & \sim & {\cal U}(0,2\pi) \\
-                       r      & \sim & {\cal N}(0, 1) \\
-                       \mathbf{x} & \leftarrow & \begin{cases} \begin{bmatrix} (10+r)\cos\theta \\ (10+r)\sin\theta + 10\end{bmatrix} & \frac{1}{2}\pi \le \theta \le \frac{3}{2}\pi \\ \begin{bmatrix} (10+r)\cos\theta \\ (10+r)\sin\theta - 10\end{bmatrix} & \mathrm{otherwise} \end{cases} \end{eqnarray} $$
+$$
+\begin{aligned}
+\theta & \sim {\cal U}(0,2\pi) \\
+r      & \sim {\cal N}(0, 1) \\
+\mathbf{x} & \leftarrow \begin{cases}
+\begin{bmatrix} (10+r)\cos\theta \\ (10+r)\sin\theta + 10\end{bmatrix} & \frac{1}{2}\pi \le \theta \le \frac{3}{2}\pi \\
+\begin{bmatrix} (10+r)\cos\theta \\ (10+r)\sin\theta - 10\end{bmatrix} & \mathrm{otherwise}
+\end{cases}
+\end{aligned}
+$$
 
 
 You should create a PyTorch DataSet that generates the 2D data in the `__init__()` method, outputs a sample in the `__getitem__()` method, and returns the dataset size in the `__len__()` method. Use the vanilla GAN approach above with an appropriate structure for the generator. Can your GAN generate a convincing facsimile of a set of samples from the actual distribution?
