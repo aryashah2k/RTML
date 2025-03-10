@@ -1,0 +1,700 @@
+(base) jupyter-st125462@puffer:~/RTML/A5$ python gan_trainer.py
+2025-03-09 15:13:53,615 - GAN_Trainer - INFO - Using device: cuda
+2025-03-09 15:13:53,616 - GAN_Trainer - INFO - Starting DCGAN training on CIFAR-10...
+Files already downloaded and verified
+Figure(1600x1600)
+2025-03-09 15:13:56,048 - GAN_Trainer - INFO - Epoch: [0/30], Batch Num: [0/500]
+2025-03-09 15:13:56,048 - GAN_Trainer - INFO - Discriminator Loss: 1.6325, Generator Loss: 7.0369
+2025-03-09 15:13:56,048 - GAN_Trainer - INFO - D(x): 0.6673, D(G(z)): 0.5265
+Figure(1600x1600)
+2025-03-09 15:14:12,064 - GAN_Trainer - INFO - Epoch: [0/30], Batch Num: [100/500]
+2025-03-09 15:14:12,064 - GAN_Trainer - INFO - Discriminator Loss: 2.2391, Generator Loss: 2.9501
+2025-03-09 15:14:12,065 - GAN_Trainer - INFO - D(x): 0.4292, D(G(z)): 0.5723
+Figure(1600x1600)
+2025-03-09 15:14:28,221 - GAN_Trainer - INFO - Epoch: [0/30], Batch Num: [200/500]
+2025-03-09 15:14:28,222 - GAN_Trainer - INFO - Discriminator Loss: 1.4801, Generator Loss: 3.1456
+2025-03-09 15:14:28,222 - GAN_Trainer - INFO - D(x): 0.5289, D(G(z)): 0.4374
+Figure(1600x1600)
+2025-03-09 15:14:44,567 - GAN_Trainer - INFO - Epoch: [0/30], Batch Num: [300/500]
+2025-03-09 15:14:44,567 - GAN_Trainer - INFO - Discriminator Loss: 1.4717, Generator Loss: 1.0675
+2025-03-09 15:14:44,567 - GAN_Trainer - INFO - D(x): 0.4104, D(G(z)): 0.3488
+Figure(1600x1600)
+2025-03-09 15:15:01,036 - GAN_Trainer - INFO - Epoch: [0/30], Batch Num: [400/500]
+2025-03-09 15:15:01,037 - GAN_Trainer - INFO - Discriminator Loss: 1.5867, Generator Loss: 1.2453
+2025-03-09 15:15:01,037 - GAN_Trainer - INFO - D(x): 0.4298, D(G(z)): 0.3987
+2025-03-09 15:15:16,879 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:15:16,880 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:15:17,486 - GAN_Trainer - INFO - Epoch 0 completed in 82.41 seconds
+Figure(1600x1600)
+2025-03-09 15:15:18,215 - GAN_Trainer - INFO - Epoch: [1/30], Batch Num: [0/500]
+2025-03-09 15:15:18,215 - GAN_Trainer - INFO - Discriminator Loss: 1.7429, Generator Loss: 1.3046
+2025-03-09 15:15:18,215 - GAN_Trainer - INFO - D(x): 0.3505, D(G(z)): 0.3613
+Figure(1600x1600)
+2025-03-09 15:15:34,722 - GAN_Trainer - INFO - Epoch: [1/30], Batch Num: [100/500]
+2025-03-09 15:15:34,722 - GAN_Trainer - INFO - Discriminator Loss: 1.2954, Generator Loss: 1.3933
+2025-03-09 15:15:34,722 - GAN_Trainer - INFO - D(x): 0.5692, D(G(z)): 0.4498
+Figure(1600x1600)
+2025-03-09 15:15:51,243 - GAN_Trainer - INFO - Epoch: [1/30], Batch Num: [200/500]
+2025-03-09 15:15:51,243 - GAN_Trainer - INFO - Discriminator Loss: 1.4707, Generator Loss: 0.8725
+2025-03-09 15:15:51,243 - GAN_Trainer - INFO - D(x): 0.3852, D(G(z)): 0.3163
+Figure(1600x1600)
+2025-03-09 15:16:07,827 - GAN_Trainer - INFO - Epoch: [1/30], Batch Num: [300/500]
+2025-03-09 15:16:07,828 - GAN_Trainer - INFO - Discriminator Loss: 1.3577, Generator Loss: 1.0440
+2025-03-09 15:16:07,828 - GAN_Trainer - INFO - D(x): 0.5496, D(G(z)): 0.4717
+Figure(1600x1600)
+2025-03-09 15:16:24,454 - GAN_Trainer - INFO - Epoch: [1/30], Batch Num: [400/500]
+2025-03-09 15:16:24,454 - GAN_Trainer - INFO - Discriminator Loss: 1.6068, Generator Loss: 1.0099
+2025-03-09 15:16:24,455 - GAN_Trainer - INFO - D(x): 0.3256, D(G(z)): 0.3104
+2025-03-09 15:16:40,304 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:16:40,305 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:16:40,309 - GAN_Trainer - INFO - Epoch 1 completed in 82.82 seconds
+Figure(1600x1600)
+2025-03-09 15:16:41,046 - GAN_Trainer - INFO - Epoch: [2/30], Batch Num: [0/500]
+2025-03-09 15:16:41,047 - GAN_Trainer - INFO - Discriminator Loss: 1.5077, Generator Loss: 1.0806
+2025-03-09 15:16:41,047 - GAN_Trainer - INFO - D(x): 0.4816, D(G(z)): 0.4794
+Figure(1600x1600)
+2025-03-09 15:16:57,641 - GAN_Trainer - INFO - Epoch: [2/30], Batch Num: [100/500]
+2025-03-09 15:16:57,641 - GAN_Trainer - INFO - Discriminator Loss: 1.3879, Generator Loss: 0.8934
+2025-03-09 15:16:57,642 - GAN_Trainer - INFO - D(x): 0.4449, D(G(z)): 0.4133
+Figure(1600x1600)
+2025-03-09 15:17:14,203 - GAN_Trainer - INFO - Epoch: [2/30], Batch Num: [200/500]
+2025-03-09 15:17:14,203 - GAN_Trainer - INFO - Discriminator Loss: 1.4934, Generator Loss: 0.9491
+2025-03-09 15:17:14,204 - GAN_Trainer - INFO - D(x): 0.4899, D(G(z)): 0.5125
+Figure(1600x1600)
+2025-03-09 15:17:30,800 - GAN_Trainer - INFO - Epoch: [2/30], Batch Num: [300/500]
+2025-03-09 15:17:30,800 - GAN_Trainer - INFO - Discriminator Loss: 1.4465, Generator Loss: 0.9215
+2025-03-09 15:17:30,800 - GAN_Trainer - INFO - D(x): 0.4817, D(G(z)): 0.4792
+Figure(1600x1600)
+2025-03-09 15:17:47,380 - GAN_Trainer - INFO - Epoch: [2/30], Batch Num: [400/500]
+2025-03-09 15:17:47,380 - GAN_Trainer - INFO - Discriminator Loss: 1.3687, Generator Loss: 0.9134
+2025-03-09 15:17:47,380 - GAN_Trainer - INFO - D(x): 0.4381, D(G(z)): 0.4089
+2025-03-09 15:18:03,219 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:18:03,219 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:18:03,222 - GAN_Trainer - INFO - Epoch 2 completed in 82.91 seconds
+Figure(1600x1600)
+2025-03-09 15:18:03,960 - GAN_Trainer - INFO - Epoch: [3/30], Batch Num: [0/500]
+2025-03-09 15:18:03,960 - GAN_Trainer - INFO - Discriminator Loss: 1.4255, Generator Loss: 0.8233
+2025-03-09 15:18:03,960 - GAN_Trainer - INFO - D(x): 0.4439, D(G(z)): 0.4458
+Figure(1600x1600)
+2025-03-09 15:18:20,576 - GAN_Trainer - INFO - Epoch: [3/30], Batch Num: [100/500]
+2025-03-09 15:18:20,576 - GAN_Trainer - INFO - Discriminator Loss: 1.4631, Generator Loss: 0.7947
+2025-03-09 15:18:20,577 - GAN_Trainer - INFO - D(x): 0.4438, D(G(z)): 0.4485
+Figure(1600x1600)
+2025-03-09 15:18:37,197 - GAN_Trainer - INFO - Epoch: [3/30], Batch Num: [200/500]
+2025-03-09 15:18:37,198 - GAN_Trainer - INFO - Discriminator Loss: 1.5052, Generator Loss: 0.7816
+2025-03-09 15:18:37,198 - GAN_Trainer - INFO - D(x): 0.4272, D(G(z)): 0.4514
+Figure(1600x1600)
+2025-03-09 15:18:53,796 - GAN_Trainer - INFO - Epoch: [3/30], Batch Num: [300/500]
+2025-03-09 15:18:53,796 - GAN_Trainer - INFO - Discriminator Loss: 1.4325, Generator Loss: 0.9284
+2025-03-09 15:18:53,797 - GAN_Trainer - INFO - D(x): 0.4580, D(G(z)): 0.4478
+Figure(1600x1600)
+2025-03-09 15:19:10,365 - GAN_Trainer - INFO - Epoch: [3/30], Batch Num: [400/500]
+2025-03-09 15:19:10,365 - GAN_Trainer - INFO - Discriminator Loss: 1.3813, Generator Loss: 0.8325
+2025-03-09 15:19:10,365 - GAN_Trainer - INFO - D(x): 0.4521, D(G(z)): 0.4232
+2025-03-09 15:19:26,223 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:19:26,223 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:19:26,227 - GAN_Trainer - INFO - Epoch 3 completed in 83.00 seconds
+Figure(1600x1600)
+2025-03-09 15:19:26,969 - GAN_Trainer - INFO - Epoch: [4/30], Batch Num: [0/500]
+2025-03-09 15:19:26,969 - GAN_Trainer - INFO - Discriminator Loss: 1.4740, Generator Loss: 0.8340
+2025-03-09 15:19:26,969 - GAN_Trainer - INFO - D(x): 0.4160, D(G(z)): 0.4394
+Figure(1600x1600)
+2025-03-09 15:19:43,575 - GAN_Trainer - INFO - Epoch: [4/30], Batch Num: [100/500]
+2025-03-09 15:19:43,575 - GAN_Trainer - INFO - Discriminator Loss: 1.4801, Generator Loss: 0.8378
+2025-03-09 15:19:43,575 - GAN_Trainer - INFO - D(x): 0.3521, D(G(z)): 0.3657
+Figure(1600x1600)
+2025-03-09 15:20:00,159 - GAN_Trainer - INFO - Epoch: [4/30], Batch Num: [200/500]
+2025-03-09 15:20:00,159 - GAN_Trainer - INFO - Discriminator Loss: 1.3789, Generator Loss: 1.0141
+2025-03-09 15:20:00,159 - GAN_Trainer - INFO - D(x): 0.4945, D(G(z)): 0.4701
+Figure(1600x1600)
+2025-03-09 15:20:16,759 - GAN_Trainer - INFO - Epoch: [4/30], Batch Num: [300/500]
+2025-03-09 15:20:16,759 - GAN_Trainer - INFO - Discriminator Loss: 1.4524, Generator Loss: 0.7843
+2025-03-09 15:20:16,759 - GAN_Trainer - INFO - D(x): 0.4154, D(G(z)): 0.4208
+Figure(1600x1600)
+2025-03-09 15:20:33,323 - GAN_Trainer - INFO - Epoch: [4/30], Batch Num: [400/500]
+2025-03-09 15:20:33,324 - GAN_Trainer - INFO - Discriminator Loss: 1.4567, Generator Loss: 0.8170
+2025-03-09 15:20:33,324 - GAN_Trainer - INFO - D(x): 0.4506, D(G(z)): 0.4557
+2025-03-09 15:20:49,173 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:20:49,173 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:20:49,177 - GAN_Trainer - INFO - Epoch 4 completed in 82.95 seconds
+Figure(1600x1600)
+2025-03-09 15:20:49,910 - GAN_Trainer - INFO - Epoch: [5/30], Batch Num: [0/500]
+2025-03-09 15:20:49,910 - GAN_Trainer - INFO - Discriminator Loss: 1.3561, Generator Loss: 0.8632
+2025-03-09 15:20:49,910 - GAN_Trainer - INFO - D(x): 0.4604, D(G(z)): 0.4136
+Figure(1600x1600)
+2025-03-09 15:21:06,517 - GAN_Trainer - INFO - Epoch: [5/30], Batch Num: [100/500]
+2025-03-09 15:21:06,517 - GAN_Trainer - INFO - Discriminator Loss: 1.5063, Generator Loss: 1.0057
+2025-03-09 15:21:06,517 - GAN_Trainer - INFO - D(x): 0.4099, D(G(z)): 0.4514
+Figure(1600x1600)
+2025-03-09 15:21:23,137 - GAN_Trainer - INFO - Epoch: [5/30], Batch Num: [200/500]
+2025-03-09 15:21:23,137 - GAN_Trainer - INFO - Discriminator Loss: 1.4605, Generator Loss: 0.9172
+2025-03-09 15:21:23,138 - GAN_Trainer - INFO - D(x): 0.4458, D(G(z)): 0.4635
+Figure(1600x1600)
+2025-03-09 15:21:39,742 - GAN_Trainer - INFO - Epoch: [5/30], Batch Num: [300/500]
+2025-03-09 15:21:39,743 - GAN_Trainer - INFO - Discriminator Loss: 1.3545, Generator Loss: 0.8671
+2025-03-09 15:21:39,743 - GAN_Trainer - INFO - D(x): 0.4605, D(G(z)): 0.4259
+Figure(1600x1600)
+2025-03-09 15:21:56,314 - GAN_Trainer - INFO - Epoch: [5/30], Batch Num: [400/500]
+2025-03-09 15:21:56,314 - GAN_Trainer - INFO - Discriminator Loss: 1.4911, Generator Loss: 0.9017
+2025-03-09 15:21:56,314 - GAN_Trainer - INFO - D(x): 0.4071, D(G(z)): 0.4357
+2025-03-09 15:22:12,150 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:22:12,151 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:22:12,758 - GAN_Trainer - INFO - Epoch 5 completed in 83.58 seconds
+Figure(1600x1600)
+2025-03-09 15:22:13,551 - GAN_Trainer - INFO - Epoch: [6/30], Batch Num: [0/500]
+2025-03-09 15:22:13,551 - GAN_Trainer - INFO - Discriminator Loss: 1.4112, Generator Loss: 0.9414
+2025-03-09 15:22:13,552 - GAN_Trainer - INFO - D(x): 0.4624, D(G(z)): 0.4500
+Figure(1600x1600)
+2025-03-09 15:22:30,102 - GAN_Trainer - INFO - Epoch: [6/30], Batch Num: [100/500]
+2025-03-09 15:22:30,102 - GAN_Trainer - INFO - Discriminator Loss: 1.3718, Generator Loss: 0.9172
+2025-03-09 15:22:30,102 - GAN_Trainer - INFO - D(x): 0.4701, D(G(z)): 0.4474
+Figure(1600x1600)
+2025-03-09 15:22:46,704 - GAN_Trainer - INFO - Epoch: [6/30], Batch Num: [200/500]
+2025-03-09 15:22:46,704 - GAN_Trainer - INFO - Discriminator Loss: 1.4590, Generator Loss: 0.9622
+2025-03-09 15:22:46,704 - GAN_Trainer - INFO - D(x): 0.4244, D(G(z)): 0.4367
+Figure(1600x1600)
+2025-03-09 15:23:03,307 - GAN_Trainer - INFO - Epoch: [6/30], Batch Num: [300/500]
+2025-03-09 15:23:03,307 - GAN_Trainer - INFO - Discriminator Loss: 1.3857, Generator Loss: 0.8183
+2025-03-09 15:23:03,307 - GAN_Trainer - INFO - D(x): 0.4379, D(G(z)): 0.4202
+Figure(1600x1600)
+2025-03-09 15:23:19,899 - GAN_Trainer - INFO - Epoch: [6/30], Batch Num: [400/500]
+2025-03-09 15:23:19,900 - GAN_Trainer - INFO - Discriminator Loss: 1.4682, Generator Loss: 0.8330
+2025-03-09 15:23:19,900 - GAN_Trainer - INFO - D(x): 0.4170, D(G(z)): 0.4497
+2025-03-09 15:23:35,759 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:23:35,759 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:23:35,763 - GAN_Trainer - INFO - Epoch 6 completed in 83.00 seconds
+Figure(1600x1600)
+2025-03-09 15:23:36,485 - GAN_Trainer - INFO - Epoch: [7/30], Batch Num: [0/500]
+2025-03-09 15:23:36,485 - GAN_Trainer - INFO - Discriminator Loss: 1.5107, Generator Loss: 0.8373
+2025-03-09 15:23:36,485 - GAN_Trainer - INFO - D(x): 0.3820, D(G(z)): 0.4100
+Figure(1600x1600)
+2025-03-09 15:23:53,107 - GAN_Trainer - INFO - Epoch: [7/30], Batch Num: [100/500]
+2025-03-09 15:23:53,107 - GAN_Trainer - INFO - Discriminator Loss: 1.4145, Generator Loss: 0.8581
+2025-03-09 15:23:53,107 - GAN_Trainer - INFO - D(x): 0.4515, D(G(z)): 0.4467
+Figure(1600x1600)
+2025-03-09 15:24:09,706 - GAN_Trainer - INFO - Epoch: [7/30], Batch Num: [200/500]
+2025-03-09 15:24:09,706 - GAN_Trainer - INFO - Discriminator Loss: 1.3977, Generator Loss: 0.9508
+2025-03-09 15:24:09,706 - GAN_Trainer - INFO - D(x): 0.4542, D(G(z)): 0.4355
+Figure(1600x1600)
+2025-03-09 15:24:26,324 - GAN_Trainer - INFO - Epoch: [7/30], Batch Num: [300/500]
+2025-03-09 15:24:26,324 - GAN_Trainer - INFO - Discriminator Loss: 1.4339, Generator Loss: 0.9101
+2025-03-09 15:24:26,325 - GAN_Trainer - INFO - D(x): 0.4217, D(G(z)): 0.4319
+Figure(1600x1600)
+2025-03-09 15:24:42,904 - GAN_Trainer - INFO - Epoch: [7/30], Batch Num: [400/500]
+2025-03-09 15:24:42,904 - GAN_Trainer - INFO - Discriminator Loss: 1.4399, Generator Loss: 0.8367
+2025-03-09 15:24:42,905 - GAN_Trainer - INFO - D(x): 0.4672, D(G(z)): 0.4752
+2025-03-09 15:24:58,763 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:24:58,763 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:24:58,767 - GAN_Trainer - INFO - Epoch 7 completed in 83.00 seconds
+Figure(1600x1600)
+2025-03-09 15:24:59,510 - GAN_Trainer - INFO - Epoch: [8/30], Batch Num: [0/500]
+2025-03-09 15:24:59,510 - GAN_Trainer - INFO - Discriminator Loss: 1.4163, Generator Loss: 0.9536
+2025-03-09 15:24:59,510 - GAN_Trainer - INFO - D(x): 0.5087, D(G(z)): 0.4970
+Figure(1600x1600)
+2025-03-09 15:25:16,123 - GAN_Trainer - INFO - Epoch: [8/30], Batch Num: [100/500]
+2025-03-09 15:25:16,123 - GAN_Trainer - INFO - Discriminator Loss: 1.4788, Generator Loss: 0.8267
+2025-03-09 15:25:16,123 - GAN_Trainer - INFO - D(x): 0.4294, D(G(z)): 0.4571
+Figure(1600x1600)
+2025-03-09 15:25:32,752 - GAN_Trainer - INFO - Epoch: [8/30], Batch Num: [200/500]
+2025-03-09 15:25:32,752 - GAN_Trainer - INFO - Discriminator Loss: 1.4655, Generator Loss: 0.8435
+2025-03-09 15:25:32,753 - GAN_Trainer - INFO - D(x): 0.4502, D(G(z)): 0.4713
+Figure(1600x1600)
+2025-03-09 15:25:49,359 - GAN_Trainer - INFO - Epoch: [8/30], Batch Num: [300/500]
+2025-03-09 15:25:49,360 - GAN_Trainer - INFO - Discriminator Loss: 1.4826, Generator Loss: 0.9134
+2025-03-09 15:25:49,360 - GAN_Trainer - INFO - D(x): 0.4346, D(G(z)): 0.4671
+Figure(1600x1600)
+2025-03-09 15:26:05,894 - GAN_Trainer - INFO - Epoch: [8/30], Batch Num: [400/500]
+2025-03-09 15:26:05,894 - GAN_Trainer - INFO - Discriminator Loss: 1.3952, Generator Loss: 1.0230
+2025-03-09 15:26:05,895 - GAN_Trainer - INFO - D(x): 0.4730, D(G(z)): 0.4649
+2025-03-09 15:26:21,690 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:26:21,690 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:26:21,695 - GAN_Trainer - INFO - Epoch 8 completed in 82.93 seconds
+Figure(1600x1600)
+2025-03-09 15:26:22,420 - GAN_Trainer - INFO - Epoch: [9/30], Batch Num: [0/500]
+2025-03-09 15:26:22,420 - GAN_Trainer - INFO - Discriminator Loss: 1.4451, Generator Loss: 0.9557
+2025-03-09 15:26:22,420 - GAN_Trainer - INFO - D(x): 0.4449, D(G(z)): 0.4585
+Figure(1600x1600)
+2025-03-09 15:26:38,902 - GAN_Trainer - INFO - Epoch: [9/30], Batch Num: [100/500]
+2025-03-09 15:26:38,902 - GAN_Trainer - INFO - Discriminator Loss: 1.5036, Generator Loss: 0.8992
+2025-03-09 15:26:38,902 - GAN_Trainer - INFO - D(x): 0.4261, D(G(z)): 0.4728
+Figure(1600x1600)
+2025-03-09 15:26:55,426 - GAN_Trainer - INFO - Epoch: [9/30], Batch Num: [200/500]
+2025-03-09 15:26:55,426 - GAN_Trainer - INFO - Discriminator Loss: 1.5015, Generator Loss: 0.9375
+2025-03-09 15:26:55,427 - GAN_Trainer - INFO - D(x): 0.4580, D(G(z)): 0.4905
+Figure(1600x1600)
+2025-03-09 15:27:11,890 - GAN_Trainer - INFO - Epoch: [9/30], Batch Num: [300/500]
+2025-03-09 15:27:11,890 - GAN_Trainer - INFO - Discriminator Loss: 1.4237, Generator Loss: 0.8673
+2025-03-09 15:27:11,890 - GAN_Trainer - INFO - D(x): 0.4438, D(G(z)): 0.4547
+Figure(1600x1600)
+2025-03-09 15:27:28,339 - GAN_Trainer - INFO - Epoch: [9/30], Batch Num: [400/500]
+2025-03-09 15:27:28,340 - GAN_Trainer - INFO - Discriminator Loss: 1.3845, Generator Loss: 0.9379
+2025-03-09 15:27:28,340 - GAN_Trainer - INFO - D(x): 0.4647, D(G(z)): 0.4588
+2025-03-09 15:27:44,043 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:27:44,043 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:27:44,047 - GAN_Trainer - INFO - Epoch 9 completed in 82.35 seconds
+Figure(1600x1600)
+2025-03-09 15:27:44,797 - GAN_Trainer - INFO - Epoch: [10/30], Batch Num: [0/500]
+2025-03-09 15:27:44,798 - GAN_Trainer - INFO - Discriminator Loss: 1.3518, Generator Loss: 0.9307
+2025-03-09 15:27:44,798 - GAN_Trainer - INFO - D(x): 0.4855, D(G(z)): 0.4552
+Figure(1600x1600)
+2025-03-09 15:28:01,182 - GAN_Trainer - INFO - Epoch: [10/30], Batch Num: [100/500]
+2025-03-09 15:28:01,182 - GAN_Trainer - INFO - Discriminator Loss: 1.4681, Generator Loss: 0.9980
+2025-03-09 15:28:01,182 - GAN_Trainer - INFO - D(x): 0.4483, D(G(z)): 0.4757
+Figure(1600x1600)
+2025-03-09 15:28:17,574 - GAN_Trainer - INFO - Epoch: [10/30], Batch Num: [200/500]
+2025-03-09 15:28:17,574 - GAN_Trainer - INFO - Discriminator Loss: 1.3779, Generator Loss: 0.8245
+2025-03-09 15:28:17,574 - GAN_Trainer - INFO - D(x): 0.4681, D(G(z)): 0.4571
+Figure(1600x1600)
+2025-03-09 15:28:33,948 - GAN_Trainer - INFO - Epoch: [10/30], Batch Num: [300/500]
+2025-03-09 15:28:33,948 - GAN_Trainer - INFO - Discriminator Loss: 1.4239, Generator Loss: 0.8834
+2025-03-09 15:28:33,948 - GAN_Trainer - INFO - D(x): 0.4760, D(G(z)): 0.4828
+Figure(1600x1600)
+2025-03-09 15:28:50,304 - GAN_Trainer - INFO - Epoch: [10/30], Batch Num: [400/500]
+2025-03-09 15:28:50,304 - GAN_Trainer - INFO - Discriminator Loss: 1.4200, Generator Loss: 0.8780
+2025-03-09 15:28:50,304 - GAN_Trainer - INFO - D(x): 0.4423, D(G(z)): 0.4498
+2025-03-09 15:29:05,929 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:29:05,930 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:29:06,532 - GAN_Trainer - INFO - Epoch 10 completed in 82.48 seconds
+Figure(1600x1600)
+2025-03-09 15:29:07,299 - GAN_Trainer - INFO - Epoch: [11/30], Batch Num: [0/500]
+2025-03-09 15:29:07,299 - GAN_Trainer - INFO - Discriminator Loss: 1.4513, Generator Loss: 0.8943
+2025-03-09 15:29:07,299 - GAN_Trainer - INFO - D(x): 0.4407, D(G(z)): 0.4583
+Figure(1600x1600)
+2025-03-09 15:29:23,618 - GAN_Trainer - INFO - Epoch: [11/30], Batch Num: [100/500]
+2025-03-09 15:29:23,618 - GAN_Trainer - INFO - Discriminator Loss: 1.4027, Generator Loss: 0.8340
+2025-03-09 15:29:23,618 - GAN_Trainer - INFO - D(x): 0.4484, D(G(z)): 0.4470
+Figure(1600x1600)
+2025-03-09 15:29:39,931 - GAN_Trainer - INFO - Epoch: [11/30], Batch Num: [200/500]
+2025-03-09 15:29:39,931 - GAN_Trainer - INFO - Discriminator Loss: 1.3820, Generator Loss: 0.8230
+2025-03-09 15:29:39,931 - GAN_Trainer - INFO - D(x): 0.4312, D(G(z)): 0.4224
+Figure(1600x1600)
+2025-03-09 15:29:56,293 - GAN_Trainer - INFO - Epoch: [11/30], Batch Num: [300/500]
+2025-03-09 15:29:56,293 - GAN_Trainer - INFO - Discriminator Loss: 1.4554, Generator Loss: 1.1057
+2025-03-09 15:29:56,294 - GAN_Trainer - INFO - D(x): 0.4431, D(G(z)): 0.4681
+Figure(1600x1600)
+2025-03-09 15:30:12,633 - GAN_Trainer - INFO - Epoch: [11/30], Batch Num: [400/500]
+2025-03-09 15:30:12,633 - GAN_Trainer - INFO - Discriminator Loss: 1.4145, Generator Loss: 0.9192
+2025-03-09 15:30:12,633 - GAN_Trainer - INFO - D(x): 0.5036, D(G(z)): 0.4801
+2025-03-09 15:30:28,269 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:30:28,270 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:30:28,273 - GAN_Trainer - INFO - Epoch 11 completed in 81.74 seconds
+Figure(1600x1600)
+2025-03-09 15:30:29,001 - GAN_Trainer - INFO - Epoch: [12/30], Batch Num: [0/500]
+2025-03-09 15:30:29,002 - GAN_Trainer - INFO - Discriminator Loss: 1.5062, Generator Loss: 0.9021
+2025-03-09 15:30:29,002 - GAN_Trainer - INFO - D(x): 0.3977, D(G(z)): 0.4420
+Figure(1600x1600)
+2025-03-09 15:30:45,377 - GAN_Trainer - INFO - Epoch: [12/30], Batch Num: [100/500]
+2025-03-09 15:30:45,377 - GAN_Trainer - INFO - Discriminator Loss: 1.4470, Generator Loss: 0.8018
+2025-03-09 15:30:45,378 - GAN_Trainer - INFO - D(x): 0.4792, D(G(z)): 0.4959
+Figure(1600x1600)
+2025-03-09 15:31:01,782 - GAN_Trainer - INFO - Epoch: [12/30], Batch Num: [200/500]
+2025-03-09 15:31:01,782 - GAN_Trainer - INFO - Discriminator Loss: 1.3656, Generator Loss: 0.8175
+2025-03-09 15:31:01,782 - GAN_Trainer - INFO - D(x): 0.4438, D(G(z)): 0.4230
+Figure(1600x1600)
+2025-03-09 15:31:18,102 - GAN_Trainer - INFO - Epoch: [12/30], Batch Num: [300/500]
+2025-03-09 15:31:18,103 - GAN_Trainer - INFO - Discriminator Loss: 1.4731, Generator Loss: 0.8671
+2025-03-09 15:31:18,103 - GAN_Trainer - INFO - D(x): 0.4208, D(G(z)): 0.4455
+Figure(1600x1600)
+2025-03-09 15:31:34,493 - GAN_Trainer - INFO - Epoch: [12/30], Batch Num: [400/500]
+2025-03-09 15:31:34,493 - GAN_Trainer - INFO - Discriminator Loss: 1.4160, Generator Loss: 0.8308
+2025-03-09 15:31:34,493 - GAN_Trainer - INFO - D(x): 0.4748, D(G(z)): 0.4799
+2025-03-09 15:31:50,146 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:31:50,146 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:31:50,150 - GAN_Trainer - INFO - Epoch 12 completed in 81.88 seconds
+Figure(1600x1600)
+2025-03-09 15:31:50,899 - GAN_Trainer - INFO - Epoch: [13/30], Batch Num: [0/500]
+2025-03-09 15:31:50,900 - GAN_Trainer - INFO - Discriminator Loss: 1.4504, Generator Loss: 0.9231
+2025-03-09 15:31:50,900 - GAN_Trainer - INFO - D(x): 0.4526, D(G(z)): 0.4854
+Figure(1600x1600)
+2025-03-09 15:32:07,291 - GAN_Trainer - INFO - Epoch: [13/30], Batch Num: [100/500]
+2025-03-09 15:32:07,291 - GAN_Trainer - INFO - Discriminator Loss: 1.4170, Generator Loss: 0.9504
+2025-03-09 15:32:07,291 - GAN_Trainer - INFO - D(x): 0.4789, D(G(z)): 0.4749
+Figure(1600x1600)
+2025-03-09 15:32:23,699 - GAN_Trainer - INFO - Epoch: [13/30], Batch Num: [200/500]
+2025-03-09 15:32:23,699 - GAN_Trainer - INFO - Discriminator Loss: 1.4218, Generator Loss: 0.8907
+2025-03-09 15:32:23,699 - GAN_Trainer - INFO - D(x): 0.4489, D(G(z)): 0.4620
+Figure(1600x1600)
+2025-03-09 15:32:40,121 - GAN_Trainer - INFO - Epoch: [13/30], Batch Num: [300/500]
+2025-03-09 15:32:40,122 - GAN_Trainer - INFO - Discriminator Loss: 1.4225, Generator Loss: 0.8967
+2025-03-09 15:32:40,122 - GAN_Trainer - INFO - D(x): 0.4493, D(G(z)): 0.4587
+Figure(1600x1600)
+2025-03-09 15:32:56,512 - GAN_Trainer - INFO - Epoch: [13/30], Batch Num: [400/500]
+2025-03-09 15:32:56,512 - GAN_Trainer - INFO - Discriminator Loss: 1.4127, Generator Loss: 0.8764
+2025-03-09 15:32:56,512 - GAN_Trainer - INFO - D(x): 0.4686, D(G(z)): 0.4723
+2025-03-09 15:33:12,225 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:33:12,226 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:33:12,229 - GAN_Trainer - INFO - Epoch 13 completed in 82.08 seconds
+Figure(1600x1600)
+2025-03-09 15:33:12,966 - GAN_Trainer - INFO - Epoch: [14/30], Batch Num: [0/500]
+2025-03-09 15:33:12,966 - GAN_Trainer - INFO - Discriminator Loss: 1.4341, Generator Loss: 1.0542
+2025-03-09 15:33:12,966 - GAN_Trainer - INFO - D(x): 0.4764, D(G(z)): 0.4882
+Figure(1600x1600)
+2025-03-09 15:33:29,388 - GAN_Trainer - INFO - Epoch: [14/30], Batch Num: [100/500]
+2025-03-09 15:33:29,388 - GAN_Trainer - INFO - Discriminator Loss: 1.4369, Generator Loss: 1.1326
+2025-03-09 15:33:29,389 - GAN_Trainer - INFO - D(x): 0.4348, D(G(z)): 0.4527
+Figure(1600x1600)
+2025-03-09 15:33:45,816 - GAN_Trainer - INFO - Epoch: [14/30], Batch Num: [200/500]
+2025-03-09 15:33:45,817 - GAN_Trainer - INFO - Discriminator Loss: 1.3743, Generator Loss: 0.8691
+2025-03-09 15:33:45,817 - GAN_Trainer - INFO - D(x): 0.4471, D(G(z)): 0.4381
+Figure(1600x1600)
+2025-03-09 15:34:02,269 - GAN_Trainer - INFO - Epoch: [14/30], Batch Num: [300/500]
+2025-03-09 15:34:02,269 - GAN_Trainer - INFO - Discriminator Loss: 1.4174, Generator Loss: 0.8042
+2025-03-09 15:34:02,269 - GAN_Trainer - INFO - D(x): 0.4486, D(G(z)): 0.4600
+Figure(1600x1600)
+2025-03-09 15:34:18,754 - GAN_Trainer - INFO - Epoch: [14/30], Batch Num: [400/500]
+2025-03-09 15:34:18,754 - GAN_Trainer - INFO - Discriminator Loss: 1.4359, Generator Loss: 0.8196
+2025-03-09 15:34:18,754 - GAN_Trainer - INFO - D(x): 0.4643, D(G(z)): 0.4701
+2025-03-09 15:34:34,491 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:34:34,491 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:34:34,495 - GAN_Trainer - INFO - Epoch 14 completed in 82.27 seconds
+Figure(1600x1600)
+2025-03-09 15:34:35,242 - GAN_Trainer - INFO - Epoch: [15/30], Batch Num: [0/500]
+2025-03-09 15:34:35,242 - GAN_Trainer - INFO - Discriminator Loss: 1.3706, Generator Loss: 0.8188
+2025-03-09 15:34:35,242 - GAN_Trainer - INFO - D(x): 0.5004, D(G(z)): 0.4779
+Figure(1600x1600)
+2025-03-09 15:34:51,707 - GAN_Trainer - INFO - Epoch: [15/30], Batch Num: [100/500]
+2025-03-09 15:34:51,707 - GAN_Trainer - INFO - Discriminator Loss: 1.4352, Generator Loss: 0.8622
+2025-03-09 15:34:51,707 - GAN_Trainer - INFO - D(x): 0.4465, D(G(z)): 0.4471
+Figure(1600x1600)
+2025-03-09 15:35:08,206 - GAN_Trainer - INFO - Epoch: [15/30], Batch Num: [200/500]
+2025-03-09 15:35:08,206 - GAN_Trainer - INFO - Discriminator Loss: 1.3798, Generator Loss: 0.9059
+2025-03-09 15:35:08,206 - GAN_Trainer - INFO - D(x): 0.4129, D(G(z)): 0.4004
+Figure(1600x1600)
+2025-03-09 15:35:24,678 - GAN_Trainer - INFO - Epoch: [15/30], Batch Num: [300/500]
+2025-03-09 15:35:24,679 - GAN_Trainer - INFO - Discriminator Loss: 1.4504, Generator Loss: 0.8018
+2025-03-09 15:35:24,679 - GAN_Trainer - INFO - D(x): 0.4429, D(G(z)): 0.4544
+Figure(1600x1600)
+2025-03-09 15:35:41,168 - GAN_Trainer - INFO - Epoch: [15/30], Batch Num: [400/500]
+2025-03-09 15:35:41,168 - GAN_Trainer - INFO - Discriminator Loss: 1.4667, Generator Loss: 0.8587
+2025-03-09 15:35:41,168 - GAN_Trainer - INFO - D(x): 0.4465, D(G(z)): 0.4628
+2025-03-09 15:35:56,901 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:35:56,901 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:35:57,024 - GAN_Trainer - INFO - Epoch 15 completed in 82.53 seconds
+Figure(1600x1600)
+2025-03-09 15:35:57,774 - GAN_Trainer - INFO - Epoch: [16/30], Batch Num: [0/500]
+2025-03-09 15:35:57,774 - GAN_Trainer - INFO - Discriminator Loss: 1.4820, Generator Loss: 0.8311
+2025-03-09 15:35:57,774 - GAN_Trainer - INFO - D(x): 0.4153, D(G(z)): 0.4236
+Figure(1600x1600)
+2025-03-09 15:36:14,236 - GAN_Trainer - INFO - Epoch: [16/30], Batch Num: [100/500]
+2025-03-09 15:36:14,236 - GAN_Trainer - INFO - Discriminator Loss: 1.3742, Generator Loss: 0.9227
+2025-03-09 15:36:14,237 - GAN_Trainer - INFO - D(x): 0.4154, D(G(z)): 0.3974
+Figure(1600x1600)
+2025-03-09 15:36:31,091 - GAN_Trainer - INFO - Epoch: [16/30], Batch Num: [200/500]
+2025-03-09 15:36:31,092 - GAN_Trainer - INFO - Discriminator Loss: 1.4333, Generator Loss: 0.8636
+2025-03-09 15:36:31,092 - GAN_Trainer - INFO - D(x): 0.4806, D(G(z)): 0.4892
+Figure(1600x1600)
+2025-03-09 15:36:47,643 - GAN_Trainer - INFO - Epoch: [16/30], Batch Num: [300/500]
+2025-03-09 15:36:47,643 - GAN_Trainer - INFO - Discriminator Loss: 1.3914, Generator Loss: 0.7916
+2025-03-09 15:36:47,644 - GAN_Trainer - INFO - D(x): 0.4412, D(G(z)): 0.4405
+Figure(1600x1600)
+2025-03-09 15:37:04,150 - GAN_Trainer - INFO - Epoch: [16/30], Batch Num: [400/500]
+2025-03-09 15:37:04,150 - GAN_Trainer - INFO - Discriminator Loss: 1.4130, Generator Loss: 0.9171
+2025-03-09 15:37:04,150 - GAN_Trainer - INFO - D(x): 0.4443, D(G(z)): 0.4488
+2025-03-09 15:37:19,937 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:37:19,938 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:37:19,947 - GAN_Trainer - INFO - Epoch 16 completed in 82.92 seconds
+Figure(1600x1600)
+2025-03-09 15:37:20,672 - GAN_Trainer - INFO - Epoch: [17/30], Batch Num: [0/500]
+2025-03-09 15:37:20,672 - GAN_Trainer - INFO - Discriminator Loss: 1.4153, Generator Loss: 0.7663
+2025-03-09 15:37:20,672 - GAN_Trainer - INFO - D(x): 0.4102, D(G(z)): 0.4124
+Figure(1600x1600)
+2025-03-09 15:37:37,182 - GAN_Trainer - INFO - Epoch: [17/30], Batch Num: [100/500]
+2025-03-09 15:37:37,182 - GAN_Trainer - INFO - Discriminator Loss: 1.4351, Generator Loss: 0.7051
+2025-03-09 15:37:37,183 - GAN_Trainer - INFO - D(x): 0.4289, D(G(z)): 0.4366
+Figure(1600x1600)
+2025-03-09 15:37:53,724 - GAN_Trainer - INFO - Epoch: [17/30], Batch Num: [200/500]
+2025-03-09 15:37:53,724 - GAN_Trainer - INFO - Discriminator Loss: 1.3830, Generator Loss: 0.9182
+2025-03-09 15:37:53,725 - GAN_Trainer - INFO - D(x): 0.4975, D(G(z)): 0.4863
+Figure(1600x1600)
+2025-03-09 15:38:10,293 - GAN_Trainer - INFO - Epoch: [17/30], Batch Num: [300/500]
+2025-03-09 15:38:10,293 - GAN_Trainer - INFO - Discriminator Loss: 1.4049, Generator Loss: 0.8124
+2025-03-09 15:38:10,294 - GAN_Trainer - INFO - D(x): 0.4458, D(G(z)): 0.4528
+Figure(1600x1600)
+2025-03-09 15:38:26,857 - GAN_Trainer - INFO - Epoch: [17/30], Batch Num: [400/500]
+2025-03-09 15:38:26,857 - GAN_Trainer - INFO - Discriminator Loss: 1.5276, Generator Loss: 0.8503
+2025-03-09 15:38:26,858 - GAN_Trainer - INFO - D(x): 0.4526, D(G(z)): 0.5014
+2025-03-09 15:38:42,666 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:38:42,667 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:38:42,670 - GAN_Trainer - INFO - Epoch 17 completed in 82.72 seconds
+Figure(1600x1600)
+2025-03-09 15:38:43,407 - GAN_Trainer - INFO - Epoch: [18/30], Batch Num: [0/500]
+2025-03-09 15:38:43,408 - GAN_Trainer - INFO - Discriminator Loss: 1.4750, Generator Loss: 0.8566
+2025-03-09 15:38:43,408 - GAN_Trainer - INFO - D(x): 0.4742, D(G(z)): 0.4819
+Figure(1600x1600)
+2025-03-09 15:38:59,971 - GAN_Trainer - INFO - Epoch: [18/30], Batch Num: [100/500]
+2025-03-09 15:38:59,972 - GAN_Trainer - INFO - Discriminator Loss: 1.4203, Generator Loss: 0.8840
+2025-03-09 15:38:59,972 - GAN_Trainer - INFO - D(x): 0.4299, D(G(z)): 0.4349
+Figure(1600x1600)
+2025-03-09 15:39:16,509 - GAN_Trainer - INFO - Epoch: [18/30], Batch Num: [200/500]
+2025-03-09 15:39:16,509 - GAN_Trainer - INFO - Discriminator Loss: 1.4223, Generator Loss: 0.9500
+2025-03-09 15:39:16,509 - GAN_Trainer - INFO - D(x): 0.4140, D(G(z)): 0.4250
+Figure(1600x1600)
+2025-03-09 15:39:33,033 - GAN_Trainer - INFO - Epoch: [18/30], Batch Num: [300/500]
+2025-03-09 15:39:33,033 - GAN_Trainer - INFO - Discriminator Loss: 1.4006, Generator Loss: 0.8077
+2025-03-09 15:39:33,033 - GAN_Trainer - INFO - D(x): 0.4800, D(G(z)): 0.4797
+Figure(1600x1600)
+2025-03-09 15:39:49,597 - GAN_Trainer - INFO - Epoch: [18/30], Batch Num: [400/500]
+2025-03-09 15:39:49,597 - GAN_Trainer - INFO - Discriminator Loss: 1.4041, Generator Loss: 0.8010
+2025-03-09 15:39:49,597 - GAN_Trainer - INFO - D(x): 0.4761, D(G(z)): 0.4724
+2025-03-09 15:40:05,374 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:40:05,374 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:40:05,378 - GAN_Trainer - INFO - Epoch 18 completed in 82.71 seconds
+Figure(1600x1600)
+2025-03-09 15:40:06,124 - GAN_Trainer - INFO - Epoch: [19/30], Batch Num: [0/500]
+2025-03-09 15:40:06,124 - GAN_Trainer - INFO - Discriminator Loss: 1.3934, Generator Loss: 0.8437
+2025-03-09 15:40:06,124 - GAN_Trainer - INFO - D(x): 0.4957, D(G(z)): 0.4889
+Figure(1600x1600)
+2025-03-09 15:40:22,677 - GAN_Trainer - INFO - Epoch: [19/30], Batch Num: [100/500]
+2025-03-09 15:40:22,677 - GAN_Trainer - INFO - Discriminator Loss: 1.3930, Generator Loss: 0.8876
+2025-03-09 15:40:22,677 - GAN_Trainer - INFO - D(x): 0.4594, D(G(z)): 0.4518
+Figure(1600x1600)
+2025-03-09 15:40:39,195 - GAN_Trainer - INFO - Epoch: [19/30], Batch Num: [200/500]
+2025-03-09 15:40:39,195 - GAN_Trainer - INFO - Discriminator Loss: 1.3779, Generator Loss: 0.8345
+2025-03-09 15:40:39,196 - GAN_Trainer - INFO - D(x): 0.4638, D(G(z)): 0.4600
+Figure(1600x1600)
+2025-03-09 15:40:55,727 - GAN_Trainer - INFO - Epoch: [19/30], Batch Num: [300/500]
+2025-03-09 15:40:55,727 - GAN_Trainer - INFO - Discriminator Loss: 1.3969, Generator Loss: 0.8227
+2025-03-09 15:40:55,727 - GAN_Trainer - INFO - D(x): 0.4546, D(G(z)): 0.4539
+Figure(1600x1600)
+2025-03-09 15:41:12,280 - GAN_Trainer - INFO - Epoch: [19/30], Batch Num: [400/500]
+2025-03-09 15:41:12,281 - GAN_Trainer - INFO - Discriminator Loss: 1.3784, Generator Loss: 0.8865
+2025-03-09 15:41:12,281 - GAN_Trainer - INFO - D(x): 0.4975, D(G(z)): 0.4839
+2025-03-09 15:41:28,080 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:41:28,081 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:41:28,084 - GAN_Trainer - INFO - Epoch 19 completed in 82.71 seconds
+Figure(1600x1600)
+2025-03-09 15:41:28,823 - GAN_Trainer - INFO - Epoch: [20/30], Batch Num: [0/500]
+2025-03-09 15:41:28,824 - GAN_Trainer - INFO - Discriminator Loss: 1.4487, Generator Loss: 0.9565
+2025-03-09 15:41:28,824 - GAN_Trainer - INFO - D(x): 0.4140, D(G(z)): 0.4266
+Figure(1600x1600)
+2025-03-09 15:41:45,407 - GAN_Trainer - INFO - Epoch: [20/30], Batch Num: [100/500]
+2025-03-09 15:41:45,407 - GAN_Trainer - INFO - Discriminator Loss: 1.4478, Generator Loss: 0.8562
+2025-03-09 15:41:45,407 - GAN_Trainer - INFO - D(x): 0.4174, D(G(z)): 0.4434
+Figure(1600x1600)
+2025-03-09 15:42:01,953 - GAN_Trainer - INFO - Epoch: [20/30], Batch Num: [200/500]
+2025-03-09 15:42:01,953 - GAN_Trainer - INFO - Discriminator Loss: 1.3763, Generator Loss: 0.8853
+2025-03-09 15:42:01,954 - GAN_Trainer - INFO - D(x): 0.4733, D(G(z)): 0.4658
+Figure(1600x1600)
+2025-03-09 15:42:18,505 - GAN_Trainer - INFO - Epoch: [20/30], Batch Num: [300/500]
+2025-03-09 15:42:18,505 - GAN_Trainer - INFO - Discriminator Loss: 1.4242, Generator Loss: 0.9669
+2025-03-09 15:42:18,505 - GAN_Trainer - INFO - D(x): 0.4193, D(G(z)): 0.4265
+Figure(1600x1600)
+2025-03-09 15:42:35,094 - GAN_Trainer - INFO - Epoch: [20/30], Batch Num: [400/500]
+2025-03-09 15:42:35,094 - GAN_Trainer - INFO - Discriminator Loss: 1.3586, Generator Loss: 0.9380
+2025-03-09 15:42:35,094 - GAN_Trainer - INFO - D(x): 0.4437, D(G(z)): 0.4213
+2025-03-09 15:42:50,936 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:42:50,937 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:42:51,066 - GAN_Trainer - INFO - Epoch 20 completed in 82.98 seconds
+Figure(1600x1600)
+2025-03-09 15:42:51,817 - GAN_Trainer - INFO - Epoch: [21/30], Batch Num: [0/500]
+2025-03-09 15:42:51,817 - GAN_Trainer - INFO - Discriminator Loss: 1.4145, Generator Loss: 0.8301
+2025-03-09 15:42:51,817 - GAN_Trainer - INFO - D(x): 0.4300, D(G(z)): 0.4364
+Figure(1600x1600)
+2025-03-09 15:43:08,365 - GAN_Trainer - INFO - Epoch: [21/30], Batch Num: [100/500]
+2025-03-09 15:43:08,365 - GAN_Trainer - INFO - Discriminator Loss: 1.3344, Generator Loss: 0.9561
+2025-03-09 15:43:08,366 - GAN_Trainer - INFO - D(x): 0.4684, D(G(z)): 0.4317
+Figure(1600x1600)
+2025-03-09 15:43:24,953 - GAN_Trainer - INFO - Epoch: [21/30], Batch Num: [200/500]
+2025-03-09 15:43:24,953 - GAN_Trainer - INFO - Discriminator Loss: 1.4829, Generator Loss: 0.7718
+2025-03-09 15:43:24,953 - GAN_Trainer - INFO - D(x): 0.4198, D(G(z)): 0.4358
+Figure(1600x1600)
+2025-03-09 15:43:41,526 - GAN_Trainer - INFO - Epoch: [21/30], Batch Num: [300/500]
+2025-03-09 15:43:41,526 - GAN_Trainer - INFO - Discriminator Loss: 1.3383, Generator Loss: 0.9010
+2025-03-09 15:43:41,526 - GAN_Trainer - INFO - D(x): 0.4634, D(G(z)): 0.4261
+Figure(1600x1600)
+2025-03-09 15:43:58,095 - GAN_Trainer - INFO - Epoch: [21/30], Batch Num: [400/500]
+2025-03-09 15:43:58,095 - GAN_Trainer - INFO - Discriminator Loss: 1.4168, Generator Loss: 0.7623
+2025-03-09 15:43:58,095 - GAN_Trainer - INFO - D(x): 0.4801, D(G(z)): 0.4846
+2025-03-09 15:44:13,944 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:44:13,945 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:44:13,948 - GAN_Trainer - INFO - Epoch 21 completed in 82.88 seconds
+Figure(1600x1600)
+2025-03-09 15:44:14,703 - GAN_Trainer - INFO - Epoch: [22/30], Batch Num: [0/500]
+2025-03-09 15:44:14,703 - GAN_Trainer - INFO - Discriminator Loss: 1.3556, Generator Loss: 0.9127
+2025-03-09 15:44:14,704 - GAN_Trainer - INFO - D(x): 0.4421, D(G(z)): 0.4224
+Figure(1600x1600)
+2025-03-09 15:44:31,312 - GAN_Trainer - INFO - Epoch: [22/30], Batch Num: [100/500]
+2025-03-09 15:44:31,312 - GAN_Trainer - INFO - Discriminator Loss: 1.3925, Generator Loss: 0.9431
+2025-03-09 15:44:31,312 - GAN_Trainer - INFO - D(x): 0.4715, D(G(z)): 0.4485
+Figure(1600x1600)
+2025-03-09 15:44:47,856 - GAN_Trainer - INFO - Epoch: [22/30], Batch Num: [200/500]
+2025-03-09 15:44:47,856 - GAN_Trainer - INFO - Discriminator Loss: 1.5190, Generator Loss: 0.8515
+2025-03-09 15:44:47,856 - GAN_Trainer - INFO - D(x): 0.3877, D(G(z)): 0.4409
+Figure(1600x1600)
+2025-03-09 15:45:04,468 - GAN_Trainer - INFO - Epoch: [22/30], Batch Num: [300/500]
+2025-03-09 15:45:04,468 - GAN_Trainer - INFO - Discriminator Loss: 1.3540, Generator Loss: 0.8952
+2025-03-09 15:45:04,469 - GAN_Trainer - INFO - D(x): 0.4093, D(G(z)): 0.3759
+Figure(1600x1600)
+2025-03-09 15:45:21,074 - GAN_Trainer - INFO - Epoch: [22/30], Batch Num: [400/500]
+2025-03-09 15:45:21,075 - GAN_Trainer - INFO - Discriminator Loss: 1.3790, Generator Loss: 0.9502
+2025-03-09 15:45:21,075 - GAN_Trainer - INFO - D(x): 0.5063, D(G(z)): 0.4856
+2025-03-09 15:45:36,923 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:45:36,923 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:45:36,927 - GAN_Trainer - INFO - Epoch 22 completed in 82.98 seconds
+Figure(1600x1600)
+2025-03-09 15:45:37,667 - GAN_Trainer - INFO - Epoch: [23/30], Batch Num: [0/500]
+2025-03-09 15:45:37,667 - GAN_Trainer - INFO - Discriminator Loss: 1.3241, Generator Loss: 1.0569
+2025-03-09 15:45:37,667 - GAN_Trainer - INFO - D(x): 0.5085, D(G(z)): 0.4583
+Figure(1600x1600)
+2025-03-09 15:45:54,282 - GAN_Trainer - INFO - Epoch: [23/30], Batch Num: [100/500]
+2025-03-09 15:45:54,282 - GAN_Trainer - INFO - Discriminator Loss: 1.4453, Generator Loss: 1.1388
+2025-03-09 15:45:54,283 - GAN_Trainer - INFO - D(x): 0.3418, D(G(z)): 0.3426
+Figure(1600x1600)
+2025-03-09 15:46:10,921 - GAN_Trainer - INFO - Epoch: [23/30], Batch Num: [200/500]
+2025-03-09 15:46:10,921 - GAN_Trainer - INFO - Discriminator Loss: 1.3512, Generator Loss: 1.0133
+2025-03-09 15:46:10,921 - GAN_Trainer - INFO - D(x): 0.4710, D(G(z)): 0.4273
+Figure(1600x1600)
+2025-03-09 15:46:27,522 - GAN_Trainer - INFO - Epoch: [23/30], Batch Num: [300/500]
+2025-03-09 15:46:27,522 - GAN_Trainer - INFO - Discriminator Loss: 1.4232, Generator Loss: 1.1320
+2025-03-09 15:46:27,523 - GAN_Trainer - INFO - D(x): 0.6052, D(G(z)): 0.5725
+Figure(1600x1600)
+2025-03-09 15:46:44,141 - GAN_Trainer - INFO - Epoch: [23/30], Batch Num: [400/500]
+2025-03-09 15:46:44,141 - GAN_Trainer - INFO - Discriminator Loss: 1.4081, Generator Loss: 2.0576
+2025-03-09 15:46:44,142 - GAN_Trainer - INFO - D(x): 0.5450, D(G(z)): 0.5237
+2025-03-09 15:47:00,007 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:47:00,008 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:47:00,011 - GAN_Trainer - INFO - Epoch 23 completed in 83.08 seconds
+Figure(1600x1600)
+2025-03-09 15:47:00,784 - GAN_Trainer - INFO - Epoch: [24/30], Batch Num: [0/500]
+2025-03-09 15:47:00,784 - GAN_Trainer - INFO - Discriminator Loss: 1.3220, Generator Loss: 1.4131
+2025-03-09 15:47:00,784 - GAN_Trainer - INFO - D(x): 0.5117, D(G(z)): 0.4603
+Figure(1600x1600)
+2025-03-09 15:47:17,420 - GAN_Trainer - INFO - Epoch: [24/30], Batch Num: [100/500]
+2025-03-09 15:47:17,420 - GAN_Trainer - INFO - Discriminator Loss: 1.3336, Generator Loss: 1.0621
+2025-03-09 15:47:17,421 - GAN_Trainer - INFO - D(x): 0.5133, D(G(z)): 0.4580
+Figure(1600x1600)
+2025-03-09 15:47:34,047 - GAN_Trainer - INFO - Epoch: [24/30], Batch Num: [200/500]
+2025-03-09 15:47:34,047 - GAN_Trainer - INFO - Discriminator Loss: 1.3961, Generator Loss: 1.7056
+2025-03-09 15:47:34,047 - GAN_Trainer - INFO - D(x): 0.5105, D(G(z)): 0.4994
+Figure(1600x1600)
+2025-03-09 15:47:50,685 - GAN_Trainer - INFO - Epoch: [24/30], Batch Num: [300/500]
+2025-03-09 15:47:50,685 - GAN_Trainer - INFO - Discriminator Loss: 1.6201, Generator Loss: 1.7306
+2025-03-09 15:47:50,685 - GAN_Trainer - INFO - D(x): 0.2314, D(G(z)): 0.1781
+Figure(1600x1600)
+2025-03-09 15:48:07,331 - GAN_Trainer - INFO - Epoch: [24/30], Batch Num: [400/500]
+2025-03-09 15:48:07,332 - GAN_Trainer - INFO - Discriminator Loss: 1.3436, Generator Loss: 1.4920
+2025-03-09 15:48:07,332 - GAN_Trainer - INFO - D(x): 0.4911, D(G(z)): 0.4415
+2025-03-09 15:48:23,201 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:48:23,201 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:48:23,205 - GAN_Trainer - INFO - Epoch 24 completed in 83.19 seconds
+Figure(1600x1600)
+2025-03-09 15:48:23,960 - GAN_Trainer - INFO - Epoch: [25/30], Batch Num: [0/500]
+2025-03-09 15:48:23,960 - GAN_Trainer - INFO - Discriminator Loss: 1.3802, Generator Loss: 0.9735
+2025-03-09 15:48:23,960 - GAN_Trainer - INFO - D(x): 0.4055, D(G(z)): 0.3731
+Figure(1600x1600)
+2025-03-09 15:48:40,598 - GAN_Trainer - INFO - Epoch: [25/30], Batch Num: [100/500]
+2025-03-09 15:48:40,598 - GAN_Trainer - INFO - Discriminator Loss: 1.2782, Generator Loss: 0.9700
+2025-03-09 15:48:40,598 - GAN_Trainer - INFO - D(x): 0.3786, D(G(z)): 0.2467
+Figure(1600x1600)
+2025-03-09 15:48:57,224 - GAN_Trainer - INFO - Epoch: [25/30], Batch Num: [200/500]
+2025-03-09 15:48:57,224 - GAN_Trainer - INFO - Discriminator Loss: 1.3394, Generator Loss: 1.4469
+2025-03-09 15:48:57,224 - GAN_Trainer - INFO - D(x): 0.4711, D(G(z)): 0.4291
+Figure(1600x1600)
+2025-03-09 15:49:13,873 - GAN_Trainer - INFO - Epoch: [25/30], Batch Num: [300/500]
+2025-03-09 15:49:13,873 - GAN_Trainer - INFO - Discriminator Loss: 1.1179, Generator Loss: 1.1452
+2025-03-09 15:49:13,873 - GAN_Trainer - INFO - D(x): 0.4433, D(G(z)): 0.2326
+Figure(1600x1600)
+2025-03-09 15:49:30,461 - GAN_Trainer - INFO - Epoch: [25/30], Batch Num: [400/500]
+2025-03-09 15:49:30,461 - GAN_Trainer - INFO - Discriminator Loss: 1.2865, Generator Loss: 1.6229
+2025-03-09 15:49:30,461 - GAN_Trainer - INFO - D(x): 0.5081, D(G(z)): 0.4231
+2025-03-09 15:49:46,301 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:49:46,301 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:49:46,465 - GAN_Trainer - INFO - Epoch 25 completed in 83.26 seconds
+Figure(1600x1600)
+2025-03-09 15:49:47,227 - GAN_Trainer - INFO - Epoch: [26/30], Batch Num: [0/500]
+2025-03-09 15:49:47,227 - GAN_Trainer - INFO - Discriminator Loss: 0.9790, Generator Loss: 2.5234
+2025-03-09 15:49:47,228 - GAN_Trainer - INFO - D(x): 0.6580, D(G(z)): 0.3674
+Figure(1600x1600)
+2025-03-09 15:50:03,769 - GAN_Trainer - INFO - Epoch: [26/30], Batch Num: [100/500]
+2025-03-09 15:50:03,769 - GAN_Trainer - INFO - Discriminator Loss: 0.9374, Generator Loss: 1.4701
+2025-03-09 15:50:03,769 - GAN_Trainer - INFO - D(x): 0.4609, D(G(z)): 0.1251
+Figure(1600x1600)
+2025-03-09 15:50:20,289 - GAN_Trainer - INFO - Epoch: [26/30], Batch Num: [200/500]
+2025-03-09 15:50:20,289 - GAN_Trainer - INFO - Discriminator Loss: 1.0401, Generator Loss: 1.1055
+2025-03-09 15:50:20,289 - GAN_Trainer - INFO - D(x): 0.5108, D(G(z)): 0.2780
+Figure(1600x1600)
+2025-03-09 15:50:36,816 - GAN_Trainer - INFO - Epoch: [26/30], Batch Num: [300/500]
+2025-03-09 15:50:36,816 - GAN_Trainer - INFO - Discriminator Loss: 1.1602, Generator Loss: 1.9666
+2025-03-09 15:50:36,816 - GAN_Trainer - INFO - D(x): 0.6415, D(G(z)): 0.4505
+Figure(1600x1600)
+2025-03-09 15:50:53,293 - GAN_Trainer - INFO - Epoch: [26/30], Batch Num: [400/500]
+2025-03-09 15:50:53,293 - GAN_Trainer - INFO - Discriminator Loss: 1.0594, Generator Loss: 1.7436
+2025-03-09 15:50:53,293 - GAN_Trainer - INFO - D(x): 0.5609, D(G(z)): 0.3378
+2025-03-09 15:51:08,999 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:51:08,999 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:51:09,003 - GAN_Trainer - INFO - Epoch 26 completed in 82.54 seconds
+Figure(1600x1600)
+2025-03-09 15:51:09,750 - GAN_Trainer - INFO - Epoch: [27/30], Batch Num: [0/500]
+2025-03-09 15:51:09,750 - GAN_Trainer - INFO - Discriminator Loss: 1.1430, Generator Loss: 1.8288
+2025-03-09 15:51:09,750 - GAN_Trainer - INFO - D(x): 0.6127, D(G(z)): 0.4155
+Figure(1600x1600)
+2025-03-09 15:51:26,181 - GAN_Trainer - INFO - Epoch: [27/30], Batch Num: [100/500]
+2025-03-09 15:51:26,181 - GAN_Trainer - INFO - Discriminator Loss: 0.8647, Generator Loss: 1.3831
+2025-03-09 15:51:26,181 - GAN_Trainer - INFO - D(x): 0.6112, D(G(z)): 0.2450
+Figure(1600x1600)
+2025-03-09 15:51:42,619 - GAN_Trainer - INFO - Epoch: [27/30], Batch Num: [200/500]
+2025-03-09 15:51:42,619 - GAN_Trainer - INFO - Discriminator Loss: 1.2821, Generator Loss: 1.2550
+2025-03-09 15:51:42,620 - GAN_Trainer - INFO - D(x): 0.6024, D(G(z)): 0.4750
+Figure(1600x1600)
+2025-03-09 15:51:59,044 - GAN_Trainer - INFO - Epoch: [27/30], Batch Num: [300/500]
+2025-03-09 15:51:59,044 - GAN_Trainer - INFO - Discriminator Loss: 0.8714, Generator Loss: 1.6471
+2025-03-09 15:51:59,045 - GAN_Trainer - INFO - D(x): 0.7214, D(G(z)): 0.3441
+Figure(1600x1600)
+2025-03-09 15:52:15,424 - GAN_Trainer - INFO - Epoch: [27/30], Batch Num: [400/500]
+2025-03-09 15:52:15,424 - GAN_Trainer - INFO - Discriminator Loss: 0.6166, Generator Loss: 2.1198
+2025-03-09 15:52:15,424 - GAN_Trainer - INFO - D(x): 0.7312, D(G(z)): 0.1631
+2025-03-09 15:52:31,093 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:52:31,093 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:52:31,097 - GAN_Trainer - INFO - Epoch 27 completed in 82.09 seconds
+Figure(1600x1600)
+2025-03-09 15:52:31,838 - GAN_Trainer - INFO - Epoch: [28/30], Batch Num: [0/500]
+2025-03-09 15:52:31,838 - GAN_Trainer - INFO - Discriminator Loss: 1.1065, Generator Loss: 1.6719
+2025-03-09 15:52:31,839 - GAN_Trainer - INFO - D(x): 0.5907, D(G(z)): 0.3952
+Figure(1600x1600)
+2025-03-09 15:52:48,246 - GAN_Trainer - INFO - Epoch: [28/30], Batch Num: [100/500]
+2025-03-09 15:52:48,246 - GAN_Trainer - INFO - Discriminator Loss: 1.2013, Generator Loss: 1.8478
+2025-03-09 15:52:48,246 - GAN_Trainer - INFO - D(x): 0.3209, D(G(z)): 0.0444
+Figure(1600x1600)
+2025-03-09 15:53:04,627 - GAN_Trainer - INFO - Epoch: [28/30], Batch Num: [200/500]
+2025-03-09 15:53:04,627 - GAN_Trainer - INFO - Discriminator Loss: 0.8728, Generator Loss: 1.7215
+2025-03-09 15:53:04,627 - GAN_Trainer - INFO - D(x): 0.6401, D(G(z)): 0.2818
+Figure(1600x1600)
+2025-03-09 15:53:20,994 - GAN_Trainer - INFO - Epoch: [28/30], Batch Num: [300/500]
+2025-03-09 15:53:20,994 - GAN_Trainer - INFO - Discriminator Loss: 1.2282, Generator Loss: 3.0351
+2025-03-09 15:53:20,994 - GAN_Trainer - INFO - D(x): 0.7084, D(G(z)): 0.5140
+Figure(1600x1600)
+2025-03-09 15:53:37,386 - GAN_Trainer - INFO - Epoch: [28/30], Batch Num: [400/500]
+2025-03-09 15:53:37,386 - GAN_Trainer - INFO - Discriminator Loss: 0.6189, Generator Loss: 2.2106
+2025-03-09 15:53:37,386 - GAN_Trainer - INFO - D(x): 0.6235, D(G(z)): 0.0600
+2025-03-09 15:53:53,027 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:53:53,028 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:53:53,031 - GAN_Trainer - INFO - Epoch 28 completed in 81.93 seconds
+Figure(1600x1600)
+2025-03-09 15:53:53,786 - GAN_Trainer - INFO - Epoch: [29/30], Batch Num: [0/500]
+2025-03-09 15:53:53,786 - GAN_Trainer - INFO - Discriminator Loss: 0.8401, Generator Loss: 1.8274
+2025-03-09 15:53:53,787 - GAN_Trainer - INFO - D(x): 0.4798, D(G(z)): 0.0693
+Figure(1600x1600)
+2025-03-09 15:54:10,178 - GAN_Trainer - INFO - Epoch: [29/30], Batch Num: [100/500]
+2025-03-09 15:54:10,178 - GAN_Trainer - INFO - Discriminator Loss: 3.5127, Generator Loss: 2.2923
+2025-03-09 15:54:10,178 - GAN_Trainer - INFO - D(x): 0.0273, D(G(z)): 0.0092
+Figure(1600x1600)
+2025-03-09 15:54:26,581 - GAN_Trainer - INFO - Epoch: [29/30], Batch Num: [200/500]
+2025-03-09 15:54:26,581 - GAN_Trainer - INFO - Discriminator Loss: 3.3310, Generator Loss: 2.8572
+2025-03-09 15:54:26,581 - GAN_Trainer - INFO - D(x): 0.0298, D(G(z)): 0.0118
+Figure(1600x1600)
+2025-03-09 15:54:42,996 - GAN_Trainer - INFO - Epoch: [29/30], Batch Num: [300/500]
+2025-03-09 15:54:42,996 - GAN_Trainer - INFO - Discriminator Loss: 0.6960, Generator Loss: 1.5624
+2025-03-09 15:54:42,996 - GAN_Trainer - INFO - D(x): 0.5759, D(G(z)): 0.0800
+Figure(1600x1600)
+2025-03-09 15:54:59,389 - GAN_Trainer - INFO - Epoch: [29/30], Batch Num: [400/500]
+2025-03-09 15:54:59,390 - GAN_Trainer - INFO - Discriminator Loss: 1.1690, Generator Loss: 1.2152
+2025-03-09 15:54:59,390 - GAN_Trainer - INFO - D(x): 0.3782, D(G(z)): 0.1406
+2025-03-09 15:55:15,092 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(x) is illegal; using dcgan_cifar/D_x_ instead.
+2025-03-09 15:55:15,092 - tensorboardX.summary - INFO - Summary name dcgan_cifar/D(G(z)) is illegal; using dcgan_cifar/D_G_z__ instead.
+2025-03-09 15:55:15,257 - GAN_Trainer - INFO - Epoch 29 completed in 82.23 seconds
+2025-03-09 15:55:16,009 - GAN_Trainer - INFO - Loss plot saved to ./plots/dcgan/cifar/loss_plot.png
+2025-03-09 15:55:16,135 - GAN_Trainer - INFO - Discriminator scores plot saved to ./plots/dcgan/cifar/discriminator_scores.png
+2025-03-09 15:55:16,136 - GAN_Trainer - INFO - DCGAN training completed in 0:41:21.058924
+2025-03-09 15:55:16,138 - GAN_Trainer - INFO - Testing dcgan generator on cifar...
+2025-03-09 15:55:16,639 - GAN_Trainer - INFO - Generated images saved to ./results/dcgan/cifar/test/generated_images.png
+2025-03-09 15:55:16,658 - GAN_Trainer - INFO - All training and testing completed successfully!

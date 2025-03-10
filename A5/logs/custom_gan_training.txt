@@ -1,0 +1,1052 @@
+2025-03-09 16:06:55,554 - CustomGAN - INFO - Epoch: [158/200], Batch Num: [30/79]
+2025-03-09 16:06:55,554 - CustomGAN - INFO - Discriminator Loss: 1.3735, Generator Loss: 0.7994
+2025-03-09 16:06:55,555 - CustomGAN - INFO - D(x): 0.4526, D(G(z)): 0.4509
+2025-03-09 16:06:55,743 - CustomGAN - INFO - Epoch: [158/200], Batch Num: [40/79]
+2025-03-09 16:06:55,743 - CustomGAN - INFO - Discriminator Loss: 1.3784, Generator Loss: 0.8013
+2025-03-09 16:06:55,744 - CustomGAN - INFO - D(x): 0.4500, D(G(z)): 0.4509
+2025-03-09 16:06:55,932 - CustomGAN - INFO - Epoch: [158/200], Batch Num: [50/79]
+2025-03-09 16:06:55,932 - CustomGAN - INFO - Discriminator Loss: 1.3789, Generator Loss: 0.8085
+2025-03-09 16:06:55,933 - CustomGAN - INFO - D(x): 0.4454, D(G(z)): 0.4465
+2025-03-09 16:06:56,121 - CustomGAN - INFO - Epoch: [158/200], Batch Num: [60/79]
+2025-03-09 16:06:56,121 - CustomGAN - INFO - Discriminator Loss: 1.3756, Generator Loss: 0.8049
+2025-03-09 16:06:56,121 - CustomGAN - INFO - D(x): 0.4496, D(G(z)): 0.4490
+2025-03-09 16:06:56,310 - CustomGAN - INFO - Epoch: [158/200], Batch Num: [70/79]
+2025-03-09 16:06:56,310 - CustomGAN - INFO - Discriminator Loss: 1.3757, Generator Loss: 0.7928
+2025-03-09 16:06:56,310 - CustomGAN - INFO - D(x): 0.4519, D(G(z)): 0.4513
+2025-03-09 16:06:56,461 - CustomGAN - INFO - Epoch 158 completed in 1.50 seconds
+2025-03-09 16:06:56,485 - CustomGAN - INFO - Epoch: [159/200], Batch Num: [0/79]
+2025-03-09 16:06:56,485 - CustomGAN - INFO - Discriminator Loss: 1.3801, Generator Loss: 0.7963
+2025-03-09 16:06:56,486 - CustomGAN - INFO - D(x): 0.4496, D(G(z)): 0.4515
+2025-03-09 16:06:56,674 - CustomGAN - INFO - Epoch: [159/200], Batch Num: [10/79]
+2025-03-09 16:06:56,674 - CustomGAN - INFO - Discriminator Loss: 1.3782, Generator Loss: 0.8032
+2025-03-09 16:06:56,674 - CustomGAN - INFO - D(x): 0.4491, D(G(z)): 0.4500
+2025-03-09 16:06:56,862 - CustomGAN - INFO - Epoch: [159/200], Batch Num: [20/79]
+2025-03-09 16:06:56,863 - CustomGAN - INFO - Discriminator Loss: 1.3736, Generator Loss: 0.7959
+2025-03-09 16:06:56,863 - CustomGAN - INFO - D(x): 0.4524, D(G(z)): 0.4507
+2025-03-09 16:06:57,053 - CustomGAN - INFO - Epoch: [159/200], Batch Num: [30/79]
+2025-03-09 16:06:57,053 - CustomGAN - INFO - Discriminator Loss: 1.3789, Generator Loss: 0.7920
+2025-03-09 16:06:57,053 - CustomGAN - INFO - D(x): 0.4505, D(G(z)): 0.4516
+2025-03-09 16:06:57,242 - CustomGAN - INFO - Epoch: [159/200], Batch Num: [40/79]
+2025-03-09 16:06:57,242 - CustomGAN - INFO - Discriminator Loss: 1.3762, Generator Loss: 0.7986
+2025-03-09 16:06:57,242 - CustomGAN - INFO - D(x): 0.4520, D(G(z)): 0.4517
+2025-03-09 16:06:57,430 - CustomGAN - INFO - Epoch: [159/200], Batch Num: [50/79]
+2025-03-09 16:06:57,430 - CustomGAN - INFO - Discriminator Loss: 1.3783, Generator Loss: 0.8034
+2025-03-09 16:06:57,431 - CustomGAN - INFO - D(x): 0.4496, D(G(z)): 0.4504
+2025-03-09 16:06:57,619 - CustomGAN - INFO - Epoch: [159/200], Batch Num: [60/79]
+2025-03-09 16:06:57,619 - CustomGAN - INFO - Discriminator Loss: 1.3783, Generator Loss: 0.7997
+2025-03-09 16:06:57,620 - CustomGAN - INFO - D(x): 0.4492, D(G(z)): 0.4501
+2025-03-09 16:06:57,808 - CustomGAN - INFO - Epoch: [159/200], Batch Num: [70/79]
+2025-03-09 16:06:57,808 - CustomGAN - INFO - Discriminator Loss: 1.3728, Generator Loss: 0.7980
+2025-03-09 16:06:57,808 - CustomGAN - INFO - D(x): 0.4518, D(G(z)): 0.4496
+2025-03-09 16:06:57,960 - CustomGAN - INFO - Epoch 159 completed in 1.50 seconds
+2025-03-09 16:06:57,983 - CustomGAN - INFO - Epoch: [160/200], Batch Num: [0/79]
+2025-03-09 16:06:57,983 - CustomGAN - INFO - Discriminator Loss: 1.3791, Generator Loss: 0.7958
+2025-03-09 16:06:57,984 - CustomGAN - INFO - D(x): 0.4504, D(G(z)): 0.4518
+2025-03-09 16:06:58,171 - CustomGAN - INFO - Epoch: [160/200], Batch Num: [10/79]
+2025-03-09 16:06:58,171 - CustomGAN - INFO - Discriminator Loss: 1.3755, Generator Loss: 0.7998
+2025-03-09 16:06:58,172 - CustomGAN - INFO - D(x): 0.4501, D(G(z)): 0.4495
+2025-03-09 16:06:58,360 - CustomGAN - INFO - Epoch: [160/200], Batch Num: [20/79]
+2025-03-09 16:06:58,361 - CustomGAN - INFO - Discriminator Loss: 1.3808, Generator Loss: 0.8072
+2025-03-09 16:06:58,361 - CustomGAN - INFO - D(x): 0.4458, D(G(z)): 0.4480
+2025-03-09 16:06:58,549 - CustomGAN - INFO - Epoch: [160/200], Batch Num: [30/79]
+2025-03-09 16:06:58,549 - CustomGAN - INFO - Discriminator Loss: 1.3779, Generator Loss: 0.7992
+2025-03-09 16:06:58,550 - CustomGAN - INFO - D(x): 0.4493, D(G(z)): 0.4499
+2025-03-09 16:06:58,738 - CustomGAN - INFO - Epoch: [160/200], Batch Num: [40/79]
+2025-03-09 16:06:58,738 - CustomGAN - INFO - Discriminator Loss: 1.3742, Generator Loss: 0.8007
+2025-03-09 16:06:58,738 - CustomGAN - INFO - D(x): 0.4506, D(G(z)): 0.4492
+2025-03-09 16:06:58,926 - CustomGAN - INFO - Epoch: [160/200], Batch Num: [50/79]
+2025-03-09 16:06:58,927 - CustomGAN - INFO - Discriminator Loss: 1.3789, Generator Loss: 0.7928
+2025-03-09 16:06:58,927 - CustomGAN - INFO - D(x): 0.4516, D(G(z)): 0.4528
+2025-03-09 16:06:59,115 - CustomGAN - INFO - Epoch: [160/200], Batch Num: [60/79]
+2025-03-09 16:06:59,115 - CustomGAN - INFO - Discriminator Loss: 1.3788, Generator Loss: 0.7998
+2025-03-09 16:06:59,116 - CustomGAN - INFO - D(x): 0.4505, D(G(z)): 0.4517
+2025-03-09 16:06:59,302 - CustomGAN - INFO - Epoch: [160/200], Batch Num: [70/79]
+2025-03-09 16:06:59,302 - CustomGAN - INFO - Discriminator Loss: 1.3808, Generator Loss: 0.7993
+2025-03-09 16:06:59,303 - CustomGAN - INFO - D(x): 0.4469, D(G(z)): 0.4491
+2025-03-09 16:06:59,456 - CustomGAN - INFO - Models saved at epoch 160
+2025-03-09 16:06:59,456 - CustomGAN - INFO - Epoch 160 completed in 1.50 seconds
+2025-03-09 16:06:59,477 - CustomGAN - INFO - Epoch: [161/200], Batch Num: [0/79]
+2025-03-09 16:06:59,477 - CustomGAN - INFO - Discriminator Loss: 1.3752, Generator Loss: 0.7999
+2025-03-09 16:06:59,477 - CustomGAN - INFO - D(x): 0.4518, D(G(z)): 0.4510
+2025-03-09 16:06:59,648 - CustomGAN - INFO - Epoch: [161/200], Batch Num: [10/79]
+2025-03-09 16:06:59,649 - CustomGAN - INFO - Discriminator Loss: 1.3786, Generator Loss: 0.7958
+2025-03-09 16:06:59,649 - CustomGAN - INFO - D(x): 0.4518, D(G(z)): 0.4528
+2025-03-09 16:06:59,820 - CustomGAN - INFO - Epoch: [161/200], Batch Num: [20/79]
+2025-03-09 16:06:59,821 - CustomGAN - INFO - Discriminator Loss: 1.3761, Generator Loss: 0.7966
+2025-03-09 16:06:59,821 - CustomGAN - INFO - D(x): 0.4523, D(G(z)): 0.4520
+2025-03-09 16:06:59,993 - CustomGAN - INFO - Epoch: [161/200], Batch Num: [30/79]
+2025-03-09 16:06:59,993 - CustomGAN - INFO - Discriminator Loss: 1.3767, Generator Loss: 0.8033
+2025-03-09 16:06:59,993 - CustomGAN - INFO - D(x): 0.4508, D(G(z)): 0.4508
+2025-03-09 16:07:00,164 - CustomGAN - INFO - Epoch: [161/200], Batch Num: [40/79]
+2025-03-09 16:07:00,164 - CustomGAN - INFO - Discriminator Loss: 1.3817, Generator Loss: 0.7997
+2025-03-09 16:07:00,165 - CustomGAN - INFO - D(x): 0.4476, D(G(z)): 0.4504
+2025-03-09 16:07:00,335 - CustomGAN - INFO - Epoch: [161/200], Batch Num: [50/79]
+2025-03-09 16:07:00,335 - CustomGAN - INFO - Discriminator Loss: 1.3812, Generator Loss: 0.7990
+2025-03-09 16:07:00,335 - CustomGAN - INFO - D(x): 0.4505, D(G(z)): 0.4529
+2025-03-09 16:07:00,506 - CustomGAN - INFO - Epoch: [161/200], Batch Num: [60/79]
+2025-03-09 16:07:00,506 - CustomGAN - INFO - Discriminator Loss: 1.3767, Generator Loss: 0.7931
+2025-03-09 16:07:00,506 - CustomGAN - INFO - D(x): 0.4528, D(G(z)): 0.4528
+2025-03-09 16:07:00,677 - CustomGAN - INFO - Epoch: [161/200], Batch Num: [70/79]
+2025-03-09 16:07:00,677 - CustomGAN - INFO - Discriminator Loss: 1.3750, Generator Loss: 0.7999
+2025-03-09 16:07:00,677 - CustomGAN - INFO - D(x): 0.4504, D(G(z)): 0.4496
+2025-03-09 16:07:00,815 - CustomGAN - INFO - Epoch 161 completed in 1.36 seconds
+2025-03-09 16:07:00,836 - CustomGAN - INFO - Epoch: [162/200], Batch Num: [0/79]
+2025-03-09 16:07:00,836 - CustomGAN - INFO - Discriminator Loss: 1.3718, Generator Loss: 0.7981
+2025-03-09 16:07:00,837 - CustomGAN - INFO - D(x): 0.4508, D(G(z)): 0.4481
+2025-03-09 16:07:01,009 - CustomGAN - INFO - Epoch: [162/200], Batch Num: [10/79]
+2025-03-09 16:07:01,009 - CustomGAN - INFO - Discriminator Loss: 1.3750, Generator Loss: 0.8008
+2025-03-09 16:07:01,009 - CustomGAN - INFO - D(x): 0.4507, D(G(z)): 0.4497
+2025-03-09 16:07:01,179 - CustomGAN - INFO - Epoch: [162/200], Batch Num: [20/79]
+2025-03-09 16:07:01,179 - CustomGAN - INFO - Discriminator Loss: 1.3723, Generator Loss: 0.7991
+2025-03-09 16:07:01,180 - CustomGAN - INFO - D(x): 0.4494, D(G(z)): 0.4469
+2025-03-09 16:07:01,350 - CustomGAN - INFO - Epoch: [162/200], Batch Num: [30/79]
+2025-03-09 16:07:01,351 - CustomGAN - INFO - Discriminator Loss: 1.3740, Generator Loss: 0.8043
+2025-03-09 16:07:01,351 - CustomGAN - INFO - D(x): 0.4475, D(G(z)): 0.4459
+2025-03-09 16:07:01,523 - CustomGAN - INFO - Epoch: [162/200], Batch Num: [40/79]
+2025-03-09 16:07:01,523 - CustomGAN - INFO - Discriminator Loss: 1.3781, Generator Loss: 0.7957
+2025-03-09 16:07:01,523 - CustomGAN - INFO - D(x): 0.4489, D(G(z)): 0.4497
+2025-03-09 16:07:01,695 - CustomGAN - INFO - Epoch: [162/200], Batch Num: [50/79]
+2025-03-09 16:07:01,695 - CustomGAN - INFO - Discriminator Loss: 1.3745, Generator Loss: 0.7957
+2025-03-09 16:07:01,696 - CustomGAN - INFO - D(x): 0.4527, D(G(z)): 0.4515
+2025-03-09 16:07:01,867 - CustomGAN - INFO - Epoch: [162/200], Batch Num: [60/79]
+2025-03-09 16:07:01,868 - CustomGAN - INFO - Discriminator Loss: 1.3735, Generator Loss: 0.7887
+2025-03-09 16:07:01,868 - CustomGAN - INFO - D(x): 0.4541, D(G(z)): 0.4523
+2025-03-09 16:07:02,039 - CustomGAN - INFO - Epoch: [162/200], Batch Num: [70/79]
+2025-03-09 16:07:02,040 - CustomGAN - INFO - Discriminator Loss: 1.3753, Generator Loss: 0.7999
+2025-03-09 16:07:02,040 - CustomGAN - INFO - D(x): 0.4501, D(G(z)): 0.4493
+2025-03-09 16:07:02,177 - CustomGAN - INFO - Epoch 162 completed in 1.36 seconds
+2025-03-09 16:07:02,199 - CustomGAN - INFO - Epoch: [163/200], Batch Num: [0/79]
+2025-03-09 16:07:02,199 - CustomGAN - INFO - Discriminator Loss: 1.3765, Generator Loss: 0.8055
+2025-03-09 16:07:02,199 - CustomGAN - INFO - D(x): 0.4483, D(G(z)): 0.4481
+2025-03-09 16:07:02,372 - CustomGAN - INFO - Epoch: [163/200], Batch Num: [10/79]
+2025-03-09 16:07:02,372 - CustomGAN - INFO - Discriminator Loss: 1.3786, Generator Loss: 0.8014
+2025-03-09 16:07:02,372 - CustomGAN - INFO - D(x): 0.4492, D(G(z)): 0.4502
+2025-03-09 16:07:02,544 - CustomGAN - INFO - Epoch: [163/200], Batch Num: [20/79]
+2025-03-09 16:07:02,544 - CustomGAN - INFO - Discriminator Loss: 1.3765, Generator Loss: 0.7972
+2025-03-09 16:07:02,544 - CustomGAN - INFO - D(x): 0.4489, D(G(z)): 0.4487
+2025-03-09 16:07:02,716 - CustomGAN - INFO - Epoch: [163/200], Batch Num: [30/79]
+2025-03-09 16:07:02,716 - CustomGAN - INFO - Discriminator Loss: 1.3775, Generator Loss: 0.8006
+2025-03-09 16:07:02,717 - CustomGAN - INFO - D(x): 0.4496, D(G(z)): 0.4500
+2025-03-09 16:07:02,888 - CustomGAN - INFO - Epoch: [163/200], Batch Num: [40/79]
+2025-03-09 16:07:02,888 - CustomGAN - INFO - Discriminator Loss: 1.3745, Generator Loss: 0.7971
+2025-03-09 16:07:02,888 - CustomGAN - INFO - D(x): 0.4508, D(G(z)): 0.4496
+2025-03-09 16:07:03,059 - CustomGAN - INFO - Epoch: [163/200], Batch Num: [50/79]
+2025-03-09 16:07:03,059 - CustomGAN - INFO - Discriminator Loss: 1.3776, Generator Loss: 0.8003
+2025-03-09 16:07:03,060 - CustomGAN - INFO - D(x): 0.4497, D(G(z)): 0.4502
+2025-03-09 16:07:03,230 - CustomGAN - INFO - Epoch: [163/200], Batch Num: [60/79]
+2025-03-09 16:07:03,231 - CustomGAN - INFO - Discriminator Loss: 1.3819, Generator Loss: 0.7958
+2025-03-09 16:07:03,231 - CustomGAN - INFO - D(x): 0.4483, D(G(z)): 0.4512
+2025-03-09 16:07:03,402 - CustomGAN - INFO - Epoch: [163/200], Batch Num: [70/79]
+2025-03-09 16:07:03,402 - CustomGAN - INFO - Discriminator Loss: 1.3771, Generator Loss: 0.8007
+2025-03-09 16:07:03,402 - CustomGAN - INFO - D(x): 0.4500, D(G(z)): 0.4501
+2025-03-09 16:07:03,539 - CustomGAN - INFO - Epoch 163 completed in 1.36 seconds
+2025-03-09 16:07:03,561 - CustomGAN - INFO - Epoch: [164/200], Batch Num: [0/79]
+2025-03-09 16:07:03,561 - CustomGAN - INFO - Discriminator Loss: 1.3801, Generator Loss: 0.8016
+2025-03-09 16:07:03,561 - CustomGAN - INFO - D(x): 0.4472, D(G(z)): 0.4490
+2025-03-09 16:07:03,732 - CustomGAN - INFO - Epoch: [164/200], Batch Num: [10/79]
+2025-03-09 16:07:03,732 - CustomGAN - INFO - Discriminator Loss: 1.3779, Generator Loss: 0.7938
+2025-03-09 16:07:03,733 - CustomGAN - INFO - D(x): 0.4484, D(G(z)): 0.4490
+2025-03-09 16:07:03,904 - CustomGAN - INFO - Epoch: [164/200], Batch Num: [20/79]
+2025-03-09 16:07:03,904 - CustomGAN - INFO - Discriminator Loss: 1.3756, Generator Loss: 0.7976
+2025-03-09 16:07:03,904 - CustomGAN - INFO - D(x): 0.4516, D(G(z)): 0.4510
+2025-03-09 16:07:04,076 - CustomGAN - INFO - Epoch: [164/200], Batch Num: [30/79]
+2025-03-09 16:07:04,076 - CustomGAN - INFO - Discriminator Loss: 1.3747, Generator Loss: 0.7942
+2025-03-09 16:07:04,076 - CustomGAN - INFO - D(x): 0.4514, D(G(z)): 0.4504
+2025-03-09 16:07:04,247 - CustomGAN - INFO - Epoch: [164/200], Batch Num: [40/79]
+2025-03-09 16:07:04,247 - CustomGAN - INFO - Discriminator Loss: 1.3810, Generator Loss: 0.8027
+2025-03-09 16:07:04,248 - CustomGAN - INFO - D(x): 0.4485, D(G(z)): 0.4509
+2025-03-09 16:07:04,418 - CustomGAN - INFO - Epoch: [164/200], Batch Num: [50/79]
+2025-03-09 16:07:04,418 - CustomGAN - INFO - Discriminator Loss: 1.3758, Generator Loss: 0.7957
+2025-03-09 16:07:04,419 - CustomGAN - INFO - D(x): 0.4499, D(G(z)): 0.4494
+2025-03-09 16:07:04,586 - CustomGAN - INFO - Epoch: [164/200], Batch Num: [60/79]
+2025-03-09 16:07:04,586 - CustomGAN - INFO - Discriminator Loss: 1.3780, Generator Loss: 0.7934
+2025-03-09 16:07:04,587 - CustomGAN - INFO - D(x): 0.4512, D(G(z)): 0.4519
+2025-03-09 16:07:04,758 - CustomGAN - INFO - Epoch: [164/200], Batch Num: [70/79]
+2025-03-09 16:07:04,758 - CustomGAN - INFO - Discriminator Loss: 1.3768, Generator Loss: 0.7976
+2025-03-09 16:07:04,759 - CustomGAN - INFO - D(x): 0.4521, D(G(z)): 0.4522
+2025-03-09 16:07:04,896 - CustomGAN - INFO - Epoch 164 completed in 1.36 seconds
+2025-03-09 16:07:04,917 - CustomGAN - INFO - Epoch: [165/200], Batch Num: [0/79]
+2025-03-09 16:07:04,918 - CustomGAN - INFO - Discriminator Loss: 1.3836, Generator Loss: 0.7969
+2025-03-09 16:07:04,918 - CustomGAN - INFO - D(x): 0.4488, D(G(z)): 0.4525
+2025-03-09 16:07:05,088 - CustomGAN - INFO - Epoch: [165/200], Batch Num: [10/79]
+2025-03-09 16:07:05,089 - CustomGAN - INFO - Discriminator Loss: 1.3749, Generator Loss: 0.7981
+2025-03-09 16:07:05,089 - CustomGAN - INFO - D(x): 0.4509, D(G(z)): 0.4499
+2025-03-09 16:07:05,260 - CustomGAN - INFO - Epoch: [165/200], Batch Num: [20/79]
+2025-03-09 16:07:05,260 - CustomGAN - INFO - Discriminator Loss: 1.3739, Generator Loss: 0.7983
+2025-03-09 16:07:05,260 - CustomGAN - INFO - D(x): 0.4513, D(G(z)): 0.4497
+2025-03-09 16:07:05,431 - CustomGAN - INFO - Epoch: [165/200], Batch Num: [30/79]
+2025-03-09 16:07:05,431 - CustomGAN - INFO - Discriminator Loss: 1.3798, Generator Loss: 0.8011
+2025-03-09 16:07:05,431 - CustomGAN - INFO - D(x): 0.4492, D(G(z)): 0.4509
+2025-03-09 16:07:05,602 - CustomGAN - INFO - Epoch: [165/200], Batch Num: [40/79]
+2025-03-09 16:07:05,602 - CustomGAN - INFO - Discriminator Loss: 1.3794, Generator Loss: 0.8013
+2025-03-09 16:07:05,603 - CustomGAN - INFO - D(x): 0.4492, D(G(z)): 0.4507
+2025-03-09 16:07:05,773 - CustomGAN - INFO - Epoch: [165/200], Batch Num: [50/79]
+2025-03-09 16:07:05,773 - CustomGAN - INFO - Discriminator Loss: 1.3793, Generator Loss: 0.7960
+2025-03-09 16:07:05,773 - CustomGAN - INFO - D(x): 0.4499, D(G(z)): 0.4513
+2025-03-09 16:07:05,944 - CustomGAN - INFO - Epoch: [165/200], Batch Num: [60/79]
+2025-03-09 16:07:05,944 - CustomGAN - INFO - Discriminator Loss: 1.3820, Generator Loss: 0.7967
+2025-03-09 16:07:05,944 - CustomGAN - INFO - D(x): 0.4482, D(G(z)): 0.4511
+2025-03-09 16:07:06,115 - CustomGAN - INFO - Epoch: [165/200], Batch Num: [70/79]
+2025-03-09 16:07:06,115 - CustomGAN - INFO - Discriminator Loss: 1.3779, Generator Loss: 0.8029
+2025-03-09 16:07:06,116 - CustomGAN - INFO - D(x): 0.4491, D(G(z)): 0.4498
+2025-03-09 16:07:06,253 - CustomGAN - INFO - Epoch 165 completed in 1.36 seconds
+2025-03-09 16:07:06,274 - CustomGAN - INFO - Epoch: [166/200], Batch Num: [0/79]
+2025-03-09 16:07:06,274 - CustomGAN - INFO - Discriminator Loss: 1.3769, Generator Loss: 0.7990
+2025-03-09 16:07:06,275 - CustomGAN - INFO - D(x): 0.4489, D(G(z)): 0.4490
+2025-03-09 16:07:06,445 - CustomGAN - INFO - Epoch: [166/200], Batch Num: [10/79]
+2025-03-09 16:07:06,445 - CustomGAN - INFO - Discriminator Loss: 1.3772, Generator Loss: 0.8000
+2025-03-09 16:07:06,446 - CustomGAN - INFO - D(x): 0.4505, D(G(z)): 0.4508
+2025-03-09 16:07:06,618 - CustomGAN - INFO - Epoch: [166/200], Batch Num: [20/79]
+2025-03-09 16:07:06,618 - CustomGAN - INFO - Discriminator Loss: 1.3767, Generator Loss: 0.7957
+2025-03-09 16:07:06,618 - CustomGAN - INFO - D(x): 0.4510, D(G(z)): 0.4510
+2025-03-09 16:07:06,790 - CustomGAN - INFO - Epoch: [166/200], Batch Num: [30/79]
+2025-03-09 16:07:06,790 - CustomGAN - INFO - Discriminator Loss: 1.3744, Generator Loss: 0.7967
+2025-03-09 16:07:06,790 - CustomGAN - INFO - D(x): 0.4532, D(G(z)): 0.4519
+2025-03-09 16:07:06,961 - CustomGAN - INFO - Epoch: [166/200], Batch Num: [40/79]
+2025-03-09 16:07:06,961 - CustomGAN - INFO - Discriminator Loss: 1.3742, Generator Loss: 0.7983
+2025-03-09 16:07:06,962 - CustomGAN - INFO - D(x): 0.4524, D(G(z)): 0.4511
+2025-03-09 16:07:07,131 - CustomGAN - INFO - Epoch: [166/200], Batch Num: [50/79]
+2025-03-09 16:07:07,132 - CustomGAN - INFO - Discriminator Loss: 1.3723, Generator Loss: 0.7919
+2025-03-09 16:07:07,132 - CustomGAN - INFO - D(x): 0.4551, D(G(z)): 0.4526
+2025-03-09 16:07:07,303 - CustomGAN - INFO - Epoch: [166/200], Batch Num: [60/79]
+2025-03-09 16:07:07,303 - CustomGAN - INFO - Discriminator Loss: 1.3766, Generator Loss: 0.7901
+2025-03-09 16:07:07,304 - CustomGAN - INFO - D(x): 0.4538, D(G(z)): 0.4537
+2025-03-09 16:07:07,475 - CustomGAN - INFO - Epoch: [166/200], Batch Num: [70/79]
+2025-03-09 16:07:07,476 - CustomGAN - INFO - Discriminator Loss: 1.3781, Generator Loss: 0.7964
+2025-03-09 16:07:07,476 - CustomGAN - INFO - D(x): 0.4505, D(G(z)): 0.4513
+2025-03-09 16:07:07,614 - CustomGAN - INFO - Epoch 166 completed in 1.36 seconds
+2025-03-09 16:07:07,635 - CustomGAN - INFO - Epoch: [167/200], Batch Num: [0/79]
+2025-03-09 16:07:07,635 - CustomGAN - INFO - Discriminator Loss: 1.3772, Generator Loss: 0.8014
+2025-03-09 16:07:07,636 - CustomGAN - INFO - D(x): 0.4483, D(G(z)): 0.4486
+2025-03-09 16:07:07,807 - CustomGAN - INFO - Epoch: [167/200], Batch Num: [10/79]
+2025-03-09 16:07:07,807 - CustomGAN - INFO - Discriminator Loss: 1.3752, Generator Loss: 0.7962
+2025-03-09 16:07:07,807 - CustomGAN - INFO - D(x): 0.4517, D(G(z)): 0.4509
+2025-03-09 16:07:07,979 - CustomGAN - INFO - Epoch: [167/200], Batch Num: [20/79]
+2025-03-09 16:07:07,980 - CustomGAN - INFO - Discriminator Loss: 1.3753, Generator Loss: 0.7972
+2025-03-09 16:07:07,980 - CustomGAN - INFO - D(x): 0.4513, D(G(z)): 0.4506
+2025-03-09 16:07:08,151 - CustomGAN - INFO - Epoch: [167/200], Batch Num: [30/79]
+2025-03-09 16:07:08,151 - CustomGAN - INFO - Discriminator Loss: 1.3783, Generator Loss: 0.7995
+2025-03-09 16:07:08,151 - CustomGAN - INFO - D(x): 0.4474, D(G(z)): 0.4483
+2025-03-09 16:07:08,323 - CustomGAN - INFO - Epoch: [167/200], Batch Num: [40/79]
+2025-03-09 16:07:08,323 - CustomGAN - INFO - Discriminator Loss: 1.3825, Generator Loss: 0.7990
+2025-03-09 16:07:08,323 - CustomGAN - INFO - D(x): 0.4472, D(G(z)): 0.4504
+2025-03-09 16:07:08,495 - CustomGAN - INFO - Epoch: [167/200], Batch Num: [50/79]
+2025-03-09 16:07:08,495 - CustomGAN - INFO - Discriminator Loss: 1.3775, Generator Loss: 0.7942
+2025-03-09 16:07:08,495 - CustomGAN - INFO - D(x): 0.4517, D(G(z)): 0.4521
+2025-03-09 16:07:08,667 - CustomGAN - INFO - Epoch: [167/200], Batch Num: [60/79]
+2025-03-09 16:07:08,667 - CustomGAN - INFO - Discriminator Loss: 1.3738, Generator Loss: 0.8022
+2025-03-09 16:07:08,667 - CustomGAN - INFO - D(x): 0.4500, D(G(z)): 0.4484
+2025-03-09 16:07:08,838 - CustomGAN - INFO - Epoch: [167/200], Batch Num: [70/79]
+2025-03-09 16:07:08,839 - CustomGAN - INFO - Discriminator Loss: 1.3790, Generator Loss: 0.7996
+2025-03-09 16:07:08,839 - CustomGAN - INFO - D(x): 0.4503, D(G(z)): 0.4515
+2025-03-09 16:07:08,976 - CustomGAN - INFO - Epoch 167 completed in 1.36 seconds
+2025-03-09 16:07:08,997 - CustomGAN - INFO - Epoch: [168/200], Batch Num: [0/79]
+2025-03-09 16:07:08,998 - CustomGAN - INFO - Discriminator Loss: 1.3765, Generator Loss: 0.7942
+2025-03-09 16:07:08,998 - CustomGAN - INFO - D(x): 0.4529, D(G(z)): 0.4528
+2025-03-09 16:07:09,166 - CustomGAN - INFO - Epoch: [168/200], Batch Num: [10/79]
+2025-03-09 16:07:09,166 - CustomGAN - INFO - Discriminator Loss: 1.3805, Generator Loss: 0.7965
+2025-03-09 16:07:09,166 - CustomGAN - INFO - D(x): 0.4513, D(G(z)): 0.4534
+2025-03-09 16:07:09,336 - CustomGAN - INFO - Epoch: [168/200], Batch Num: [20/79]
+2025-03-09 16:07:09,336 - CustomGAN - INFO - Discriminator Loss: 1.3785, Generator Loss: 0.7984
+2025-03-09 16:07:09,336 - CustomGAN - INFO - D(x): 0.4495, D(G(z)): 0.4505
+2025-03-09 16:07:09,508 - CustomGAN - INFO - Epoch: [168/200], Batch Num: [30/79]
+2025-03-09 16:07:09,508 - CustomGAN - INFO - Discriminator Loss: 1.3762, Generator Loss: 0.7953
+2025-03-09 16:07:09,508 - CustomGAN - INFO - D(x): 0.4514, D(G(z)): 0.4512
+2025-03-09 16:07:09,678 - CustomGAN - INFO - Epoch: [168/200], Batch Num: [40/79]
+2025-03-09 16:07:09,678 - CustomGAN - INFO - Discriminator Loss: 1.3774, Generator Loss: 0.7949
+2025-03-09 16:07:09,678 - CustomGAN - INFO - D(x): 0.4521, D(G(z)): 0.4525
+2025-03-09 16:07:09,848 - CustomGAN - INFO - Epoch: [168/200], Batch Num: [50/79]
+2025-03-09 16:07:09,848 - CustomGAN - INFO - Discriminator Loss: 1.3779, Generator Loss: 0.8027
+2025-03-09 16:07:09,849 - CustomGAN - INFO - D(x): 0.4493, D(G(z)): 0.4499
+2025-03-09 16:07:10,020 - CustomGAN - INFO - Epoch: [168/200], Batch Num: [60/79]
+2025-03-09 16:07:10,020 - CustomGAN - INFO - Discriminator Loss: 1.3762, Generator Loss: 0.8012
+2025-03-09 16:07:10,021 - CustomGAN - INFO - D(x): 0.4477, D(G(z)): 0.4475
+2025-03-09 16:07:10,193 - CustomGAN - INFO - Epoch: [168/200], Batch Num: [70/79]
+2025-03-09 16:07:10,193 - CustomGAN - INFO - Discriminator Loss: 1.3789, Generator Loss: 0.7989
+2025-03-09 16:07:10,193 - CustomGAN - INFO - D(x): 0.4489, D(G(z)): 0.4502
+2025-03-09 16:07:10,331 - CustomGAN - INFO - Epoch 168 completed in 1.35 seconds
+2025-03-09 16:07:10,352 - CustomGAN - INFO - Epoch: [169/200], Batch Num: [0/79]
+2025-03-09 16:07:10,353 - CustomGAN - INFO - Discriminator Loss: 1.3736, Generator Loss: 0.8000
+2025-03-09 16:07:10,353 - CustomGAN - INFO - D(x): 0.4518, D(G(z)): 0.4502
+2025-03-09 16:07:10,525 - CustomGAN - INFO - Epoch: [169/200], Batch Num: [10/79]
+2025-03-09 16:07:10,525 - CustomGAN - INFO - Discriminator Loss: 1.3807, Generator Loss: 0.7974
+2025-03-09 16:07:10,526 - CustomGAN - INFO - D(x): 0.4478, D(G(z)): 0.4500
+2025-03-09 16:07:10,697 - CustomGAN - INFO - Epoch: [169/200], Batch Num: [20/79]
+2025-03-09 16:07:10,697 - CustomGAN - INFO - Discriminator Loss: 1.3771, Generator Loss: 0.8004
+2025-03-09 16:07:10,697 - CustomGAN - INFO - D(x): 0.4486, D(G(z)): 0.4489
+2025-03-09 16:07:10,868 - CustomGAN - INFO - Epoch: [169/200], Batch Num: [30/79]
+2025-03-09 16:07:10,868 - CustomGAN - INFO - Discriminator Loss: 1.3799, Generator Loss: 0.7989
+2025-03-09 16:07:10,868 - CustomGAN - INFO - D(x): 0.4495, D(G(z)): 0.4513
+2025-03-09 16:07:11,039 - CustomGAN - INFO - Epoch: [169/200], Batch Num: [40/79]
+2025-03-09 16:07:11,039 - CustomGAN - INFO - Discriminator Loss: 1.3767, Generator Loss: 0.7941
+2025-03-09 16:07:11,040 - CustomGAN - INFO - D(x): 0.4513, D(G(z)): 0.4513
+2025-03-09 16:07:11,211 - CustomGAN - INFO - Epoch: [169/200], Batch Num: [50/79]
+2025-03-09 16:07:11,211 - CustomGAN - INFO - Discriminator Loss: 1.3750, Generator Loss: 0.7920
+2025-03-09 16:07:11,211 - CustomGAN - INFO - D(x): 0.4513, D(G(z)): 0.4504
+2025-03-09 16:07:11,382 - CustomGAN - INFO - Epoch: [169/200], Batch Num: [60/79]
+2025-03-09 16:07:11,382 - CustomGAN - INFO - Discriminator Loss: 1.3741, Generator Loss: 0.7906
+2025-03-09 16:07:11,383 - CustomGAN - INFO - D(x): 0.4540, D(G(z)): 0.4526
+2025-03-09 16:07:11,554 - CustomGAN - INFO - Epoch: [169/200], Batch Num: [70/79]
+2025-03-09 16:07:11,554 - CustomGAN - INFO - Discriminator Loss: 1.3745, Generator Loss: 0.7919
+2025-03-09 16:07:11,554 - CustomGAN - INFO - D(x): 0.4536, D(G(z)): 0.4525
+2025-03-09 16:07:11,691 - CustomGAN - INFO - Epoch 169 completed in 1.36 seconds
+2025-03-09 16:07:11,712 - CustomGAN - INFO - Epoch: [170/200], Batch Num: [0/79]
+2025-03-09 16:07:11,712 - CustomGAN - INFO - Discriminator Loss: 1.3753, Generator Loss: 0.7889
+2025-03-09 16:07:11,713 - CustomGAN - INFO - D(x): 0.4539, D(G(z)): 0.4532
+2025-03-09 16:07:11,885 - CustomGAN - INFO - Epoch: [170/200], Batch Num: [10/79]
+2025-03-09 16:07:11,885 - CustomGAN - INFO - Discriminator Loss: 1.3733, Generator Loss: 0.7952
+2025-03-09 16:07:11,885 - CustomGAN - INFO - D(x): 0.4534, D(G(z)): 0.4515
+2025-03-09 16:07:12,057 - CustomGAN - INFO - Epoch: [170/200], Batch Num: [20/79]
+2025-03-09 16:07:12,057 - CustomGAN - INFO - Discriminator Loss: 1.3828, Generator Loss: 0.8012
+2025-03-09 16:07:12,058 - CustomGAN - INFO - D(x): 0.4481, D(G(z)): 0.4515
+2025-03-09 16:07:12,229 - CustomGAN - INFO - Epoch: [170/200], Batch Num: [30/79]
+2025-03-09 16:07:12,230 - CustomGAN - INFO - Discriminator Loss: 1.3777, Generator Loss: 0.7963
+2025-03-09 16:07:12,230 - CustomGAN - INFO - D(x): 0.4510, D(G(z)): 0.4516
+2025-03-09 16:07:12,401 - CustomGAN - INFO - Epoch: [170/200], Batch Num: [40/79]
+2025-03-09 16:07:12,401 - CustomGAN - INFO - Discriminator Loss: 1.3763, Generator Loss: 0.7966
+2025-03-09 16:07:12,402 - CustomGAN - INFO - D(x): 0.4514, D(G(z)): 0.4511
+2025-03-09 16:07:12,575 - CustomGAN - INFO - Epoch: [170/200], Batch Num: [50/79]
+2025-03-09 16:07:12,575 - CustomGAN - INFO - Discriminator Loss: 1.3763, Generator Loss: 0.8012
+2025-03-09 16:07:12,576 - CustomGAN - INFO - D(x): 0.4487, D(G(z)): 0.4485
+2025-03-09 16:07:12,746 - CustomGAN - INFO - Epoch: [170/200], Batch Num: [60/79]
+2025-03-09 16:07:12,746 - CustomGAN - INFO - Discriminator Loss: 1.3728, Generator Loss: 0.7995
+2025-03-09 16:07:12,747 - CustomGAN - INFO - D(x): 0.4515, D(G(z)): 0.4494
+2025-03-09 16:07:12,918 - CustomGAN - INFO - Epoch: [170/200], Batch Num: [70/79]
+2025-03-09 16:07:12,918 - CustomGAN - INFO - Discriminator Loss: 1.3746, Generator Loss: 0.7952
+2025-03-09 16:07:12,918 - CustomGAN - INFO - D(x): 0.4532, D(G(z)): 0.4520
+2025-03-09 16:07:13,055 - CustomGAN - INFO - Epoch 170 completed in 1.36 seconds
+2025-03-09 16:07:13,077 - CustomGAN - INFO - Epoch: [171/200], Batch Num: [0/79]
+2025-03-09 16:07:13,077 - CustomGAN - INFO - Discriminator Loss: 1.3802, Generator Loss: 0.8027
+2025-03-09 16:07:13,077 - CustomGAN - INFO - D(x): 0.4466, D(G(z)): 0.4485
+2025-03-09 16:07:13,248 - CustomGAN - INFO - Epoch: [171/200], Batch Num: [10/79]
+2025-03-09 16:07:13,249 - CustomGAN - INFO - Discriminator Loss: 1.3777, Generator Loss: 0.7994
+2025-03-09 16:07:13,249 - CustomGAN - INFO - D(x): 0.4494, D(G(z)): 0.4500
+2025-03-09 16:07:13,421 - CustomGAN - INFO - Epoch: [171/200], Batch Num: [20/79]
+2025-03-09 16:07:13,421 - CustomGAN - INFO - Discriminator Loss: 1.3754, Generator Loss: 0.7932
+2025-03-09 16:07:13,421 - CustomGAN - INFO - D(x): 0.4524, D(G(z)): 0.4517
+2025-03-09 16:07:13,593 - CustomGAN - INFO - Epoch: [171/200], Batch Num: [30/79]
+2025-03-09 16:07:13,593 - CustomGAN - INFO - Discriminator Loss: 1.3744, Generator Loss: 0.7956
+2025-03-09 16:07:13,593 - CustomGAN - INFO - D(x): 0.4518, D(G(z)): 0.4506
+2025-03-09 16:07:13,765 - CustomGAN - INFO - Epoch: [171/200], Batch Num: [40/79]
+2025-03-09 16:07:13,765 - CustomGAN - INFO - Discriminator Loss: 1.3760, Generator Loss: 0.7942
+2025-03-09 16:07:13,765 - CustomGAN - INFO - D(x): 0.4533, D(G(z)): 0.4530
+2025-03-09 16:07:13,937 - CustomGAN - INFO - Epoch: [171/200], Batch Num: [50/79]
+2025-03-09 16:07:13,937 - CustomGAN - INFO - Discriminator Loss: 1.3758, Generator Loss: 0.7900
+2025-03-09 16:07:13,937 - CustomGAN - INFO - D(x): 0.4551, D(G(z)): 0.4546
+2025-03-09 16:07:14,109 - CustomGAN - INFO - Epoch: [171/200], Batch Num: [60/79]
+2025-03-09 16:07:14,109 - CustomGAN - INFO - Discriminator Loss: 1.3738, Generator Loss: 0.7964
+2025-03-09 16:07:14,110 - CustomGAN - INFO - D(x): 0.4528, D(G(z)): 0.4512
+2025-03-09 16:07:14,282 - CustomGAN - INFO - Epoch: [171/200], Batch Num: [70/79]
+2025-03-09 16:07:14,282 - CustomGAN - INFO - Discriminator Loss: 1.3791, Generator Loss: 0.8015
+2025-03-09 16:07:14,282 - CustomGAN - INFO - D(x): 0.4509, D(G(z)): 0.4523
+2025-03-09 16:07:14,419 - CustomGAN - INFO - Epoch 171 completed in 1.36 seconds
+2025-03-09 16:07:14,439 - CustomGAN - INFO - Epoch: [172/200], Batch Num: [0/79]
+2025-03-09 16:07:14,440 - CustomGAN - INFO - Discriminator Loss: 1.3743, Generator Loss: 0.7973
+2025-03-09 16:07:14,440 - CustomGAN - INFO - D(x): 0.4513, D(G(z)): 0.4500
+2025-03-09 16:07:14,610 - CustomGAN - INFO - Epoch: [172/200], Batch Num: [10/79]
+2025-03-09 16:07:14,610 - CustomGAN - INFO - Discriminator Loss: 1.3779, Generator Loss: 0.8041
+2025-03-09 16:07:14,611 - CustomGAN - INFO - D(x): 0.4487, D(G(z)): 0.4494
+2025-03-09 16:07:14,780 - CustomGAN - INFO - Epoch: [172/200], Batch Num: [20/79]
+2025-03-09 16:07:14,780 - CustomGAN - INFO - Discriminator Loss: 1.3815, Generator Loss: 0.8067
+2025-03-09 16:07:14,780 - CustomGAN - INFO - D(x): 0.4450, D(G(z)): 0.4476
+2025-03-09 16:07:14,951 - CustomGAN - INFO - Epoch: [172/200], Batch Num: [30/79]
+2025-03-09 16:07:14,951 - CustomGAN - INFO - Discriminator Loss: 1.3795, Generator Loss: 0.8020
+2025-03-09 16:07:14,951 - CustomGAN - INFO - D(x): 0.4478, D(G(z)): 0.4495
+2025-03-09 16:07:15,123 - CustomGAN - INFO - Epoch: [172/200], Batch Num: [40/79]
+2025-03-09 16:07:15,124 - CustomGAN - INFO - Discriminator Loss: 1.3737, Generator Loss: 0.7937
+2025-03-09 16:07:15,124 - CustomGAN - INFO - D(x): 0.4546, D(G(z)): 0.4530
+2025-03-09 16:07:15,296 - CustomGAN - INFO - Epoch: [172/200], Batch Num: [50/79]
+2025-03-09 16:07:15,296 - CustomGAN - INFO - Discriminator Loss: 1.3747, Generator Loss: 0.7948
+2025-03-09 16:07:15,297 - CustomGAN - INFO - D(x): 0.4534, D(G(z)): 0.4523
+2025-03-09 16:07:15,468 - CustomGAN - INFO - Epoch: [172/200], Batch Num: [60/79]
+2025-03-09 16:07:15,468 - CustomGAN - INFO - Discriminator Loss: 1.3748, Generator Loss: 0.7958
+2025-03-09 16:07:15,469 - CustomGAN - INFO - D(x): 0.4507, D(G(z)): 0.4497
+2025-03-09 16:07:15,640 - CustomGAN - INFO - Epoch: [172/200], Batch Num: [70/79]
+2025-03-09 16:07:15,640 - CustomGAN - INFO - Discriminator Loss: 1.3792, Generator Loss: 0.7922
+2025-03-09 16:07:15,640 - CustomGAN - INFO - D(x): 0.4519, D(G(z)): 0.4533
+2025-03-09 16:07:15,777 - CustomGAN - INFO - Epoch 172 completed in 1.36 seconds
+2025-03-09 16:07:15,798 - CustomGAN - INFO - Epoch: [173/200], Batch Num: [0/79]
+2025-03-09 16:07:15,799 - CustomGAN - INFO - Discriminator Loss: 1.3738, Generator Loss: 0.7938
+2025-03-09 16:07:15,799 - CustomGAN - INFO - D(x): 0.4520, D(G(z)): 0.4505
+2025-03-09 16:07:15,970 - CustomGAN - INFO - Epoch: [173/200], Batch Num: [10/79]
+2025-03-09 16:07:15,970 - CustomGAN - INFO - Discriminator Loss: 1.3770, Generator Loss: 0.7995
+2025-03-09 16:07:15,970 - CustomGAN - INFO - D(x): 0.4511, D(G(z)): 0.4513
+2025-03-09 16:07:16,142 - CustomGAN - INFO - Epoch: [173/200], Batch Num: [20/79]
+2025-03-09 16:07:16,142 - CustomGAN - INFO - Discriminator Loss: 1.3792, Generator Loss: 0.8034
+2025-03-09 16:07:16,142 - CustomGAN - INFO - D(x): 0.4492, D(G(z)): 0.4506
+2025-03-09 16:07:16,314 - CustomGAN - INFO - Epoch: [173/200], Batch Num: [30/79]
+2025-03-09 16:07:16,314 - CustomGAN - INFO - Discriminator Loss: 1.3786, Generator Loss: 0.8023
+2025-03-09 16:07:16,315 - CustomGAN - INFO - D(x): 0.4498, D(G(z)): 0.4509
+2025-03-09 16:07:16,486 - CustomGAN - INFO - Epoch: [173/200], Batch Num: [40/79]
+2025-03-09 16:07:16,486 - CustomGAN - INFO - Discriminator Loss: 1.3758, Generator Loss: 0.7938
+2025-03-09 16:07:16,486 - CustomGAN - INFO - D(x): 0.4514, D(G(z)): 0.4510
+2025-03-09 16:07:16,659 - CustomGAN - INFO - Epoch: [173/200], Batch Num: [50/79]
+2025-03-09 16:07:16,659 - CustomGAN - INFO - Discriminator Loss: 1.3762, Generator Loss: 0.7930
+2025-03-09 16:07:16,660 - CustomGAN - INFO - D(x): 0.4523, D(G(z)): 0.4521
+2025-03-09 16:07:16,831 - CustomGAN - INFO - Epoch: [173/200], Batch Num: [60/79]
+2025-03-09 16:07:16,832 - CustomGAN - INFO - Discriminator Loss: 1.3751, Generator Loss: 0.7986
+2025-03-09 16:07:16,832 - CustomGAN - INFO - D(x): 0.4507, D(G(z)): 0.4499
+2025-03-09 16:07:17,004 - CustomGAN - INFO - Epoch: [173/200], Batch Num: [70/79]
+2025-03-09 16:07:17,004 - CustomGAN - INFO - Discriminator Loss: 1.3770, Generator Loss: 0.7999
+2025-03-09 16:07:17,005 - CustomGAN - INFO - D(x): 0.4483, D(G(z)): 0.4486
+2025-03-09 16:07:17,142 - CustomGAN - INFO - Epoch 173 completed in 1.36 seconds
+2025-03-09 16:07:17,164 - CustomGAN - INFO - Epoch: [174/200], Batch Num: [0/79]
+2025-03-09 16:07:17,164 - CustomGAN - INFO - Discriminator Loss: 1.3780, Generator Loss: 0.8017
+2025-03-09 16:07:17,164 - CustomGAN - INFO - D(x): 0.4493, D(G(z)): 0.4501
+2025-03-09 16:07:17,336 - CustomGAN - INFO - Epoch: [174/200], Batch Num: [10/79]
+2025-03-09 16:07:17,336 - CustomGAN - INFO - Discriminator Loss: 1.3743, Generator Loss: 0.7962
+2025-03-09 16:07:17,336 - CustomGAN - INFO - D(x): 0.4513, D(G(z)): 0.4500
+2025-03-09 16:07:17,507 - CustomGAN - INFO - Epoch: [174/200], Batch Num: [20/79]
+2025-03-09 16:07:17,507 - CustomGAN - INFO - Discriminator Loss: 1.3809, Generator Loss: 0.7960
+2025-03-09 16:07:17,508 - CustomGAN - INFO - D(x): 0.4493, D(G(z)): 0.4516
+2025-03-09 16:07:17,678 - CustomGAN - INFO - Epoch: [174/200], Batch Num: [30/79]
+2025-03-09 16:07:17,679 - CustomGAN - INFO - Discriminator Loss: 1.3771, Generator Loss: 0.7924
+2025-03-09 16:07:17,679 - CustomGAN - INFO - D(x): 0.4530, D(G(z)): 0.4532
+2025-03-09 16:07:17,850 - CustomGAN - INFO - Epoch: [174/200], Batch Num: [40/79]
+2025-03-09 16:07:17,851 - CustomGAN - INFO - Discriminator Loss: 1.3780, Generator Loss: 0.7942
+2025-03-09 16:07:17,851 - CustomGAN - INFO - D(x): 0.4522, D(G(z)): 0.4529
+2025-03-09 16:07:18,023 - CustomGAN - INFO - Epoch: [174/200], Batch Num: [50/79]
+2025-03-09 16:07:18,023 - CustomGAN - INFO - Discriminator Loss: 1.3789, Generator Loss: 0.8017
+2025-03-09 16:07:18,023 - CustomGAN - INFO - D(x): 0.4510, D(G(z)): 0.4523
+2025-03-09 16:07:18,195 - CustomGAN - INFO - Epoch: [174/200], Batch Num: [60/79]
+2025-03-09 16:07:18,195 - CustomGAN - INFO - Discriminator Loss: 1.3758, Generator Loss: 0.8004
+2025-03-09 16:07:18,195 - CustomGAN - INFO - D(x): 0.4499, D(G(z)): 0.4495
+2025-03-09 16:07:18,367 - CustomGAN - INFO - Epoch: [174/200], Batch Num: [70/79]
+2025-03-09 16:07:18,367 - CustomGAN - INFO - Discriminator Loss: 1.3754, Generator Loss: 0.7958
+2025-03-09 16:07:18,368 - CustomGAN - INFO - D(x): 0.4506, D(G(z)): 0.4500
+2025-03-09 16:07:18,505 - CustomGAN - INFO - Epoch 174 completed in 1.36 seconds
+2025-03-09 16:07:18,526 - CustomGAN - INFO - Epoch: [175/200], Batch Num: [0/79]
+2025-03-09 16:07:18,526 - CustomGAN - INFO - Discriminator Loss: 1.3770, Generator Loss: 0.7962
+2025-03-09 16:07:18,527 - CustomGAN - INFO - D(x): 0.4495, D(G(z)): 0.4497
+2025-03-09 16:07:18,699 - CustomGAN - INFO - Epoch: [175/200], Batch Num: [10/79]
+2025-03-09 16:07:18,699 - CustomGAN - INFO - Discriminator Loss: 1.3760, Generator Loss: 0.8053
+2025-03-09 16:07:18,700 - CustomGAN - INFO - D(x): 0.4478, D(G(z)): 0.4474
+2025-03-09 16:07:18,871 - CustomGAN - INFO - Epoch: [175/200], Batch Num: [20/79]
+2025-03-09 16:07:18,871 - CustomGAN - INFO - Discriminator Loss: 1.3793, Generator Loss: 0.7987
+2025-03-09 16:07:18,872 - CustomGAN - INFO - D(x): 0.4474, D(G(z)): 0.4489
+2025-03-09 16:07:19,043 - CustomGAN - INFO - Epoch: [175/200], Batch Num: [30/79]
+2025-03-09 16:07:19,043 - CustomGAN - INFO - Discriminator Loss: 1.3745, Generator Loss: 0.7988
+2025-03-09 16:07:19,043 - CustomGAN - INFO - D(x): 0.4524, D(G(z)): 0.4512
+2025-03-09 16:07:19,215 - CustomGAN - INFO - Epoch: [175/200], Batch Num: [40/79]
+2025-03-09 16:07:19,215 - CustomGAN - INFO - Discriminator Loss: 1.3763, Generator Loss: 0.7995
+2025-03-09 16:07:19,215 - CustomGAN - INFO - D(x): 0.4499, D(G(z)): 0.4497
+2025-03-09 16:07:19,386 - CustomGAN - INFO - Epoch: [175/200], Batch Num: [50/79]
+2025-03-09 16:07:19,386 - CustomGAN - INFO - Discriminator Loss: 1.3761, Generator Loss: 0.8020
+2025-03-09 16:07:19,386 - CustomGAN - INFO - D(x): 0.4486, D(G(z)): 0.4483
+2025-03-09 16:07:19,553 - CustomGAN - INFO - Epoch: [175/200], Batch Num: [60/79]
+2025-03-09 16:07:19,554 - CustomGAN - INFO - Discriminator Loss: 1.3746, Generator Loss: 0.7963
+2025-03-09 16:07:19,554 - CustomGAN - INFO - D(x): 0.4515, D(G(z)): 0.4504
+2025-03-09 16:07:19,725 - CustomGAN - INFO - Epoch: [175/200], Batch Num: [70/79]
+2025-03-09 16:07:19,725 - CustomGAN - INFO - Discriminator Loss: 1.3767, Generator Loss: 0.7917
+2025-03-09 16:07:19,725 - CustomGAN - INFO - D(x): 0.4521, D(G(z)): 0.4522
+2025-03-09 16:07:19,861 - CustomGAN - INFO - Epoch 175 completed in 1.36 seconds
+2025-03-09 16:07:19,882 - CustomGAN - INFO - Epoch: [176/200], Batch Num: [0/79]
+2025-03-09 16:07:19,882 - CustomGAN - INFO - Discriminator Loss: 1.3759, Generator Loss: 0.7970
+2025-03-09 16:07:19,883 - CustomGAN - INFO - D(x): 0.4503, D(G(z)): 0.4499
+2025-03-09 16:07:20,055 - CustomGAN - INFO - Epoch: [176/200], Batch Num: [10/79]
+2025-03-09 16:07:20,055 - CustomGAN - INFO - Discriminator Loss: 1.3744, Generator Loss: 0.7980
+2025-03-09 16:07:20,055 - CustomGAN - INFO - D(x): 0.4518, D(G(z)): 0.4506
+2025-03-09 16:07:20,226 - CustomGAN - INFO - Epoch: [176/200], Batch Num: [20/79]
+2025-03-09 16:07:20,227 - CustomGAN - INFO - Discriminator Loss: 1.3775, Generator Loss: 0.7946
+2025-03-09 16:07:20,227 - CustomGAN - INFO - D(x): 0.4512, D(G(z)): 0.4517
+2025-03-09 16:07:20,398 - CustomGAN - INFO - Epoch: [176/200], Batch Num: [30/79]
+2025-03-09 16:07:20,398 - CustomGAN - INFO - Discriminator Loss: 1.3759, Generator Loss: 0.7979
+2025-03-09 16:07:20,398 - CustomGAN - INFO - D(x): 0.4519, D(G(z)): 0.4515
+2025-03-09 16:07:20,569 - CustomGAN - INFO - Epoch: [176/200], Batch Num: [40/79]
+2025-03-09 16:07:20,569 - CustomGAN - INFO - Discriminator Loss: 1.3718, Generator Loss: 0.7982
+2025-03-09 16:07:20,570 - CustomGAN - INFO - D(x): 0.4518, D(G(z)): 0.4492
+2025-03-09 16:07:20,741 - CustomGAN - INFO - Epoch: [176/200], Batch Num: [50/79]
+2025-03-09 16:07:20,741 - CustomGAN - INFO - Discriminator Loss: 1.3738, Generator Loss: 0.7977
+2025-03-09 16:07:20,742 - CustomGAN - INFO - D(x): 0.4498, D(G(z)): 0.4483
+2025-03-09 16:07:20,913 - CustomGAN - INFO - Epoch: [176/200], Batch Num: [60/79]
+2025-03-09 16:07:20,913 - CustomGAN - INFO - Discriminator Loss: 1.3733, Generator Loss: 0.8015
+2025-03-09 16:07:20,913 - CustomGAN - INFO - D(x): 0.4506, D(G(z)): 0.4487
+2025-03-09 16:07:21,085 - CustomGAN - INFO - Epoch: [176/200], Batch Num: [70/79]
+2025-03-09 16:07:21,086 - CustomGAN - INFO - Discriminator Loss: 1.3786, Generator Loss: 0.7988
+2025-03-09 16:07:21,086 - CustomGAN - INFO - D(x): 0.4490, D(G(z)): 0.4501
+2025-03-09 16:07:21,223 - CustomGAN - INFO - Epoch 176 completed in 1.36 seconds
+2025-03-09 16:07:21,245 - CustomGAN - INFO - Epoch: [177/200], Batch Num: [0/79]
+2025-03-09 16:07:21,245 - CustomGAN - INFO - Discriminator Loss: 1.3775, Generator Loss: 0.7972
+2025-03-09 16:07:21,245 - CustomGAN - INFO - D(x): 0.4509, D(G(z)): 0.4514
+2025-03-09 16:07:21,416 - CustomGAN - INFO - Epoch: [177/200], Batch Num: [10/79]
+2025-03-09 16:07:21,416 - CustomGAN - INFO - Discriminator Loss: 1.3739, Generator Loss: 0.7953
+2025-03-09 16:07:21,416 - CustomGAN - INFO - D(x): 0.4504, D(G(z)): 0.4489
+2025-03-09 16:07:21,587 - CustomGAN - INFO - Epoch: [177/200], Batch Num: [20/79]
+2025-03-09 16:07:21,587 - CustomGAN - INFO - Discriminator Loss: 1.3738, Generator Loss: 0.7991
+2025-03-09 16:07:21,587 - CustomGAN - INFO - D(x): 0.4512, D(G(z)): 0.4496
+2025-03-09 16:07:21,758 - CustomGAN - INFO - Epoch: [177/200], Batch Num: [30/79]
+2025-03-09 16:07:21,758 - CustomGAN - INFO - Discriminator Loss: 1.3760, Generator Loss: 0.7949
+2025-03-09 16:07:21,759 - CustomGAN - INFO - D(x): 0.4510, D(G(z)): 0.4507
+2025-03-09 16:07:21,930 - CustomGAN - INFO - Epoch: [177/200], Batch Num: [40/79]
+2025-03-09 16:07:21,930 - CustomGAN - INFO - Discriminator Loss: 1.3782, Generator Loss: 0.7934
+2025-03-09 16:07:21,931 - CustomGAN - INFO - D(x): 0.4499, D(G(z)): 0.4508
+2025-03-09 16:07:22,101 - CustomGAN - INFO - Epoch: [177/200], Batch Num: [50/79]
+2025-03-09 16:07:22,101 - CustomGAN - INFO - Discriminator Loss: 1.3800, Generator Loss: 0.7958
+2025-03-09 16:07:22,101 - CustomGAN - INFO - D(x): 0.4507, D(G(z)): 0.4526
+2025-03-09 16:07:22,273 - CustomGAN - INFO - Epoch: [177/200], Batch Num: [60/79]
+2025-03-09 16:07:22,274 - CustomGAN - INFO - Discriminator Loss: 1.3736, Generator Loss: 0.7905
+2025-03-09 16:07:22,274 - CustomGAN - INFO - D(x): 0.4528, D(G(z)): 0.4511
+2025-03-09 16:07:22,450 - CustomGAN - INFO - Epoch: [177/200], Batch Num: [70/79]
+2025-03-09 16:07:22,450 - CustomGAN - INFO - Discriminator Loss: 1.3776, Generator Loss: 0.7962
+2025-03-09 16:07:22,450 - CustomGAN - INFO - D(x): 0.4522, D(G(z)): 0.4528
+2025-03-09 16:07:22,589 - CustomGAN - INFO - Epoch 177 completed in 1.37 seconds
+2025-03-09 16:07:22,610 - CustomGAN - INFO - Epoch: [178/200], Batch Num: [0/79]
+2025-03-09 16:07:22,610 - CustomGAN - INFO - Discriminator Loss: 1.3783, Generator Loss: 0.7918
+2025-03-09 16:07:22,611 - CustomGAN - INFO - D(x): 0.4524, D(G(z)): 0.4533
+2025-03-09 16:07:22,781 - CustomGAN - INFO - Epoch: [178/200], Batch Num: [10/79]
+2025-03-09 16:07:22,782 - CustomGAN - INFO - Discriminator Loss: 1.3796, Generator Loss: 0.7958
+2025-03-09 16:07:22,782 - CustomGAN - INFO - D(x): 0.4517, D(G(z)): 0.4534
+2025-03-09 16:07:22,952 - CustomGAN - INFO - Epoch: [178/200], Batch Num: [20/79]
+2025-03-09 16:07:22,952 - CustomGAN - INFO - Discriminator Loss: 1.3792, Generator Loss: 0.7937
+2025-03-09 16:07:22,953 - CustomGAN - INFO - D(x): 0.4512, D(G(z)): 0.4526
+2025-03-09 16:07:23,122 - CustomGAN - INFO - Epoch: [178/200], Batch Num: [30/79]
+2025-03-09 16:07:23,123 - CustomGAN - INFO - Discriminator Loss: 1.3760, Generator Loss: 0.7954
+2025-03-09 16:07:23,123 - CustomGAN - INFO - D(x): 0.4521, D(G(z)): 0.4518
+2025-03-09 16:07:23,295 - CustomGAN - INFO - Epoch: [178/200], Batch Num: [40/79]
+2025-03-09 16:07:23,295 - CustomGAN - INFO - Discriminator Loss: 1.3738, Generator Loss: 0.7995
+2025-03-09 16:07:23,296 - CustomGAN - INFO - D(x): 0.4498, D(G(z)): 0.4482
+2025-03-09 16:07:23,468 - CustomGAN - INFO - Epoch: [178/200], Batch Num: [50/79]
+2025-03-09 16:07:23,468 - CustomGAN - INFO - Discriminator Loss: 1.3782, Generator Loss: 0.7982
+2025-03-09 16:07:23,468 - CustomGAN - INFO - D(x): 0.4488, D(G(z)): 0.4496
+2025-03-09 16:07:23,640 - CustomGAN - INFO - Epoch: [178/200], Batch Num: [60/79]
+2025-03-09 16:07:23,640 - CustomGAN - INFO - Discriminator Loss: 1.3833, Generator Loss: 0.7985
+2025-03-09 16:07:23,640 - CustomGAN - INFO - D(x): 0.4477, D(G(z)): 0.4514
+2025-03-09 16:07:23,811 - CustomGAN - INFO - Epoch: [178/200], Batch Num: [70/79]
+2025-03-09 16:07:23,811 - CustomGAN - INFO - Discriminator Loss: 1.3772, Generator Loss: 0.8021
+2025-03-09 16:07:23,811 - CustomGAN - INFO - D(x): 0.4494, D(G(z)): 0.4497
+2025-03-09 16:07:23,949 - CustomGAN - INFO - Epoch 178 completed in 1.36 seconds
+2025-03-09 16:07:23,970 - CustomGAN - INFO - Epoch: [179/200], Batch Num: [0/79]
+2025-03-09 16:07:23,970 - CustomGAN - INFO - Discriminator Loss: 1.3762, Generator Loss: 0.7989
+2025-03-09 16:07:23,971 - CustomGAN - INFO - D(x): 0.4504, D(G(z)): 0.4502
+2025-03-09 16:07:24,143 - CustomGAN - INFO - Epoch: [179/200], Batch Num: [10/79]
+2025-03-09 16:07:24,143 - CustomGAN - INFO - Discriminator Loss: 1.3745, Generator Loss: 0.7912
+2025-03-09 16:07:24,143 - CustomGAN - INFO - D(x): 0.4544, D(G(z)): 0.4532
+2025-03-09 16:07:24,314 - CustomGAN - INFO - Epoch: [179/200], Batch Num: [20/79]
+2025-03-09 16:07:24,314 - CustomGAN - INFO - Discriminator Loss: 1.3749, Generator Loss: 0.7894
+2025-03-09 16:07:24,315 - CustomGAN - INFO - D(x): 0.4559, D(G(z)): 0.4548
+2025-03-09 16:07:24,485 - CustomGAN - INFO - Epoch: [179/200], Batch Num: [30/79]
+2025-03-09 16:07:24,485 - CustomGAN - INFO - Discriminator Loss: 1.3761, Generator Loss: 0.7989
+2025-03-09 16:07:24,486 - CustomGAN - INFO - D(x): 0.4508, D(G(z)): 0.4506
+2025-03-09 16:07:24,657 - CustomGAN - INFO - Epoch: [179/200], Batch Num: [40/79]
+2025-03-09 16:07:24,657 - CustomGAN - INFO - Discriminator Loss: 1.3745, Generator Loss: 0.7979
+2025-03-09 16:07:24,657 - CustomGAN - INFO - D(x): 0.4497, D(G(z)): 0.4486
+2025-03-09 16:07:24,827 - CustomGAN - INFO - Epoch: [179/200], Batch Num: [50/79]
+2025-03-09 16:07:24,827 - CustomGAN - INFO - Discriminator Loss: 1.3795, Generator Loss: 0.7939
+2025-03-09 16:07:24,827 - CustomGAN - INFO - D(x): 0.4502, D(G(z)): 0.4518
+2025-03-09 16:07:24,996 - CustomGAN - INFO - Epoch: [179/200], Batch Num: [60/79]
+2025-03-09 16:07:24,997 - CustomGAN - INFO - Discriminator Loss: 1.3760, Generator Loss: 0.8005
+2025-03-09 16:07:24,997 - CustomGAN - INFO - D(x): 0.4510, D(G(z)): 0.4507
+2025-03-09 16:07:25,169 - CustomGAN - INFO - Epoch: [179/200], Batch Num: [70/79]
+2025-03-09 16:07:25,169 - CustomGAN - INFO - Discriminator Loss: 1.3789, Generator Loss: 0.8026
+2025-03-09 16:07:25,169 - CustomGAN - INFO - D(x): 0.4485, D(G(z)): 0.4498
+2025-03-09 16:07:25,306 - CustomGAN - INFO - Epoch 179 completed in 1.36 seconds
+2025-03-09 16:07:25,328 - CustomGAN - INFO - Epoch: [180/200], Batch Num: [0/79]
+2025-03-09 16:07:25,328 - CustomGAN - INFO - Discriminator Loss: 1.3796, Generator Loss: 0.7953
+2025-03-09 16:07:25,328 - CustomGAN - INFO - D(x): 0.4516, D(G(z)): 0.4532
+2025-03-09 16:07:25,499 - CustomGAN - INFO - Epoch: [180/200], Batch Num: [10/79]
+2025-03-09 16:07:25,499 - CustomGAN - INFO - Discriminator Loss: 1.3779, Generator Loss: 0.7927
+2025-03-09 16:07:25,500 - CustomGAN - INFO - D(x): 0.4526, D(G(z)): 0.4532
+2025-03-09 16:07:25,671 - CustomGAN - INFO - Epoch: [180/200], Batch Num: [20/79]
+2025-03-09 16:07:25,671 - CustomGAN - INFO - Discriminator Loss: 1.3761, Generator Loss: 0.8012
+2025-03-09 16:07:25,672 - CustomGAN - INFO - D(x): 0.4502, D(G(z)): 0.4499
+2025-03-09 16:07:25,843 - CustomGAN - INFO - Epoch: [180/200], Batch Num: [30/79]
+2025-03-09 16:07:25,843 - CustomGAN - INFO - Discriminator Loss: 1.3782, Generator Loss: 0.7929
+2025-03-09 16:07:25,844 - CustomGAN - INFO - D(x): 0.4508, D(G(z)): 0.4517
+2025-03-09 16:07:26,016 - CustomGAN - INFO - Epoch: [180/200], Batch Num: [40/79]
+2025-03-09 16:07:26,016 - CustomGAN - INFO - Discriminator Loss: 1.3783, Generator Loss: 0.7912
+2025-03-09 16:07:26,016 - CustomGAN - INFO - D(x): 0.4521, D(G(z)): 0.4531
+2025-03-09 16:07:26,188 - CustomGAN - INFO - Epoch: [180/200], Batch Num: [50/79]
+2025-03-09 16:07:26,188 - CustomGAN - INFO - Discriminator Loss: 1.3765, Generator Loss: 0.7915
+2025-03-09 16:07:26,188 - CustomGAN - INFO - D(x): 0.4524, D(G(z)): 0.4523
+2025-03-09 16:07:26,359 - CustomGAN - INFO - Epoch: [180/200], Batch Num: [60/79]
+2025-03-09 16:07:26,359 - CustomGAN - INFO - Discriminator Loss: 1.3744, Generator Loss: 0.7936
+2025-03-09 16:07:26,360 - CustomGAN - INFO - D(x): 0.4524, D(G(z)): 0.4512
+2025-03-09 16:07:26,531 - CustomGAN - INFO - Epoch: [180/200], Batch Num: [70/79]
+2025-03-09 16:07:26,531 - CustomGAN - INFO - Discriminator Loss: 1.3778, Generator Loss: 0.7951
+2025-03-09 16:07:26,531 - CustomGAN - INFO - D(x): 0.4516, D(G(z)): 0.4523
+2025-03-09 16:07:26,677 - CustomGAN - INFO - Models saved at epoch 180
+2025-03-09 16:07:26,677 - CustomGAN - INFO - Epoch 180 completed in 1.37 seconds
+2025-03-09 16:07:26,697 - CustomGAN - INFO - Epoch: [181/200], Batch Num: [0/79]
+2025-03-09 16:07:26,698 - CustomGAN - INFO - Discriminator Loss: 1.3752, Generator Loss: 0.7968
+2025-03-09 16:07:26,698 - CustomGAN - INFO - D(x): 0.4518, D(G(z)): 0.4511
+2025-03-09 16:07:26,868 - CustomGAN - INFO - Epoch: [181/200], Batch Num: [10/79]
+2025-03-09 16:07:26,868 - CustomGAN - INFO - Discriminator Loss: 1.3766, Generator Loss: 0.7964
+2025-03-09 16:07:26,868 - CustomGAN - INFO - D(x): 0.4523, D(G(z)): 0.4523
+2025-03-09 16:07:27,040 - CustomGAN - INFO - Epoch: [181/200], Batch Num: [20/79]
+2025-03-09 16:07:27,040 - CustomGAN - INFO - Discriminator Loss: 1.3755, Generator Loss: 0.7885
+2025-03-09 16:07:27,040 - CustomGAN - INFO - D(x): 0.4546, D(G(z)): 0.4540
+2025-03-09 16:07:27,212 - CustomGAN - INFO - Epoch: [181/200], Batch Num: [30/79]
+2025-03-09 16:07:27,212 - CustomGAN - INFO - Discriminator Loss: 1.3740, Generator Loss: 0.7978
+2025-03-09 16:07:27,213 - CustomGAN - INFO - D(x): 0.4512, D(G(z)): 0.4498
+2025-03-09 16:07:27,384 - CustomGAN - INFO - Epoch: [181/200], Batch Num: [40/79]
+2025-03-09 16:07:27,384 - CustomGAN - INFO - Discriminator Loss: 1.3792, Generator Loss: 0.7994
+2025-03-09 16:07:27,385 - CustomGAN - INFO - D(x): 0.4498, D(G(z)): 0.4512
+2025-03-09 16:07:27,556 - CustomGAN - INFO - Epoch: [181/200], Batch Num: [50/79]
+2025-03-09 16:07:27,556 - CustomGAN - INFO - Discriminator Loss: 1.3747, Generator Loss: 0.7913
+2025-03-09 16:07:27,556 - CustomGAN - INFO - D(x): 0.4533, D(G(z)): 0.4523
+2025-03-09 16:07:27,728 - CustomGAN - INFO - Epoch: [181/200], Batch Num: [60/79]
+2025-03-09 16:07:27,728 - CustomGAN - INFO - Discriminator Loss: 1.3742, Generator Loss: 0.7990
+2025-03-09 16:07:27,728 - CustomGAN - INFO - D(x): 0.4521, D(G(z)): 0.4508
+2025-03-09 16:07:27,900 - CustomGAN - INFO - Epoch: [181/200], Batch Num: [70/79]
+2025-03-09 16:07:27,900 - CustomGAN - INFO - Discriminator Loss: 1.3743, Generator Loss: 0.7988
+2025-03-09 16:07:27,901 - CustomGAN - INFO - D(x): 0.4493, D(G(z)): 0.4481
+2025-03-09 16:07:28,038 - CustomGAN - INFO - Epoch 181 completed in 1.36 seconds
+2025-03-09 16:07:28,059 - CustomGAN - INFO - Epoch: [182/200], Batch Num: [0/79]
+2025-03-09 16:07:28,060 - CustomGAN - INFO - Discriminator Loss: 1.3756, Generator Loss: 0.7996
+2025-03-09 16:07:28,060 - CustomGAN - INFO - D(x): 0.4508, D(G(z)): 0.4504
+2025-03-09 16:07:28,231 - CustomGAN - INFO - Epoch: [182/200], Batch Num: [10/79]
+2025-03-09 16:07:28,232 - CustomGAN - INFO - Discriminator Loss: 1.3791, Generator Loss: 0.7946
+2025-03-09 16:07:28,232 - CustomGAN - INFO - D(x): 0.4531, D(G(z)): 0.4544
+2025-03-09 16:07:28,403 - CustomGAN - INFO - Epoch: [182/200], Batch Num: [20/79]
+2025-03-09 16:07:28,403 - CustomGAN - INFO - Discriminator Loss: 1.3754, Generator Loss: 0.7988
+2025-03-09 16:07:28,403 - CustomGAN - INFO - D(x): 0.4503, D(G(z)): 0.4496
+2025-03-09 16:07:28,576 - CustomGAN - INFO - Epoch: [182/200], Batch Num: [30/79]
+2025-03-09 16:07:28,576 - CustomGAN - INFO - Discriminator Loss: 1.3757, Generator Loss: 0.7953
+2025-03-09 16:07:28,577 - CustomGAN - INFO - D(x): 0.4522, D(G(z)): 0.4517
+2025-03-09 16:07:28,748 - CustomGAN - INFO - Epoch: [182/200], Batch Num: [40/79]
+2025-03-09 16:07:28,748 - CustomGAN - INFO - Discriminator Loss: 1.3749, Generator Loss: 0.7980
+2025-03-09 16:07:28,749 - CustomGAN - INFO - D(x): 0.4511, D(G(z)): 0.4502
+2025-03-09 16:07:28,920 - CustomGAN - INFO - Epoch: [182/200], Batch Num: [50/79]
+2025-03-09 16:07:28,921 - CustomGAN - INFO - Discriminator Loss: 1.3722, Generator Loss: 0.7992
+2025-03-09 16:07:28,921 - CustomGAN - INFO - D(x): 0.4509, D(G(z)): 0.4485
+2025-03-09 16:07:29,092 - CustomGAN - INFO - Epoch: [182/200], Batch Num: [60/79]
+2025-03-09 16:07:29,092 - CustomGAN - INFO - Discriminator Loss: 1.3781, Generator Loss: 0.8028
+2025-03-09 16:07:29,093 - CustomGAN - INFO - D(x): 0.4493, D(G(z)): 0.4502
+2025-03-09 16:07:29,264 - CustomGAN - INFO - Epoch: [182/200], Batch Num: [70/79]
+2025-03-09 16:07:29,265 - CustomGAN - INFO - Discriminator Loss: 1.3755, Generator Loss: 0.7951
+2025-03-09 16:07:29,265 - CustomGAN - INFO - D(x): 0.4508, D(G(z)): 0.4502
+2025-03-09 16:07:29,402 - CustomGAN - INFO - Epoch 182 completed in 1.36 seconds
+2025-03-09 16:07:29,423 - CustomGAN - INFO - Epoch: [183/200], Batch Num: [0/79]
+2025-03-09 16:07:29,423 - CustomGAN - INFO - Discriminator Loss: 1.3766, Generator Loss: 0.7941
+2025-03-09 16:07:29,424 - CustomGAN - INFO - D(x): 0.4506, D(G(z)): 0.4505
+2025-03-09 16:07:29,595 - CustomGAN - INFO - Epoch: [183/200], Batch Num: [10/79]
+2025-03-09 16:07:29,596 - CustomGAN - INFO - Discriminator Loss: 1.3769, Generator Loss: 0.8065
+2025-03-09 16:07:29,596 - CustomGAN - INFO - D(x): 0.4490, D(G(z)): 0.4492
+2025-03-09 16:07:29,765 - CustomGAN - INFO - Epoch: [183/200], Batch Num: [20/79]
+2025-03-09 16:07:29,765 - CustomGAN - INFO - Discriminator Loss: 1.3766, Generator Loss: 0.8023
+2025-03-09 16:07:29,765 - CustomGAN - INFO - D(x): 0.4481, D(G(z)): 0.4482
+2025-03-09 16:07:29,935 - CustomGAN - INFO - Epoch: [183/200], Batch Num: [30/79]
+2025-03-09 16:07:29,936 - CustomGAN - INFO - Discriminator Loss: 1.3776, Generator Loss: 0.7901
+2025-03-09 16:07:29,936 - CustomGAN - INFO - D(x): 0.4520, D(G(z)): 0.4526
+2025-03-09 16:07:30,104 - CustomGAN - INFO - Epoch: [183/200], Batch Num: [40/79]
+2025-03-09 16:07:30,104 - CustomGAN - INFO - Discriminator Loss: 1.3762, Generator Loss: 0.7979
+2025-03-09 16:07:30,104 - CustomGAN - INFO - D(x): 0.4507, D(G(z)): 0.4505
+2025-03-09 16:07:30,276 - CustomGAN - INFO - Epoch: [183/200], Batch Num: [50/79]
+2025-03-09 16:07:30,276 - CustomGAN - INFO - Discriminator Loss: 1.3744, Generator Loss: 0.7974
+2025-03-09 16:07:30,276 - CustomGAN - INFO - D(x): 0.4501, D(G(z)): 0.4490
+2025-03-09 16:07:30,447 - CustomGAN - INFO - Epoch: [183/200], Batch Num: [60/79]
+2025-03-09 16:07:30,447 - CustomGAN - INFO - Discriminator Loss: 1.3776, Generator Loss: 0.7964
+2025-03-09 16:07:30,447 - CustomGAN - INFO - D(x): 0.4505, D(G(z)): 0.4511
+2025-03-09 16:07:30,620 - CustomGAN - INFO - Epoch: [183/200], Batch Num: [70/79]
+2025-03-09 16:07:30,620 - CustomGAN - INFO - Discriminator Loss: 1.3777, Generator Loss: 0.7962
+2025-03-09 16:07:30,620 - CustomGAN - INFO - D(x): 0.4505, D(G(z)): 0.4511
+2025-03-09 16:07:30,757 - CustomGAN - INFO - Epoch 183 completed in 1.36 seconds
+2025-03-09 16:07:30,779 - CustomGAN - INFO - Epoch: [184/200], Batch Num: [0/79]
+2025-03-09 16:07:30,779 - CustomGAN - INFO - Discriminator Loss: 1.3743, Generator Loss: 0.7931
+2025-03-09 16:07:30,779 - CustomGAN - INFO - D(x): 0.4523, D(G(z)): 0.4510
+2025-03-09 16:07:30,951 - CustomGAN - INFO - Epoch: [184/200], Batch Num: [10/79]
+2025-03-09 16:07:30,951 - CustomGAN - INFO - Discriminator Loss: 1.3758, Generator Loss: 0.7952
+2025-03-09 16:07:30,951 - CustomGAN - INFO - D(x): 0.4514, D(G(z)): 0.4510
+2025-03-09 16:07:31,123 - CustomGAN - INFO - Epoch: [184/200], Batch Num: [20/79]
+2025-03-09 16:07:31,123 - CustomGAN - INFO - Discriminator Loss: 1.3797, Generator Loss: 0.8051
+2025-03-09 16:07:31,123 - CustomGAN - INFO - D(x): 0.4472, D(G(z)): 0.4489
+2025-03-09 16:07:31,293 - CustomGAN - INFO - Epoch: [184/200], Batch Num: [30/79]
+2025-03-09 16:07:31,294 - CustomGAN - INFO - Discriminator Loss: 1.3765, Generator Loss: 0.7989
+2025-03-09 16:07:31,294 - CustomGAN - INFO - D(x): 0.4498, D(G(z)): 0.4497
+2025-03-09 16:07:31,465 - CustomGAN - INFO - Epoch: [184/200], Batch Num: [40/79]
+2025-03-09 16:07:31,465 - CustomGAN - INFO - Discriminator Loss: 1.3791, Generator Loss: 0.7942
+2025-03-09 16:07:31,466 - CustomGAN - INFO - D(x): 0.4510, D(G(z)): 0.4523
+2025-03-09 16:07:31,638 - CustomGAN - INFO - Epoch: [184/200], Batch Num: [50/79]
+2025-03-09 16:07:31,638 - CustomGAN - INFO - Discriminator Loss: 1.3781, Generator Loss: 0.8026
+2025-03-09 16:07:31,639 - CustomGAN - INFO - D(x): 0.4489, D(G(z)): 0.4497
+2025-03-09 16:07:31,810 - CustomGAN - INFO - Epoch: [184/200], Batch Num: [60/79]
+2025-03-09 16:07:31,810 - CustomGAN - INFO - Discriminator Loss: 1.3792, Generator Loss: 0.8024
+2025-03-09 16:07:31,810 - CustomGAN - INFO - D(x): 0.4468, D(G(z)): 0.4483
+2025-03-09 16:07:31,981 - CustomGAN - INFO - Epoch: [184/200], Batch Num: [70/79]
+2025-03-09 16:07:31,982 - CustomGAN - INFO - Discriminator Loss: 1.3778, Generator Loss: 0.7955
+2025-03-09 16:07:31,982 - CustomGAN - INFO - D(x): 0.4503, D(G(z)): 0.4511
+2025-03-09 16:07:32,119 - CustomGAN - INFO - Epoch 184 completed in 1.36 seconds
+2025-03-09 16:07:32,141 - CustomGAN - INFO - Epoch: [185/200], Batch Num: [0/79]
+2025-03-09 16:07:32,141 - CustomGAN - INFO - Discriminator Loss: 1.3764, Generator Loss: 0.8040
+2025-03-09 16:07:32,141 - CustomGAN - INFO - D(x): 0.4508, D(G(z)): 0.4507
+2025-03-09 16:07:32,312 - CustomGAN - INFO - Epoch: [185/200], Batch Num: [10/79]
+2025-03-09 16:07:32,313 - CustomGAN - INFO - Discriminator Loss: 1.3756, Generator Loss: 0.7951
+2025-03-09 16:07:32,313 - CustomGAN - INFO - D(x): 0.4504, D(G(z)): 0.4499
+2025-03-09 16:07:32,484 - CustomGAN - INFO - Epoch: [185/200], Batch Num: [20/79]
+2025-03-09 16:07:32,485 - CustomGAN - INFO - Discriminator Loss: 1.3760, Generator Loss: 0.7939
+2025-03-09 16:07:32,485 - CustomGAN - INFO - D(x): 0.4513, D(G(z)): 0.4510
+2025-03-09 16:07:32,658 - CustomGAN - INFO - Epoch: [185/200], Batch Num: [30/79]
+2025-03-09 16:07:32,658 - CustomGAN - INFO - Discriminator Loss: 1.3767, Generator Loss: 0.7978
+2025-03-09 16:07:32,658 - CustomGAN - INFO - D(x): 0.4506, D(G(z)): 0.4507
+2025-03-09 16:07:32,831 - CustomGAN - INFO - Epoch: [185/200], Batch Num: [40/79]
+2025-03-09 16:07:32,831 - CustomGAN - INFO - Discriminator Loss: 1.3802, Generator Loss: 0.8037
+2025-03-09 16:07:32,831 - CustomGAN - INFO - D(x): 0.4462, D(G(z)): 0.4482
+2025-03-09 16:07:33,004 - CustomGAN - INFO - Epoch: [185/200], Batch Num: [50/79]
+2025-03-09 16:07:33,004 - CustomGAN - INFO - Discriminator Loss: 1.3782, Generator Loss: 0.7948
+2025-03-09 16:07:33,004 - CustomGAN - INFO - D(x): 0.4498, D(G(z)): 0.4507
+2025-03-09 16:07:33,176 - CustomGAN - INFO - Epoch: [185/200], Batch Num: [60/79]
+2025-03-09 16:07:33,176 - CustomGAN - INFO - Discriminator Loss: 1.3782, Generator Loss: 0.7991
+2025-03-09 16:07:33,176 - CustomGAN - INFO - D(x): 0.4494, D(G(z)): 0.4503
+2025-03-09 16:07:33,348 - CustomGAN - INFO - Epoch: [185/200], Batch Num: [70/79]
+2025-03-09 16:07:33,348 - CustomGAN - INFO - Discriminator Loss: 1.3775, Generator Loss: 0.8059
+2025-03-09 16:07:33,349 - CustomGAN - INFO - D(x): 0.4474, D(G(z)): 0.4480
+2025-03-09 16:07:33,487 - CustomGAN - INFO - Epoch 185 completed in 1.37 seconds
+2025-03-09 16:07:33,508 - CustomGAN - INFO - Epoch: [186/200], Batch Num: [0/79]
+2025-03-09 16:07:33,508 - CustomGAN - INFO - Discriminator Loss: 1.3766, Generator Loss: 0.7969
+2025-03-09 16:07:33,509 - CustomGAN - INFO - D(x): 0.4498, D(G(z)): 0.4499
+2025-03-09 16:07:33,681 - CustomGAN - INFO - Epoch: [186/200], Batch Num: [10/79]
+2025-03-09 16:07:33,681 - CustomGAN - INFO - Discriminator Loss: 1.3771, Generator Loss: 0.7973
+2025-03-09 16:07:33,681 - CustomGAN - INFO - D(x): 0.4493, D(G(z)): 0.4496
+2025-03-09 16:07:33,853 - CustomGAN - INFO - Epoch: [186/200], Batch Num: [20/79]
+2025-03-09 16:07:33,853 - CustomGAN - INFO - Discriminator Loss: 1.3776, Generator Loss: 0.8043
+2025-03-09 16:07:33,854 - CustomGAN - INFO - D(x): 0.4482, D(G(z)): 0.4487
+2025-03-09 16:07:34,026 - CustomGAN - INFO - Epoch: [186/200], Batch Num: [30/79]
+2025-03-09 16:07:34,026 - CustomGAN - INFO - Discriminator Loss: 1.3736, Generator Loss: 0.7940
+2025-03-09 16:07:34,027 - CustomGAN - INFO - D(x): 0.4510, D(G(z)): 0.4494
+2025-03-09 16:07:34,198 - CustomGAN - INFO - Epoch: [186/200], Batch Num: [40/79]
+2025-03-09 16:07:34,199 - CustomGAN - INFO - Discriminator Loss: 1.3751, Generator Loss: 0.7945
+2025-03-09 16:07:34,199 - CustomGAN - INFO - D(x): 0.4524, D(G(z)): 0.4516
+2025-03-09 16:07:34,371 - CustomGAN - INFO - Epoch: [186/200], Batch Num: [50/79]
+2025-03-09 16:07:34,371 - CustomGAN - INFO - Discriminator Loss: 1.3746, Generator Loss: 0.7993
+2025-03-09 16:07:34,372 - CustomGAN - INFO - D(x): 0.4522, D(G(z)): 0.4511
+2025-03-09 16:07:34,542 - CustomGAN - INFO - Epoch: [186/200], Batch Num: [60/79]
+2025-03-09 16:07:34,542 - CustomGAN - INFO - Discriminator Loss: 1.3777, Generator Loss: 0.7960
+2025-03-09 16:07:34,543 - CustomGAN - INFO - D(x): 0.4500, D(G(z)): 0.4507
+2025-03-09 16:07:34,714 - CustomGAN - INFO - Epoch: [186/200], Batch Num: [70/79]
+2025-03-09 16:07:34,715 - CustomGAN - INFO - Discriminator Loss: 1.3768, Generator Loss: 0.8007
+2025-03-09 16:07:34,715 - CustomGAN - INFO - D(x): 0.4501, D(G(z)): 0.4503
+2025-03-09 16:07:34,852 - CustomGAN - INFO - Epoch 186 completed in 1.36 seconds
+2025-03-09 16:07:34,873 - CustomGAN - INFO - Epoch: [187/200], Batch Num: [0/79]
+2025-03-09 16:07:34,873 - CustomGAN - INFO - Discriminator Loss: 1.3751, Generator Loss: 0.7920
+2025-03-09 16:07:34,874 - CustomGAN - INFO - D(x): 0.4535, D(G(z)): 0.4527
+2025-03-09 16:07:35,044 - CustomGAN - INFO - Epoch: [187/200], Batch Num: [10/79]
+2025-03-09 16:07:35,044 - CustomGAN - INFO - Discriminator Loss: 1.3778, Generator Loss: 0.7970
+2025-03-09 16:07:35,044 - CustomGAN - INFO - D(x): 0.4522, D(G(z)): 0.4528
+2025-03-09 16:07:35,212 - CustomGAN - INFO - Epoch: [187/200], Batch Num: [20/79]
+2025-03-09 16:07:35,212 - CustomGAN - INFO - Discriminator Loss: 1.3767, Generator Loss: 0.7956
+2025-03-09 16:07:35,213 - CustomGAN - INFO - D(x): 0.4498, D(G(z)): 0.4499
+2025-03-09 16:07:35,385 - CustomGAN - INFO - Epoch: [187/200], Batch Num: [30/79]
+2025-03-09 16:07:35,385 - CustomGAN - INFO - Discriminator Loss: 1.3751, Generator Loss: 0.7963
+2025-03-09 16:07:35,385 - CustomGAN - INFO - D(x): 0.4527, D(G(z)): 0.4519
+2025-03-09 16:07:35,557 - CustomGAN - INFO - Epoch: [187/200], Batch Num: [40/79]
+2025-03-09 16:07:35,557 - CustomGAN - INFO - Discriminator Loss: 1.3770, Generator Loss: 0.7948
+2025-03-09 16:07:35,558 - CustomGAN - INFO - D(x): 0.4515, D(G(z)): 0.4517
+2025-03-09 16:07:35,729 - CustomGAN - INFO - Epoch: [187/200], Batch Num: [50/79]
+2025-03-09 16:07:35,729 - CustomGAN - INFO - Discriminator Loss: 1.3759, Generator Loss: 0.7971
+2025-03-09 16:07:35,729 - CustomGAN - INFO - D(x): 0.4509, D(G(z)): 0.4506
+2025-03-09 16:07:35,901 - CustomGAN - INFO - Epoch: [187/200], Batch Num: [60/79]
+2025-03-09 16:07:35,901 - CustomGAN - INFO - Discriminator Loss: 1.3779, Generator Loss: 0.7964
+2025-03-09 16:07:35,902 - CustomGAN - INFO - D(x): 0.4504, D(G(z)): 0.4512
+2025-03-09 16:07:36,074 - CustomGAN - INFO - Epoch: [187/200], Batch Num: [70/79]
+2025-03-09 16:07:36,074 - CustomGAN - INFO - Discriminator Loss: 1.3779, Generator Loss: 0.7917
+2025-03-09 16:07:36,075 - CustomGAN - INFO - D(x): 0.4521, D(G(z)): 0.4528
+2025-03-09 16:07:36,211 - CustomGAN - INFO - Epoch 187 completed in 1.36 seconds
+2025-03-09 16:07:36,232 - CustomGAN - INFO - Epoch: [188/200], Batch Num: [0/79]
+2025-03-09 16:07:36,233 - CustomGAN - INFO - Discriminator Loss: 1.3771, Generator Loss: 0.7936
+2025-03-09 16:07:36,233 - CustomGAN - INFO - D(x): 0.4516, D(G(z)): 0.4519
+2025-03-09 16:07:36,405 - CustomGAN - INFO - Epoch: [188/200], Batch Num: [10/79]
+2025-03-09 16:07:36,405 - CustomGAN - INFO - Discriminator Loss: 1.3760, Generator Loss: 0.7984
+2025-03-09 16:07:36,406 - CustomGAN - INFO - D(x): 0.4497, D(G(z)): 0.4494
+2025-03-09 16:07:36,578 - CustomGAN - INFO - Epoch: [188/200], Batch Num: [20/79]
+2025-03-09 16:07:36,578 - CustomGAN - INFO - Discriminator Loss: 1.3789, Generator Loss: 0.7930
+2025-03-09 16:07:36,578 - CustomGAN - INFO - D(x): 0.4497, D(G(z)): 0.4511
+2025-03-09 16:07:36,751 - CustomGAN - INFO - Epoch: [188/200], Batch Num: [30/79]
+2025-03-09 16:07:36,751 - CustomGAN - INFO - Discriminator Loss: 1.3762, Generator Loss: 0.7968
+2025-03-09 16:07:36,751 - CustomGAN - INFO - D(x): 0.4512, D(G(z)): 0.4510
+2025-03-09 16:07:36,923 - CustomGAN - INFO - Epoch: [188/200], Batch Num: [40/79]
+2025-03-09 16:07:36,923 - CustomGAN - INFO - Discriminator Loss: 1.3775, Generator Loss: 0.8056
+2025-03-09 16:07:36,923 - CustomGAN - INFO - D(x): 0.4477, D(G(z)): 0.4482
+2025-03-09 16:07:37,095 - CustomGAN - INFO - Epoch: [188/200], Batch Num: [50/79]
+2025-03-09 16:07:37,095 - CustomGAN - INFO - Discriminator Loss: 1.3753, Generator Loss: 0.7988
+2025-03-09 16:07:37,095 - CustomGAN - INFO - D(x): 0.4493, D(G(z)): 0.4487
+2025-03-09 16:07:37,267 - CustomGAN - INFO - Epoch: [188/200], Batch Num: [60/79]
+2025-03-09 16:07:37,267 - CustomGAN - INFO - Discriminator Loss: 1.3773, Generator Loss: 0.7973
+2025-03-09 16:07:37,267 - CustomGAN - INFO - D(x): 0.4511, D(G(z)): 0.4516
+2025-03-09 16:07:37,439 - CustomGAN - INFO - Epoch: [188/200], Batch Num: [70/79]
+2025-03-09 16:07:37,439 - CustomGAN - INFO - Discriminator Loss: 1.3771, Generator Loss: 0.8004
+2025-03-09 16:07:37,439 - CustomGAN - INFO - D(x): 0.4499, D(G(z)): 0.4501
+2025-03-09 16:07:37,577 - CustomGAN - INFO - Epoch 188 completed in 1.37 seconds
+2025-03-09 16:07:37,598 - CustomGAN - INFO - Epoch: [189/200], Batch Num: [0/79]
+2025-03-09 16:07:37,599 - CustomGAN - INFO - Discriminator Loss: 1.3770, Generator Loss: 0.7952
+2025-03-09 16:07:37,599 - CustomGAN - INFO - D(x): 0.4508, D(G(z)): 0.4510
+2025-03-09 16:07:37,770 - CustomGAN - INFO - Epoch: [189/200], Batch Num: [10/79]
+2025-03-09 16:07:37,770 - CustomGAN - INFO - Discriminator Loss: 1.3789, Generator Loss: 0.8001
+2025-03-09 16:07:37,771 - CustomGAN - INFO - D(x): 0.4492, D(G(z)): 0.4504
+2025-03-09 16:07:37,942 - CustomGAN - INFO - Epoch: [189/200], Batch Num: [20/79]
+2025-03-09 16:07:37,942 - CustomGAN - INFO - Discriminator Loss: 1.3804, Generator Loss: 0.8021
+2025-03-09 16:07:37,943 - CustomGAN - INFO - D(x): 0.4475, D(G(z)): 0.4496
+2025-03-09 16:07:38,114 - CustomGAN - INFO - Epoch: [189/200], Batch Num: [30/79]
+2025-03-09 16:07:38,115 - CustomGAN - INFO - Discriminator Loss: 1.3776, Generator Loss: 0.7973
+2025-03-09 16:07:38,115 - CustomGAN - INFO - D(x): 0.4490, D(G(z)): 0.4496
+2025-03-09 16:07:38,285 - CustomGAN - INFO - Epoch: [189/200], Batch Num: [40/79]
+2025-03-09 16:07:38,286 - CustomGAN - INFO - Discriminator Loss: 1.3789, Generator Loss: 0.7941
+2025-03-09 16:07:38,286 - CustomGAN - INFO - D(x): 0.4491, D(G(z)): 0.4504
+2025-03-09 16:07:38,457 - CustomGAN - INFO - Epoch: [189/200], Batch Num: [50/79]
+2025-03-09 16:07:38,457 - CustomGAN - INFO - Discriminator Loss: 1.3776, Generator Loss: 0.7972
+2025-03-09 16:07:38,457 - CustomGAN - INFO - D(x): 0.4493, D(G(z)): 0.4498
+2025-03-09 16:07:38,631 - CustomGAN - INFO - Epoch: [189/200], Batch Num: [60/79]
+2025-03-09 16:07:38,631 - CustomGAN - INFO - Discriminator Loss: 1.3743, Generator Loss: 0.7988
+2025-03-09 16:07:38,631 - CustomGAN - INFO - D(x): 0.4507, D(G(z)): 0.4495
+2025-03-09 16:07:38,802 - CustomGAN - INFO - Epoch: [189/200], Batch Num: [70/79]
+2025-03-09 16:07:38,802 - CustomGAN - INFO - Discriminator Loss: 1.3788, Generator Loss: 0.7974
+2025-03-09 16:07:38,802 - CustomGAN - INFO - D(x): 0.4488, D(G(z)): 0.4500
+2025-03-09 16:07:38,940 - CustomGAN - INFO - Epoch 189 completed in 1.36 seconds
+2025-03-09 16:07:38,962 - CustomGAN - INFO - Epoch: [190/200], Batch Num: [0/79]
+2025-03-09 16:07:38,962 - CustomGAN - INFO - Discriminator Loss: 1.3765, Generator Loss: 0.8033
+2025-03-09 16:07:38,962 - CustomGAN - INFO - D(x): 0.4499, D(G(z)): 0.4499
+2025-03-09 16:07:39,133 - CustomGAN - INFO - Epoch: [190/200], Batch Num: [10/79]
+2025-03-09 16:07:39,133 - CustomGAN - INFO - Discriminator Loss: 1.3765, Generator Loss: 0.7993
+2025-03-09 16:07:39,134 - CustomGAN - INFO - D(x): 0.4494, D(G(z)): 0.4493
+2025-03-09 16:07:39,305 - CustomGAN - INFO - Epoch: [190/200], Batch Num: [20/79]
+2025-03-09 16:07:39,305 - CustomGAN - INFO - Discriminator Loss: 1.3768, Generator Loss: 0.7953
+2025-03-09 16:07:39,305 - CustomGAN - INFO - D(x): 0.4506, D(G(z)): 0.4507
+2025-03-09 16:07:39,475 - CustomGAN - INFO - Epoch: [190/200], Batch Num: [30/79]
+2025-03-09 16:07:39,476 - CustomGAN - INFO - Discriminator Loss: 1.3733, Generator Loss: 0.7975
+2025-03-09 16:07:39,476 - CustomGAN - INFO - D(x): 0.4521, D(G(z)): 0.4504
+2025-03-09 16:07:39,648 - CustomGAN - INFO - Epoch: [190/200], Batch Num: [40/79]
+2025-03-09 16:07:39,648 - CustomGAN - INFO - Discriminator Loss: 1.3772, Generator Loss: 0.7974
+2025-03-09 16:07:39,648 - CustomGAN - INFO - D(x): 0.4511, D(G(z)): 0.4514
+2025-03-09 16:07:39,819 - CustomGAN - INFO - Epoch: [190/200], Batch Num: [50/79]
+2025-03-09 16:07:39,819 - CustomGAN - INFO - Discriminator Loss: 1.3766, Generator Loss: 0.7936
+2025-03-09 16:07:39,819 - CustomGAN - INFO - D(x): 0.4518, D(G(z)): 0.4518
+2025-03-09 16:07:39,988 - CustomGAN - INFO - Epoch: [190/200], Batch Num: [60/79]
+2025-03-09 16:07:39,988 - CustomGAN - INFO - Discriminator Loss: 1.3751, Generator Loss: 0.7944
+2025-03-09 16:07:39,988 - CustomGAN - INFO - D(x): 0.4535, D(G(z)): 0.4527
+2025-03-09 16:07:40,156 - CustomGAN - INFO - Epoch: [190/200], Batch Num: [70/79]
+2025-03-09 16:07:40,156 - CustomGAN - INFO - Discriminator Loss: 1.3746, Generator Loss: 0.7993
+2025-03-09 16:07:40,156 - CustomGAN - INFO - D(x): 0.4510, D(G(z)): 0.4500
+2025-03-09 16:07:40,294 - CustomGAN - INFO - Epoch 190 completed in 1.35 seconds
+2025-03-09 16:07:40,315 - CustomGAN - INFO - Epoch: [191/200], Batch Num: [0/79]
+2025-03-09 16:07:40,316 - CustomGAN - INFO - Discriminator Loss: 1.3717, Generator Loss: 0.7959
+2025-03-09 16:07:40,316 - CustomGAN - INFO - D(x): 0.4525, D(G(z)): 0.4499
+2025-03-09 16:07:40,487 - CustomGAN - INFO - Epoch: [191/200], Batch Num: [10/79]
+2025-03-09 16:07:40,488 - CustomGAN - INFO - Discriminator Loss: 1.3809, Generator Loss: 0.7942
+2025-03-09 16:07:40,488 - CustomGAN - INFO - D(x): 0.4513, D(G(z)): 0.4536
+2025-03-09 16:07:40,660 - CustomGAN - INFO - Epoch: [191/200], Batch Num: [20/79]
+2025-03-09 16:07:40,661 - CustomGAN - INFO - Discriminator Loss: 1.3788, Generator Loss: 0.7960
+2025-03-09 16:07:40,661 - CustomGAN - INFO - D(x): 0.4498, D(G(z)): 0.4511
+2025-03-09 16:07:40,832 - CustomGAN - INFO - Epoch: [191/200], Batch Num: [30/79]
+2025-03-09 16:07:40,833 - CustomGAN - INFO - Discriminator Loss: 1.3777, Generator Loss: 0.7979
+2025-03-09 16:07:40,833 - CustomGAN - INFO - D(x): 0.4498, D(G(z)): 0.4505
+2025-03-09 16:07:41,004 - CustomGAN - INFO - Epoch: [191/200], Batch Num: [40/79]
+2025-03-09 16:07:41,004 - CustomGAN - INFO - Discriminator Loss: 1.3775, Generator Loss: 0.7945
+2025-03-09 16:07:41,004 - CustomGAN - INFO - D(x): 0.4497, D(G(z)): 0.4503
+2025-03-09 16:07:41,176 - CustomGAN - INFO - Epoch: [191/200], Batch Num: [50/79]
+2025-03-09 16:07:41,176 - CustomGAN - INFO - Discriminator Loss: 1.3790, Generator Loss: 0.8034
+2025-03-09 16:07:41,176 - CustomGAN - INFO - D(x): 0.4483, D(G(z)): 0.4497
+2025-03-09 16:07:41,348 - CustomGAN - INFO - Epoch: [191/200], Batch Num: [60/79]
+2025-03-09 16:07:41,348 - CustomGAN - INFO - Discriminator Loss: 1.3790, Generator Loss: 0.8014
+2025-03-09 16:07:41,349 - CustomGAN - INFO - D(x): 0.4472, D(G(z)): 0.4486
+2025-03-09 16:07:41,519 - CustomGAN - INFO - Epoch: [191/200], Batch Num: [70/79]
+2025-03-09 16:07:41,519 - CustomGAN - INFO - Discriminator Loss: 1.3788, Generator Loss: 0.7963
+2025-03-09 16:07:41,520 - CustomGAN - INFO - D(x): 0.4519, D(G(z)): 0.4531
+2025-03-09 16:07:41,657 - CustomGAN - INFO - Epoch 191 completed in 1.36 seconds
+2025-03-09 16:07:41,678 - CustomGAN - INFO - Epoch: [192/200], Batch Num: [0/79]
+2025-03-09 16:07:41,678 - CustomGAN - INFO - Discriminator Loss: 1.3783, Generator Loss: 0.7987
+2025-03-09 16:07:41,679 - CustomGAN - INFO - D(x): 0.4506, D(G(z)): 0.4515
+2025-03-09 16:07:41,851 - CustomGAN - INFO - Epoch: [192/200], Batch Num: [10/79]
+2025-03-09 16:07:41,851 - CustomGAN - INFO - Discriminator Loss: 1.3757, Generator Loss: 0.7992
+2025-03-09 16:07:41,851 - CustomGAN - INFO - D(x): 0.4500, D(G(z)): 0.4496
+2025-03-09 16:07:42,023 - CustomGAN - INFO - Epoch: [192/200], Batch Num: [20/79]
+2025-03-09 16:07:42,023 - CustomGAN - INFO - Discriminator Loss: 1.3779, Generator Loss: 0.7901
+2025-03-09 16:07:42,023 - CustomGAN - INFO - D(x): 0.4516, D(G(z)): 0.4523
+2025-03-09 16:07:42,194 - CustomGAN - INFO - Epoch: [192/200], Batch Num: [30/79]
+2025-03-09 16:07:42,194 - CustomGAN - INFO - Discriminator Loss: 1.3756, Generator Loss: 0.7952
+2025-03-09 16:07:42,195 - CustomGAN - INFO - D(x): 0.4530, D(G(z)): 0.4525
+2025-03-09 16:07:42,365 - CustomGAN - INFO - Epoch: [192/200], Batch Num: [40/79]
+2025-03-09 16:07:42,365 - CustomGAN - INFO - Discriminator Loss: 1.3768, Generator Loss: 0.8056
+2025-03-09 16:07:42,366 - CustomGAN - INFO - D(x): 0.4486, D(G(z)): 0.4487
+2025-03-09 16:07:42,537 - CustomGAN - INFO - Epoch: [192/200], Batch Num: [50/79]
+2025-03-09 16:07:42,538 - CustomGAN - INFO - Discriminator Loss: 1.3746, Generator Loss: 0.8029
+2025-03-09 16:07:42,538 - CustomGAN - INFO - D(x): 0.4481, D(G(z)): 0.4471
+2025-03-09 16:07:42,709 - CustomGAN - INFO - Epoch: [192/200], Batch Num: [60/79]
+2025-03-09 16:07:42,709 - CustomGAN - INFO - Discriminator Loss: 1.3764, Generator Loss: 0.8004
+2025-03-09 16:07:42,709 - CustomGAN - INFO - D(x): 0.4496, D(G(z)): 0.4496
+2025-03-09 16:07:42,881 - CustomGAN - INFO - Epoch: [192/200], Batch Num: [70/79]
+2025-03-09 16:07:42,881 - CustomGAN - INFO - Discriminator Loss: 1.3785, Generator Loss: 0.7986
+2025-03-09 16:07:42,881 - CustomGAN - INFO - D(x): 0.4496, D(G(z)): 0.4507
+2025-03-09 16:07:43,019 - CustomGAN - INFO - Epoch 192 completed in 1.36 seconds
+2025-03-09 16:07:43,041 - CustomGAN - INFO - Epoch: [193/200], Batch Num: [0/79]
+2025-03-09 16:07:43,041 - CustomGAN - INFO - Discriminator Loss: 1.3776, Generator Loss: 0.8003
+2025-03-09 16:07:43,041 - CustomGAN - INFO - D(x): 0.4499, D(G(z)): 0.4505
+2025-03-09 16:07:43,213 - CustomGAN - INFO - Epoch: [193/200], Batch Num: [10/79]
+2025-03-09 16:07:43,213 - CustomGAN - INFO - Discriminator Loss: 1.3779, Generator Loss: 0.8004
+2025-03-09 16:07:43,213 - CustomGAN - INFO - D(x): 0.4488, D(G(z)): 0.4496
+2025-03-09 16:07:43,385 - CustomGAN - INFO - Epoch: [193/200], Batch Num: [20/79]
+2025-03-09 16:07:43,385 - CustomGAN - INFO - Discriminator Loss: 1.3785, Generator Loss: 0.8033
+2025-03-09 16:07:43,385 - CustomGAN - INFO - D(x): 0.4471, D(G(z)): 0.4482
+2025-03-09 16:07:43,557 - CustomGAN - INFO - Epoch: [193/200], Batch Num: [30/79]
+2025-03-09 16:07:43,557 - CustomGAN - INFO - Discriminator Loss: 1.3771, Generator Loss: 0.7992
+2025-03-09 16:07:43,557 - CustomGAN - INFO - D(x): 0.4493, D(G(z)): 0.4496
+2025-03-09 16:07:43,729 - CustomGAN - INFO - Epoch: [193/200], Batch Num: [40/79]
+2025-03-09 16:07:43,729 - CustomGAN - INFO - Discriminator Loss: 1.3750, Generator Loss: 0.7975
+2025-03-09 16:07:43,729 - CustomGAN - INFO - D(x): 0.4506, D(G(z)): 0.4498
+2025-03-09 16:07:43,900 - CustomGAN - INFO - Epoch: [193/200], Batch Num: [50/79]
+2025-03-09 16:07:43,900 - CustomGAN - INFO - Discriminator Loss: 1.3786, Generator Loss: 0.7987
+2025-03-09 16:07:43,901 - CustomGAN - INFO - D(x): 0.4494, D(G(z)): 0.4506
+2025-03-09 16:07:44,072 - CustomGAN - INFO - Epoch: [193/200], Batch Num: [60/79]
+2025-03-09 16:07:44,073 - CustomGAN - INFO - Discriminator Loss: 1.3770, Generator Loss: 0.7975
+2025-03-09 16:07:44,073 - CustomGAN - INFO - D(x): 0.4493, D(G(z)): 0.4496
+2025-03-09 16:07:44,244 - CustomGAN - INFO - Epoch: [193/200], Batch Num: [70/79]
+2025-03-09 16:07:44,244 - CustomGAN - INFO - Discriminator Loss: 1.3762, Generator Loss: 0.7943
+2025-03-09 16:07:44,244 - CustomGAN - INFO - D(x): 0.4525, D(G(z)): 0.4523
+2025-03-09 16:07:44,382 - CustomGAN - INFO - Epoch 193 completed in 1.36 seconds
+2025-03-09 16:07:44,403 - CustomGAN - INFO - Epoch: [194/200], Batch Num: [0/79]
+2025-03-09 16:07:44,404 - CustomGAN - INFO - Discriminator Loss: 1.3789, Generator Loss: 0.7949
+2025-03-09 16:07:44,404 - CustomGAN - INFO - D(x): 0.4504, D(G(z)): 0.4517
+2025-03-09 16:07:44,577 - CustomGAN - INFO - Epoch: [194/200], Batch Num: [10/79]
+2025-03-09 16:07:44,578 - CustomGAN - INFO - Discriminator Loss: 1.3775, Generator Loss: 0.7969
+2025-03-09 16:07:44,578 - CustomGAN - INFO - D(x): 0.4504, D(G(z)): 0.4510
+2025-03-09 16:07:44,749 - CustomGAN - INFO - Epoch: [194/200], Batch Num: [20/79]
+2025-03-09 16:07:44,750 - CustomGAN - INFO - Discriminator Loss: 1.3784, Generator Loss: 0.7986
+2025-03-09 16:07:44,750 - CustomGAN - INFO - D(x): 0.4504, D(G(z)): 0.4515
+2025-03-09 16:07:44,921 - CustomGAN - INFO - Epoch: [194/200], Batch Num: [30/79]
+2025-03-09 16:07:44,921 - CustomGAN - INFO - Discriminator Loss: 1.3760, Generator Loss: 0.7981
+2025-03-09 16:07:44,921 - CustomGAN - INFO - D(x): 0.4508, D(G(z)): 0.4506
+2025-03-09 16:07:45,091 - CustomGAN - INFO - Epoch: [194/200], Batch Num: [40/79]
+2025-03-09 16:07:45,091 - CustomGAN - INFO - Discriminator Loss: 1.3717, Generator Loss: 0.7982
+2025-03-09 16:07:45,091 - CustomGAN - INFO - D(x): 0.4523, D(G(z)): 0.4497
+2025-03-09 16:07:45,258 - CustomGAN - INFO - Epoch: [194/200], Batch Num: [50/79]
+2025-03-09 16:07:45,259 - CustomGAN - INFO - Discriminator Loss: 1.3781, Generator Loss: 0.7963
+2025-03-09 16:07:45,259 - CustomGAN - INFO - D(x): 0.4505, D(G(z)): 0.4514
+2025-03-09 16:07:45,428 - CustomGAN - INFO - Epoch: [194/200], Batch Num: [60/79]
+2025-03-09 16:07:45,428 - CustomGAN - INFO - Discriminator Loss: 1.3803, Generator Loss: 0.7980
+2025-03-09 16:07:45,428 - CustomGAN - INFO - D(x): 0.4485, D(G(z)): 0.4506
+2025-03-09 16:07:45,600 - CustomGAN - INFO - Epoch: [194/200], Batch Num: [70/79]
+2025-03-09 16:07:45,600 - CustomGAN - INFO - Discriminator Loss: 1.3780, Generator Loss: 0.7985
+2025-03-09 16:07:45,601 - CustomGAN - INFO - D(x): 0.4483, D(G(z)): 0.4491
+2025-03-09 16:07:45,738 - CustomGAN - INFO - Epoch 194 completed in 1.36 seconds
+2025-03-09 16:07:45,760 - CustomGAN - INFO - Epoch: [195/200], Batch Num: [0/79]
+2025-03-09 16:07:45,760 - CustomGAN - INFO - Discriminator Loss: 1.3762, Generator Loss: 0.7980
+2025-03-09 16:07:45,760 - CustomGAN - INFO - D(x): 0.4502, D(G(z)): 0.4500
+2025-03-09 16:07:45,930 - CustomGAN - INFO - Epoch: [195/200], Batch Num: [10/79]
+2025-03-09 16:07:45,930 - CustomGAN - INFO - Discriminator Loss: 1.3763, Generator Loss: 0.7978
+2025-03-09 16:07:45,931 - CustomGAN - INFO - D(x): 0.4507, D(G(z)): 0.4507
+2025-03-09 16:07:46,102 - CustomGAN - INFO - Epoch: [195/200], Batch Num: [20/79]
+2025-03-09 16:07:46,103 - CustomGAN - INFO - Discriminator Loss: 1.3776, Generator Loss: 0.7920
+2025-03-09 16:07:46,103 - CustomGAN - INFO - D(x): 0.4523, D(G(z)): 0.4529
+2025-03-09 16:07:46,275 - CustomGAN - INFO - Epoch: [195/200], Batch Num: [30/79]
+2025-03-09 16:07:46,275 - CustomGAN - INFO - Discriminator Loss: 1.3778, Generator Loss: 0.7960
+2025-03-09 16:07:46,275 - CustomGAN - INFO - D(x): 0.4512, D(G(z)): 0.4519
+2025-03-09 16:07:46,446 - CustomGAN - INFO - Epoch: [195/200], Batch Num: [40/79]
+2025-03-09 16:07:46,446 - CustomGAN - INFO - Discriminator Loss: 1.3755, Generator Loss: 0.7960
+2025-03-09 16:07:46,446 - CustomGAN - INFO - D(x): 0.4512, D(G(z)): 0.4506
+2025-03-09 16:07:46,618 - CustomGAN - INFO - Epoch: [195/200], Batch Num: [50/79]
+2025-03-09 16:07:46,618 - CustomGAN - INFO - Discriminator Loss: 1.3780, Generator Loss: 0.7974
+2025-03-09 16:07:46,618 - CustomGAN - INFO - D(x): 0.4487, D(G(z)): 0.4495
+2025-03-09 16:07:46,790 - CustomGAN - INFO - Epoch: [195/200], Batch Num: [60/79]
+2025-03-09 16:07:46,790 - CustomGAN - INFO - Discriminator Loss: 1.3747, Generator Loss: 0.8035
+2025-03-09 16:07:46,790 - CustomGAN - INFO - D(x): 0.4479, D(G(z)): 0.4469
+2025-03-09 16:07:46,961 - CustomGAN - INFO - Epoch: [195/200], Batch Num: [70/79]
+2025-03-09 16:07:46,962 - CustomGAN - INFO - Discriminator Loss: 1.3770, Generator Loss: 0.8030
+2025-03-09 16:07:46,962 - CustomGAN - INFO - D(x): 0.4492, D(G(z)): 0.4495
+2025-03-09 16:07:47,099 - CustomGAN - INFO - Epoch 195 completed in 1.36 seconds
+2025-03-09 16:07:47,120 - CustomGAN - INFO - Epoch: [196/200], Batch Num: [0/79]
+2025-03-09 16:07:47,120 - CustomGAN - INFO - Discriminator Loss: 1.3745, Generator Loss: 0.7958
+2025-03-09 16:07:47,121 - CustomGAN - INFO - D(x): 0.4509, D(G(z)): 0.4498
+2025-03-09 16:07:47,293 - CustomGAN - INFO - Epoch: [196/200], Batch Num: [10/79]
+2025-03-09 16:07:47,293 - CustomGAN - INFO - Discriminator Loss: 1.3761, Generator Loss: 0.8009
+2025-03-09 16:07:47,293 - CustomGAN - INFO - D(x): 0.4491, D(G(z)): 0.4489
+2025-03-09 16:07:47,464 - CustomGAN - INFO - Epoch: [196/200], Batch Num: [20/79]
+2025-03-09 16:07:47,464 - CustomGAN - INFO - Discriminator Loss: 1.3775, Generator Loss: 0.7978
+2025-03-09 16:07:47,465 - CustomGAN - INFO - D(x): 0.4506, D(G(z)): 0.4512
+2025-03-09 16:07:47,635 - CustomGAN - INFO - Epoch: [196/200], Batch Num: [30/79]
+2025-03-09 16:07:47,635 - CustomGAN - INFO - Discriminator Loss: 1.3785, Generator Loss: 0.7930
+2025-03-09 16:07:47,635 - CustomGAN - INFO - D(x): 0.4515, D(G(z)): 0.4526
+2025-03-09 16:07:47,807 - CustomGAN - INFO - Epoch: [196/200], Batch Num: [40/79]
+2025-03-09 16:07:47,807 - CustomGAN - INFO - Discriminator Loss: 1.3751, Generator Loss: 0.8025
+2025-03-09 16:07:47,808 - CustomGAN - INFO - D(x): 0.4506, D(G(z)): 0.4498
+2025-03-09 16:07:47,980 - CustomGAN - INFO - Epoch: [196/200], Batch Num: [50/79]
+2025-03-09 16:07:47,980 - CustomGAN - INFO - Discriminator Loss: 1.3781, Generator Loss: 0.8010
+2025-03-09 16:07:47,980 - CustomGAN - INFO - D(x): 0.4477, D(G(z)): 0.4486
+2025-03-09 16:07:48,152 - CustomGAN - INFO - Epoch: [196/200], Batch Num: [60/79]
+2025-03-09 16:07:48,152 - CustomGAN - INFO - Discriminator Loss: 1.3787, Generator Loss: 0.7972
+2025-03-09 16:07:48,152 - CustomGAN - INFO - D(x): 0.4497, D(G(z)): 0.4509
+2025-03-09 16:07:48,324 - CustomGAN - INFO - Epoch: [196/200], Batch Num: [70/79]
+2025-03-09 16:07:48,324 - CustomGAN - INFO - Discriminator Loss: 1.3737, Generator Loss: 0.7950
+2025-03-09 16:07:48,324 - CustomGAN - INFO - D(x): 0.4514, D(G(z)): 0.4499
+2025-03-09 16:07:48,461 - CustomGAN - INFO - Epoch 196 completed in 1.36 seconds
+2025-03-09 16:07:48,483 - CustomGAN - INFO - Epoch: [197/200], Batch Num: [0/79]
+2025-03-09 16:07:48,483 - CustomGAN - INFO - Discriminator Loss: 1.3767, Generator Loss: 0.8018
+2025-03-09 16:07:48,483 - CustomGAN - INFO - D(x): 0.4481, D(G(z)): 0.4482
+2025-03-09 16:07:48,656 - CustomGAN - INFO - Epoch: [197/200], Batch Num: [10/79]
+2025-03-09 16:07:48,656 - CustomGAN - INFO - Discriminator Loss: 1.3791, Generator Loss: 0.7961
+2025-03-09 16:07:48,656 - CustomGAN - INFO - D(x): 0.4500, D(G(z)): 0.4514
+2025-03-09 16:07:48,828 - CustomGAN - INFO - Epoch: [197/200], Batch Num: [20/79]
+2025-03-09 16:07:48,828 - CustomGAN - INFO - Discriminator Loss: 1.3778, Generator Loss: 0.7938
+2025-03-09 16:07:48,829 - CustomGAN - INFO - D(x): 0.4519, D(G(z)): 0.4526
+2025-03-09 16:07:49,001 - CustomGAN - INFO - Epoch: [197/200], Batch Num: [30/79]
+2025-03-09 16:07:49,001 - CustomGAN - INFO - Discriminator Loss: 1.3790, Generator Loss: 0.7975
+2025-03-09 16:07:49,001 - CustomGAN - INFO - D(x): 0.4493, D(G(z)): 0.4507
+2025-03-09 16:07:49,172 - CustomGAN - INFO - Epoch: [197/200], Batch Num: [40/79]
+2025-03-09 16:07:49,173 - CustomGAN - INFO - Discriminator Loss: 1.3779, Generator Loss: 0.7941
+2025-03-09 16:07:49,173 - CustomGAN - INFO - D(x): 0.4504, D(G(z)): 0.4512
+2025-03-09 16:07:49,344 - CustomGAN - INFO - Epoch: [197/200], Batch Num: [50/79]
+2025-03-09 16:07:49,344 - CustomGAN - INFO - Discriminator Loss: 1.3779, Generator Loss: 0.7957
+2025-03-09 16:07:49,345 - CustomGAN - INFO - D(x): 0.4525, D(G(z)): 0.4533
+2025-03-09 16:07:49,516 - CustomGAN - INFO - Epoch: [197/200], Batch Num: [60/79]
+2025-03-09 16:07:49,516 - CustomGAN - INFO - Discriminator Loss: 1.3752, Generator Loss: 0.7983
+2025-03-09 16:07:49,517 - CustomGAN - INFO - D(x): 0.4506, D(G(z)): 0.4499
+2025-03-09 16:07:49,688 - CustomGAN - INFO - Epoch: [197/200], Batch Num: [70/79]
+2025-03-09 16:07:49,689 - CustomGAN - INFO - Discriminator Loss: 1.3767, Generator Loss: 0.7980
+2025-03-09 16:07:49,689 - CustomGAN - INFO - D(x): 0.4504, D(G(z)): 0.4505
+2025-03-09 16:07:49,827 - CustomGAN - INFO - Epoch 197 completed in 1.37 seconds
+2025-03-09 16:07:49,848 - CustomGAN - INFO - Epoch: [198/200], Batch Num: [0/79]
+2025-03-09 16:07:49,848 - CustomGAN - INFO - Discriminator Loss: 1.3790, Generator Loss: 0.7977
+2025-03-09 16:07:49,849 - CustomGAN - INFO - D(x): 0.4500, D(G(z)): 0.4514
+2025-03-09 16:07:50,020 - CustomGAN - INFO - Epoch: [198/200], Batch Num: [10/79]
+2025-03-09 16:07:50,020 - CustomGAN - INFO - Discriminator Loss: 1.3764, Generator Loss: 0.8003
+2025-03-09 16:07:50,020 - CustomGAN - INFO - D(x): 0.4508, D(G(z)): 0.4508
+2025-03-09 16:07:50,189 - CustomGAN - INFO - Epoch: [198/200], Batch Num: [20/79]
+2025-03-09 16:07:50,189 - CustomGAN - INFO - Discriminator Loss: 1.3788, Generator Loss: 0.8023
+2025-03-09 16:07:50,190 - CustomGAN - INFO - D(x): 0.4477, D(G(z)): 0.4489
+2025-03-09 16:07:50,359 - CustomGAN - INFO - Epoch: [198/200], Batch Num: [30/79]
+2025-03-09 16:07:50,359 - CustomGAN - INFO - Discriminator Loss: 1.3763, Generator Loss: 0.7976
+2025-03-09 16:07:50,359 - CustomGAN - INFO - D(x): 0.4500, D(G(z)): 0.4499
+2025-03-09 16:07:50,530 - CustomGAN - INFO - Epoch: [198/200], Batch Num: [40/79]
+2025-03-09 16:07:50,530 - CustomGAN - INFO - Discriminator Loss: 1.3771, Generator Loss: 0.7985
+2025-03-09 16:07:50,531 - CustomGAN - INFO - D(x): 0.4495, D(G(z)): 0.4498
+2025-03-09 16:07:50,703 - CustomGAN - INFO - Epoch: [198/200], Batch Num: [50/79]
+2025-03-09 16:07:50,703 - CustomGAN - INFO - Discriminator Loss: 1.3754, Generator Loss: 0.7973
+2025-03-09 16:07:50,703 - CustomGAN - INFO - D(x): 0.4509, D(G(z)): 0.4503
+2025-03-09 16:07:50,875 - CustomGAN - INFO - Epoch: [198/200], Batch Num: [60/79]
+2025-03-09 16:07:50,875 - CustomGAN - INFO - Discriminator Loss: 1.3744, Generator Loss: 0.7955
+2025-03-09 16:07:50,876 - CustomGAN - INFO - D(x): 0.4511, D(G(z)): 0.4500
+2025-03-09 16:07:51,047 - CustomGAN - INFO - Epoch: [198/200], Batch Num: [70/79]
+2025-03-09 16:07:51,048 - CustomGAN - INFO - Discriminator Loss: 1.3788, Generator Loss: 0.7989
+2025-03-09 16:07:51,048 - CustomGAN - INFO - D(x): 0.4494, D(G(z)): 0.4507
+2025-03-09 16:07:51,186 - CustomGAN - INFO - Epoch 198 completed in 1.36 seconds
+2025-03-09 16:07:51,207 - CustomGAN - INFO - Epoch: [199/200], Batch Num: [0/79]
+2025-03-09 16:07:51,208 - CustomGAN - INFO - Discriminator Loss: 1.3790, Generator Loss: 0.8005
+2025-03-09 16:07:51,208 - CustomGAN - INFO - D(x): 0.4473, D(G(z)): 0.4487
+2025-03-09 16:07:51,380 - CustomGAN - INFO - Epoch: [199/200], Batch Num: [10/79]
+2025-03-09 16:07:51,380 - CustomGAN - INFO - Discriminator Loss: 1.3755, Generator Loss: 0.7978
+2025-03-09 16:07:51,380 - CustomGAN - INFO - D(x): 0.4499, D(G(z)): 0.4494
+2025-03-09 16:07:51,552 - CustomGAN - INFO - Epoch: [199/200], Batch Num: [20/79]
+2025-03-09 16:07:51,552 - CustomGAN - INFO - Discriminator Loss: 1.3790, Generator Loss: 0.7959
+2025-03-09 16:07:51,552 - CustomGAN - INFO - D(x): 0.4511, D(G(z)): 0.4525
+2025-03-09 16:07:51,725 - CustomGAN - INFO - Epoch: [199/200], Batch Num: [30/79]
+2025-03-09 16:07:51,725 - CustomGAN - INFO - Discriminator Loss: 1.3786, Generator Loss: 0.7995
+2025-03-09 16:07:51,725 - CustomGAN - INFO - D(x): 0.4485, D(G(z)): 0.4496
+2025-03-09 16:07:51,897 - CustomGAN - INFO - Epoch: [199/200], Batch Num: [40/79]
+2025-03-09 16:07:51,897 - CustomGAN - INFO - Discriminator Loss: 1.3762, Generator Loss: 0.7951
+2025-03-09 16:07:51,898 - CustomGAN - INFO - D(x): 0.4501, D(G(z)): 0.4499
+2025-03-09 16:07:52,069 - CustomGAN - INFO - Epoch: [199/200], Batch Num: [50/79]
+2025-03-09 16:07:52,070 - CustomGAN - INFO - Discriminator Loss: 1.3769, Generator Loss: 0.7952
+2025-03-09 16:07:52,070 - CustomGAN - INFO - D(x): 0.4511, D(G(z)): 0.4514
+2025-03-09 16:07:52,243 - CustomGAN - INFO - Epoch: [199/200], Batch Num: [60/79]
+2025-03-09 16:07:52,243 - CustomGAN - INFO - Discriminator Loss: 1.3768, Generator Loss: 0.7944
+2025-03-09 16:07:52,243 - CustomGAN - INFO - D(x): 0.4521, D(G(z)): 0.4522
+2025-03-09 16:07:52,413 - CustomGAN - INFO - Epoch: [199/200], Batch Num: [70/79]
+2025-03-09 16:07:52,413 - CustomGAN - INFO - Discriminator Loss: 1.3758, Generator Loss: 0.8004
+2025-03-09 16:07:52,414 - CustomGAN - INFO - D(x): 0.4498, D(G(z)): 0.4494
+2025-03-09 16:07:52,560 - CustomGAN - INFO - Models saved at epoch 199
+2025-03-09 16:07:52,560 - CustomGAN - INFO - Epoch 199 completed in 1.37 seconds
+2025-03-09 16:07:52,566 - CustomGAN - INFO - Models saved at epoch 199
+2025-03-09 16:07:52,872 - CustomGAN - INFO - Loss plot saved to results/custom_gan/loss_plot.png
+2025-03-09 16:07:53,148 - CustomGAN - INFO - Score plot saved to results/custom_gan/score_plot.png
+2025-03-09 16:07:53,149 - CustomGAN - INFO - GAN training completed in 0:04:49.765212
+2025-03-09 16:07:53,341 - CustomGAN - INFO - Saved plot to results/custom_gan/real_samples.png
+2025-03-09 16:07:53,527 - CustomGAN - INFO - Saved generated samples plot
+2025-03-09 16:07:53,826 - CustomGAN - INFO - Saved comparison plot
+2025-03-09 16:07:53,826 - CustomGAN - INFO - Done!
