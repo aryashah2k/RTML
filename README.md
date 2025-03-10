@@ -10,6 +10,7 @@ This advanced repository explores cutting-edge deep learning architectures and t
 |2. |<a href="https://github.com/aryashah2k/RTML/tree/main/A2">A2 Segmentation_Detection (YOLOv4)</a>|
 |3. |<a href="https://github.com/aryashah2k/RTML/tree/main/A3">A3 Transformers_ViT</a>|
 |4. |<a href="https://github.com/aryashah2k/RTML/tree/main/A4">A4 Masked Auto Encoders</a>|
+|4. |<a href="https://github.com/aryashah2k/RTML/tree/main/A5">A5 GANs</a>|
 
 |No.|Reading Assignments|
 |---|-------------------|

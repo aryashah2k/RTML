@@ -1,0 +1,9 @@
+torch>=1.7.0
+torchvision>=0.8.0
+numpy>=1.19.0
+matplotlib>=3.3.0
+tensorboardX>=2.1
+Pillow>=8.0.0
+ipython>=7.0.0
+logging>=0.5.1.2
+tqdm>=4.50.0
